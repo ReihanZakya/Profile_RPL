@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('template.main');
+    return view('fitur.home');
 });
+
+Route::get('/fasilitas','FasilitasController@index');
+Route::get('/team','TeamController@index');
+Route::get('/kontak','KontakController@index');
