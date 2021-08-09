@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('fitur.home');
 });
 
-Route::get('/fasilitas','FasilitasController@index');
-Route::get('/team','TeamController@index');
-Route::get('/kontak','KontakController@index');
+Route::get('/RPL/fasilitas','FasilitasController@index');
+Route::get('/RPL/team','TeamController@index');
+Route::get('/RPL/kontak','KontakController@index');

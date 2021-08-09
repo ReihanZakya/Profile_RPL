@@ -8,8 +8,8 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="link " href="/">Home</a></li>
-          <li><a class="link " href="/fasilitas">Fasilitas</a></li>
-          <li><a class="link " href="/team">Team</a></li>
+          <li><a class="link " href="/RPL/fasilitas">Fasilitas</a></li>
+          <li><a class="link " href="/RPL/team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Portofolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Lab</a></li>
@@ -24,7 +24,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="/kontak" class="get-started-btn scrollto">Kontak</a>
+      <a href="/RPL/kontak" class="get-started-btn scrollto">Kontak</a>
 
     </div>
 </header>
