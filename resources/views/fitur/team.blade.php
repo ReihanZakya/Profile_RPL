@@ -2,6 +2,6 @@
 
 @section('halaman test')
 
-@include('template.about')
-
+@include('template.team')
+@include('template.footer')
 @endsection

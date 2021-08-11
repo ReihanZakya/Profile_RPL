@@ -10,15 +10,7 @@
           <li><a class="link " href="/">Home</a></li>
           <li><a class="link " href="/RPL/fasilitas">Fasilitas</a></li>
           <li><a class="link " href="/RPL/team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Portofolio</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Lab</a></li>
-              <li><a href="#">Ruang Kelas</a></li>
-              <li><a href="#">Lapangan Upacara</a></li>
-              <li><a href="#">Tempat parkir</a></li>
-              <li><a href="#">Mesjid</a></li>
-              <li><a href="#">Kantin</a></li>
-            </ul>
+          <li><a class="link " href="/RPL/portofolio">Portofolio</a></li>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

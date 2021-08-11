@@ -66,4 +66,6 @@
       </div>
 
     </div>
-  </section>
+
+</section>
+@include('template.footer')

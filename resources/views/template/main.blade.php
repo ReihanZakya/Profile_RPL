@@ -95,7 +95,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  @include('template.footer')
+
   <!-- End Footer -->
 
   <div id="preloader"></div>

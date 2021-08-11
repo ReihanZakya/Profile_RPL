@@ -9,10 +9,12 @@
       <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter="*" class="filter-active">Lab</li>
+            <li data-filter=".filter-app">Ruang Kelas</li>
+            <li data-filter=".filter-card">Lapangan Upacara</li>
+            <li data-filter=".filter-web">Tempat Parkir</li>
+            <li data-filter=".filter-app">Masjid</li>
+            <li data-filter=".filter-card">Kantin</li>
           </ul>
         </div>
       </div>

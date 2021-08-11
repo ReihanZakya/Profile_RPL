@@ -2,6 +2,6 @@
 
 @section('halaman test')
 
-@include('template.contact')
-
+@include('template.portofolio')
+@include('template.footer')
 @endsection
