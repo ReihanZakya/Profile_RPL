@@ -5,40 +5,33 @@
         <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
         <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
           <div class="content d-flex flex-column justify-content-center">
-            <h3>Voluptatem dignissimos provident quasi</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-            </p>
+            <h3>Tujuan Dari Website</h3>
             <div class="row">
               <div class="col-md-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-emoji-smile"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
-                  <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                  <p><strong>Promosi</strong> untuk anak-anak SMP yang masih bingung.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-journal-richtext"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
-                  <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                  <p><strong>Sumber Informasi</strong> untuk anak-anak RPL.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-clock"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
-                  <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                  <p><strong>Untuk Orang Tua</strong> yang ingin mengecek anaknya.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-award"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-                  <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                  <p><strong>Untuk Sekolah</strong> agar bisa mengontrol apa saja yang dilakukan anak RPL.</p>
                 </div>
               </div>
             </div>
