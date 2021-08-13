@@ -29,12 +29,6 @@
   <!-- Template Main CSS File -->
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Gp - v4.3.0
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -49,53 +43,13 @@
 
   <main id="main">
 
-    {{-- <!-- ======= About Section ======= -->
-    @include('template.about')
-   <!-- End About Section -->
-
-    <!-- ======= Clients Section ======= -->
-
-    <!-- End Clients Section -->
-
-    <!-- ======= Features Section ======= -->
- @include('template.features')
-    <!-- End Features Section -->
-
-    <!-- ======= Services Section ======= -->
-  @include('template.services')
-    <!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-
-   @include('template.cta') <!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-   @include('template.portofolio')
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Counts Section ======= -->
-   @include('template.counts')
-    <!-- End Counts Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-  @include('template.testimonials')
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-   @include('template.team')
-    <!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-   @include('template.contact')
-    <!-- End Contact Section --> --}}
-
     @yield('halaman home')
     @yield('halaman test')
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-
+@include('template.footer')
   <!-- End Footer -->
 
   <div id="preloader"></div>
