@@ -10,6 +10,8 @@
           <li><a class="link " href="/">Home</a></li>
           <li><a class="link " href="/RPL/fasilitas">Fasilitas</a></li>
           <li><a class="link " href="/RPL/team">Team</a></li>
+          <li><a class="link " href="/RPL/peluang_kerja">Peluang Kerja</a></li>
+          <li><a class="link " href="/RPL/tujuan">Tujuan</a></li>
           <li><a class="link " href="/RPL/portofolio">Portofolio</a></li>
           </li>
         </ul>

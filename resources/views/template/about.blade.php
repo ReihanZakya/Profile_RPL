@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
           <h3>Pembelajaran jurusan RPL</h3>
-          <ul class="mt-2">
+          <ul class="mt-3">
             <h4>Kelas X</h4>
             <li><i class="ri-check-double-line"></i> Pemrograman Dasar.</li>
             <li><i class="ri-check-double-line"></i> Teknik Komputer Jaringan.</li>
