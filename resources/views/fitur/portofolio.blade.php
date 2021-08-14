@@ -26,7 +26,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/gerbang.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Berbagi Bersama</p>
+              <p>Gerbang Masuk</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/gerbang.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -39,7 +39,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/lapangan.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Berbagi Bersama</p>
+              <p>Lapangan</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/lapangan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -52,7 +52,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/jabon.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Mahaputra Peduli</p>
+              <p>Jabon</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/jabon.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -65,7 +65,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/balema.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Mahaputra peduli</p>
+              <p>Balema</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/balema.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -78,7 +78,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/hanggar.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Kebersihan</p>
+              <p>Hanggar</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/hanggar.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -91,7 +91,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/masjid.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Kebersihan</p>
+              <p>Masjid</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/mesjid.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -104,7 +104,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/perpustakaan.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Protokol Kesehatan</p>
+              <p>Perpustakaan</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/perpustakaan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -117,7 +117,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/ruangguru.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Protokol Kesehatan</p>
+              <p>Ruang Guru</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/ruangguru.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -130,7 +130,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/fasilitas/lab.png')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Protokol Kesehatan</p>
+              <p>Lab</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/fasilitas/lab.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -143,7 +143,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/Kegiatan/Kegiatan1.jpeg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Protokol Kesehatan</p>
+              <p>Kegiatan Sekolah</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/Kegiatan/Kegiatan1.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>
@@ -156,7 +156,7 @@
           <div class="portfolio-wrap">
             <img src="{{asset('assets/img/Kegiatan/Kegiatan2.jpeg')}}" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <p>Protokol Kesehatan</p>
+              <p>Kegiatan Sekolah</p>
               <div class="portfolio-links">
                 <a href="{{asset('assets/img/Kegiatan/Kegiatan2.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/smkmahaputracerdasutama/" title="More Details"><i class="bx bx-link"></i></a>

@@ -13,6 +13,10 @@ body {
   color: #444444;
 }
 
+p {
+    text-align: left;
+}
+
 a {
   color: #ffc451;
   text-decoration: none;
@@ -184,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -288,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -1529,4 +1533,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+#myModal {
+    background: none;
+}
+
+h4 {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: left;
 }

@@ -41,7 +41,7 @@
             </div>
             <div class="member-info">
               <h4>Hannif Kurniawan Muttaqin, S.T, M.T</h4>
-              <span>Guru Prodi</span>
+              <span>Guru RPL</span>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="member-info">
               <h4>Mujahid Munir Muttaqin, S.T</h4>
-              <span>Guru Prodi</span>
+              <span>Guru RPL</span>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@
             </div>
             <div class="member-info">
               <h4>Raynaldi Syahputra Nonci, S.Pd</h4>
-              <span>Guru Prodi</span>
+              <span>Guru RPL</span>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
             </div>
             <div class="member-info">
               <h4>Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
-              <span>Guru Prodi</span>
+              <span>Gur RPL</span>
             </div>
           </div>
         </div>

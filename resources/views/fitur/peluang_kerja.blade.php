@@ -6,7 +6,8 @@
     <div class="container mt-5" data-aos="fade-up">
 
       <div class="row">
-        <div class="image col-lg-6" style='background-image: url("assets/img/home/peluangkerja.jpg");' data-aos="fade-right">
+        <h4 class="mb-5 text-center">Peluang kerja lulusan jurusan RPL</h4>
+        <div class="image col-lg-6" data-aos="fade-right">
         <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" alt="" style="width: 550px;" height="400px;">
         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-shield"></i>
@@ -15,7 +16,7 @@
           </div></div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
           <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-              <h4 class="mb-5">Peluang kerja lulusan jurusan RPL</h4>
+
             <i class="bx bx-receipt"></i>
             <h4>Programmer</h4>
             <p>Programmer adalah seseorang yang memiliki kemampuan atau skill menulis dan merancang kode
