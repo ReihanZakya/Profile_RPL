@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Gp Bootstrap Template - Index</title>
+  <title>Rekayasa Perangkat Lunak</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,7 +24,6 @@
   <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
   <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
 
 
   <!-- Template Main CSS File -->
@@ -46,11 +45,12 @@
 
     @yield('halaman home')
     @yield('halaman test')
-
+@include('template.footer')
+@include('template.modal')
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-@include('template.footer')
+
   <!-- End Footer -->
 
   <div id="preloader"></div>
@@ -66,7 +66,6 @@
   <script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
-  <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.bundle.min.js"></script>
   <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
   <script src="{{ asset('jquery/jquery.js') }}"></script>
 

@@ -1,4 +1,5 @@
 @extends('template.main')
+
 @section('halaman home')
 
 <section id="features" class="features">
@@ -25,63 +26,63 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row">
-        <h3 class="mb-5 text-center">Pembelajaran jurusan RPL</h3>
+        <h4 class="mb-5 text-center"><b>Pembelajaran jurusan RPL</b></h4>
         <div class="col-lg-6 order-1 order-lg-2 content" data-aos="fade-left" data-aos-delay="100">
           <img src="{{asset('assets/img/home/belajar.jpeg')}}" class="img-fluid mb-4" alt="" >
-          <h4 class="mb-4">Kelas XII</h4>
-          <ul class="mt-3">
+          <h5>Kelas XII</h5>
+          <ul>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pwpb">Pemrograman Web dan Perangkat Bergerak.</button>
+                <button type="button" class="btn btn-light btn-sm modal-pwpb">Pemrograman Web dan Perangkat Bergerak.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-basdat">Basis Data.</button>
+                <button type="button" class="btn btn-light btn-sm modal-basdat">Basis Data.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pdkk">Produk Kreatif dan Kewirausahaan.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-pdkk">Produk Kreatif dan Kewirausahaan.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pbo">Pemrograman Berorientasi Objek.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-pbo">Pemrograman Berorientasi Objek.</button>
             </li>
         </ul>
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
-          <h4 class="mb-4">Kelas X</h4>
+          <h5>Kelas X</h5>
           <ul>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pd">Pemrograman Dasar.</button>
+                <button type="button" class="btn btn-light btn-sm modal-pd">Pemrograman Dasar.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-tkj">Teknik Komputer Jaringan.</button>
+                <button type="button" class="btn btn-light btn-sm modal-tkj">Teknik Komputer Jaringan.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-siskom">Sistem Komputer.</button>
+                <button type="button" class="btn btn-light btn-sm modal-siskom">Sistem Komputer.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-simdig">Simulasi Digital.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-simdig">Simulasi Digital.</button>
             </li>
           </ul>
           <ul>
-            <h4 class="mb-4">Kelas XI</h4>
+            <h5>Kelas XI</h5>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pwpb">Pemrograman Web dan Perangkat Bergerak.</button>
+                <button type="button" class="btn btn-light btn-sm modal-pwpb">Pemrograman Web dan Perangkat Bergerak.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-basdat">Basis Data.</button>
+                <button type="button" class="btn btn-light btn-sm modal-basdat">Basis Data.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pdkk">Produk Kreatif dan Kewirausahaan.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-pdkk">Produk Kreatif dan Kewirausahaan.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-pbo">Pemrograman Berorientasi Objek.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-pbo">Pemrograman Berorientasi Objek.</button>
             </li>
             <li>
-                <button type="button" class="btn btn-warning btn-sm modal-ppl">Pemodelan Perangkat Lunak.</button>
+                <button type="button" class="btn btn-light btn-sm  modal-ppl">Pemodelan Perangkat Lunak.</button>
             </li>
           </ul>
         </div>
       </div>
     </section>
 
-       @include('template.modal')
+
 @endsection

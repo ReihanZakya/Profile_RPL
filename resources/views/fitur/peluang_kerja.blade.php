@@ -6,7 +6,7 @@
     <div class="container mt-5" data-aos="fade-up">
 
       <div class="row">
-        <h4 class="mb-5 text-center">Peluang kerja lulusan jurusan RPL</h4>
+        <h4 class="text-center"><strong>Peluang kerja lulusan jurusan RPL</strong></h4>
         <div class="image col-lg-6" data-aos="fade-right">
         <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" alt="" style="width: 550px;" height="400px;">
         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
@@ -45,6 +45,5 @@
 
     </div>
   </section>
-
 
 @endsection

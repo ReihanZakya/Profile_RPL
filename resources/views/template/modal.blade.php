@@ -7,7 +7,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Custom Modal - Pankaj Dhiman</title>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
   <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +80,7 @@
   <div class="popup-inner">
     <p> <strong>Sistem Komputer</strong> ialah kumpulan perangkat-perangkat
         komputer yang saling berhubungan dan berinteraksi satu sama lain
-        untuk melakukan proses pengolahan data, sehingga dapat​​ menghasilkan
+        untuk melakukan proses pengolahan data, sehingga dapat menghasilkan
         informasi yang diharapkan oleh penggunanya.</p>
       <a class="popup-close" pd-popup-close="popupNew" href="#"> </a>
   </div>

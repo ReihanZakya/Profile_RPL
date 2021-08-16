@@ -12,12 +12,12 @@
           <li><a class="link " href="/RPL/peluang_kerja">Peluang Kerja</a></li>
           <li><a class="link " href="/RPL/tujuan">Tujuan</a></li>
           <li><a class="link " href="/RPL/portofolio">Portofolio</a></li>
+          <li><a href="/RPL/kontak" class="link">Kontak</a></li>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="/RPL/kontak" class="get-started-btn scrollto">Kontak</a>
-
+    
     </div>
 </header>

@@ -55,7 +55,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6,
 p {
   font-weight: normal;
@@ -74,6 +73,7 @@ h3,
 h4,
 .my-jumbotron.jumbotron h1 {
   font-family: 'Roboto Slab', serif;
+  margin-bottom: 25px;
 }
 
 .btn.btn-success {
@@ -181,4 +181,8 @@ h4,
 .popup-close:hover:after,
 .popup-close:hover:before {
   background: #fff;
+}
+
+h5 {
+  margin-bottom: 20px;
 }

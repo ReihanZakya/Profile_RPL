@@ -36,11 +36,10 @@ $(document).ready(function() {
     });
 
 
-        //----- CLOSE
-        $('[pd-popup-close]').on('click', function(e)  {
-        var targeted_popup_class = jQuery(this).attr('pd-popup-close');
-        $('[pd-popup="' + targeted_popup_class + '"]').fadeOut(200);
-
+    //----- CLOSE
+    $('.popup-close').on('click',function(e){
         e.preventDefault();
-        });
+        $('.popup').fadeOut(200);
     });
+
+});
