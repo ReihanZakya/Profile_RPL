@@ -6,7 +6,9 @@
     <div class="container mt-5" data-aos="fade-up">
 
       <div class="row">
-        <div class="image col-lg-6" style='background-image: url("assets/img/home/komputer.jpg");' data-aos="fade-right"></div>
+        <div class="image col-lg-6 komputer" data-aos="fade-right">
+            <img src="{{ asset('assets/img/home/komputer.jpg') }}">
+        </div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
           <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <h4 class="mb-5">Apa itu jurusan RPL</h4>
