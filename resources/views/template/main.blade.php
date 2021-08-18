@@ -11,8 +11,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('assets/img/logo_versikecil.jpg')}}" rel="icon">
+  <link href="{{asset('assets/img/logo_smk.jpg')}}" rel="apple-touch-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -34,18 +34,20 @@
 <body>
 
   <!-- ======= Header ======= -->
-  @include('template.header')
+    @include('template.header')
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  @include('template.hero')
- <!-- End Hero -->
+    @include('template.hero')
+  <!-- End Hero -->
 
   <main id="main">
 
     @yield('content')
-@include('template.footer')
-@include('template.modal')
+
+    @include('template.footer')
+    @include('template.modal')
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

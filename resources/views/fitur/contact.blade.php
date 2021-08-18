@@ -1,6 +1,6 @@
 @extends('template.main')
 
-@section('halaman test')
+@section('content')
 
 <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
@@ -20,20 +20,20 @@
           <div class="info">
             <div class="address">
               <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
+              <h4>Lokasi:</h4>
               <p>JL. KATAPANG ANDIR KM. 4 KP. PASANTREN, Sukamukti, Kec. Katapang, Kab. Bandung Prov. Jawa Barat</p>
             </div>
 
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>info@example.com</p>
+              <p>smkmahaputra@gmail.com</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
-              <h4>Call:</h4>
-              <p>+1 5589 55488 55s</p>
+              <h4>Hubungi:</h4>
+              <p>+628877665587</p>
             </div>
 
           </div>

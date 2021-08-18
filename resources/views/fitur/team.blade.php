@@ -17,8 +17,11 @@
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa dede.jpg') }}" class="img-fluid" alt="">
               <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
               </div>
-            </div>
+             </div>
             <div class="member-info">
               <h4>Dede Suryana, A.md</h4>
               <span class="mb-5">Kepala Prodi</span>
@@ -34,7 +37,7 @@
     </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa hannif.jpg') }}" class="img-fluid" alt="">
               <div class="social">
@@ -58,7 +61,7 @@
         </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa munir.jpg') }}" class="img-fluid" alt="">
               <div class="social">
@@ -106,7 +109,7 @@
           </div>
         </div>
         <div class="col-lg-2  col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="400">
+          <div class="member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/bu syifa.jpg') }}" class="img-fluid" alt="">
               <div class="social">

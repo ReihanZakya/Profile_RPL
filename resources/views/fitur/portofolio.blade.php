@@ -7,13 +7,13 @@
 
       <div class="section-title">
         <h2>Portfolio</h2>
-        <p>Check our Portfolio</p>
+        <p>Tentang Kami</p>
       </div>
 
       <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter="*" class="filter-active">Semua</li>
             <li data-filter=".filter-kegiatan" class="filter-active">Kegiatan Sekolah</li>
             <li data-filter=".filter-fasilitas" class="filter-active">Fasilitas</li>
           </ul>
