@@ -46,7 +46,6 @@
     @yield('content')
 
     @include('template.footer')
-    @include('template.modal')
 
   </main><!-- End #main -->
 
@@ -68,7 +67,6 @@
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
   <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('jquery/jquery.js') }}"></script>
 
 </body>
 
