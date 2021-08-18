@@ -1,6 +1,6 @@
 @extends('template.main')
 
-@section('halaman test')
+@section('content')
 
 <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">

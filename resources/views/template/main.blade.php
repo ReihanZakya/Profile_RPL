@@ -43,8 +43,7 @@
 
   <main id="main">
 
-    @yield('halaman home')
-    @yield('halaman test')
+    @yield('content')
 @include('template.footer')
 @include('template.modal')
   </main><!-- End #main -->
