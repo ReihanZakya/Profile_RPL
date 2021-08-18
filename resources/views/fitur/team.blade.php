@@ -92,7 +92,7 @@
             </div>
             <div class="member-info">
               <h4>Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
-              <span>Gur RPL</span>
+              <span>Guru RPL</span>
             </div>
           </div>
         </div>
