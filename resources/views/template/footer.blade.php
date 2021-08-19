@@ -1,6 +1,3 @@
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
 <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -28,10 +25,10 @@
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>Informasi</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <p>Guru : 18</p></li>
-              <li><i class="bx bx-chevron-right"></i> <p>Siswa Laki-laki : 147</p></li>
-              <li><i class="bx bx-chevron-right"></i> <p>Siswa Perempuan : 115</p></li>
-              <li><i class="bx bx-chevron-right"></i> <p>Rombongan Pelajar : 9</p></li>
+              <li><i class="bx bx-chevron-right"></i> Guru : 18</li>
+              <li><i class="bx bx-chevron-right"></i> Siswa Laki-laki : 147</li>
+              <li><i class="bx bx-chevron-right"></i> Siswa Perempuan : 115</li>
+              <li><i class="bx bx-chevron-right"></i> Rombongan Pelajar : 9</li>
             </ul>
           </div>
 
@@ -47,10 +44,6 @@
               <span class="fa fa-star rating"></span>
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
-            <!-- <ul>
-              <li><</li>
-            </ul> -->
-            <img src="{{asset('assets/img/')}}" class="img-fluid quot" alt="">
           </div>
 
         </div>

@@ -1534,3 +1534,25 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.testi{
+  height:50x;
+  padding-right:500;
+}
+
+.rating {
+  color: orange;
+}
+
+.tulisan {
+  color:white;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.nama {
+  color: orange;
+  font-size: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+}
