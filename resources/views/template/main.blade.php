@@ -66,11 +66,9 @@
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
   <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
-<<<<<<< HEAD
-<script src="{{ asset('jquery/jquery.js') }}"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-=======
->>>>>>> d55cce318e5f67a957813b3f187946d06f35313c
+
+  <script src="{{ asset('jquery/jquery.js') }}"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </body>
 

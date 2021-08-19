@@ -42,7 +42,7 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <form action="{{url('RPL/kontak')}}" method="post" role="form" >
+          <form action="{{url('RPL/contact')}}" method="post" role="form" >
             <div class="row">
                 @csrf
              <div class="form-group mt-3">

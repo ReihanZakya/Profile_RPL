@@ -11,7 +11,7 @@
           <li><a class="link " href="/RPL/team">Tim</a></li>
           <li><a class="link " href="/RPL/peluang_kerja">Peluang Kerja</a></li>
           <li><a class="link " href="/RPL/tujuan">Tujuan</a></li>
-          <li><a class="link " href="/RPL/portofolio">Portofolio</a></li>
+          <li><a class="link " href="/RPL/portfolio">Portofolio</a></li>
           <li><a href="/RPL/contact" class="link">Kontak</a></li>
           </li>
         </ul>
