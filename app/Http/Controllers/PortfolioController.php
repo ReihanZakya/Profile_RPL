@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PortofolioController extends Controller
+class PortfolioController extends Controller
 {
     public function index()
     {
-        return view('fitur.portofolio');
+        return view('fitur.portfolio');
     }
 }

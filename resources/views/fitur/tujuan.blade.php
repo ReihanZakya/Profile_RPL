@@ -1,6 +1,6 @@
 @extends('template.main')
 
-@section('halaman test')
+@section('content')
 
 <section id="counts" class="counts">
     <div class="container" data-aos="fade-up">
@@ -39,7 +39,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End .content-->
+          </div>
         </div>
       </div>
 

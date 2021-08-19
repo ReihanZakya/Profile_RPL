@@ -7,17 +7,17 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="link " href="/">Home</a></li>
-          <li><a class="link " href="/RPL/team">Team</a></li>
+          <li><a class="link " href="/">Beranda</a></li>
+          <li><a class="link " href="/RPL/team">Tim</a></li>
           <li><a class="link " href="/RPL/peluang_kerja">Peluang Kerja</a></li>
           <li><a class="link " href="/RPL/tujuan">Tujuan</a></li>
           <li><a class="link " href="/RPL/portofolio">Portofolio</a></li>
-          <li><a href="/RPL/kontak" class="link">Kontak</a></li>
+          <li><a href="/RPL/contact" class="link">Kontak</a></li>
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-    
+
     </div>
 </header>
