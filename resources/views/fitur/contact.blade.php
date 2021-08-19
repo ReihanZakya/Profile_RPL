@@ -71,10 +71,4 @@
     </div>
 
 </section>
-<<<<<<< HEAD
-
-=======
->>>>>>> 3696e8e6f8339f079f336f5225592523fa5d77fd
-
-
 @endsection

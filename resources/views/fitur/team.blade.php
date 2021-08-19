@@ -97,7 +97,7 @@
         </div>
         </div>
 
-        <label for="" class="label bg-danger text-center text-white col-md-3 mb-5">Mata Pelajaran</label>
+        <label for="" class="label bg-danger text-center text-white col-md-3 mb-5 mt-3">Mata Pelajaran</label>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
