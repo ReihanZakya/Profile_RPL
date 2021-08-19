@@ -188,11 +188,30 @@ h5 {
 }
 
 
-.baris{height:250px;
+.baris{
+  height:250px;
 
 }
 
-.quot{width:500px;
-  height: 250px;
-
+.testi{
+  height:50x;
+  padding-right:500;
 }
+
+.rating {
+  color: orange;
+}
+
+.tulisan {
+  color:white;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.nama {
+  color:white;
+  font-size: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+

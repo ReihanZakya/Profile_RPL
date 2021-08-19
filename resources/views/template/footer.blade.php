@@ -10,8 +10,8 @@
               JL. KATAPANG ANDIR KM. 4 KP. PASANTREN, Sukamukti, Kec. Katapang, 
               Kab. Bandung Prov. Jawa Barat <br>
                 <br><br>
-                <strong>Phone:</strong> +628877665587<br>
-                <strong>Email:</strong> smkmahaputra@gmail.com<br>
+                <strong>Phone:</strong> (022)5893178<br>
+                <strong>Email:</strong> smkmahaputracerdasutama@gmail.com<br>
               </p>
               <div class="social-links mt-3">
 
@@ -23,23 +23,31 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Tautan Bermanfaat</h4>
+            <h4>Informasi</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/RPL/team">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/RPL/peluang_kerja">Peluang Kerja</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/RPL/tujuan">Tujuan</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/RPL/portofolio">Portofolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <p>Guru : 18</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p>Siswa Laki-laki : 147</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p>Siswa Perempuan : 115</p></li>
+              <li><i class="bx bx-chevron-right"></i> <p>Rombongan Pelajar : 9</p></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Kata-Kata Mutiara</h4>
-            <p></p>
-            <img src="{{asset('assets/img/quotess.jpg')}}" class="img-fluid quot" alt="">
-
-             
-
+          <div class="col-lg-4 col-md-6 rating">
+              <h4>Penilaian</h4>
+              <p class="nama">Testimoni Alumni</p>
+              <p>Rendy Hutagaol</p>
+              <p class="tulisan">Saya merasa senang bisa masuk jurusan RPL di SMKS MAHAPUTRA CERDAS UTAMA....
+              Jurusan RPL di sekolah ini sangat baik, metode belajarnya juga enak, dan bebas menggunakan fasilitas LAB sekolah.</p>
+              <br>
+              <span class="fa fa-star rating"></span>
+              <span class="fa fa-star rating"></span>
+              <span class="fa fa-star rating"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            <!-- <ul>
+              <li><</li>
+            </ul> -->
+            <img src="{{asset('assets/img/')}}" class="img-fluid quot" alt="">
           </div>
 
         </div>
