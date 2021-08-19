@@ -11,7 +11,7 @@
       </div>
 
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.096866063073!2d107.5772727143583!3d-6.997873170480654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e94c27f4ee2f%3A0x5cff6a44153d50b4!2sSMK%20Mahaputra%20Cerdas%20Utama%20.%20Yayasan%20Mahaputra!5e0!3m2!1sid!2sid!4v1629273406798!5m2!1sid!2sid"  style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.096866063073!2d107.5772727143583!3d-6.997873170480654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e94c27f4ee2f%3A0x5cff6a44153d50b4!2sSMK%20Mahaputra%20Cerdas%20Utama%20.%20Yayasan%20Mahaputra!5e0!3m2!1sid!2sid!4v1629273406798!5m2!1sid!2sid"  frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="row mt-5">
@@ -42,28 +42,26 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <form action="{{url('RPL/kontak')}}" method="post" role="form" class="php-email-form">
+          <form action="{{url('RPL/kontak')}}" method="post" role="form" >
             <div class="row">
                 @csrf
-             <div class="form-group">
+             <div class="form-group mt-3">
                     <input type="email" placeholder="Email..." class="form-control" name="email" id="email">
                 </div>
 
-                <div class="form-group">
+                <div class="form-group mt-3">
                     <input type="subject" placeholder="Subjek..." class="form-control" name="subject" id="subject">
                 </div>
 
-                <div class="form-group">
+                <div class="form-group mb-2 mt-3">
                     <textarea rows="6" placeholder="Pesan...." class="form-control" name="message"
                         id="message"></textarea>
                 </div>
-                <div id="cf-submit">
+
+                <div id="cf-submit mt-3">
                     <input type="submit" id="contact-submit" class="btn btn-warning" value="Kirim">
                 </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+
           </form>
 
         </div>
@@ -73,7 +71,7 @@
     </div>
 
 </section>
-@include('template.footer')
+
 
 
 @endsection
