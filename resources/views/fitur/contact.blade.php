@@ -27,13 +27,13 @@
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>smkmahaputra@gmail.com</p>
+              <p>smkmahaputracerdasutama@gmail.com</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Hubungi:</h4>
-              <p>+628877665587</p>
+              <p>(022)5893178</p>
             </div>
 
           </div>

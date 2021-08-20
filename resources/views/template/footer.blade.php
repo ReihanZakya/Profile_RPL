@@ -6,11 +6,14 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>SMKS Mahaputra<span>.</span></h3>
+              <p style="color:orange; font-size: 25px;">Rekayasa Perangkat Lunak<span>.</span></p>
+              <br>
               <p>
               JL. KATAPANG ANDIR KM. 4 KP. PASANTREN, Sukamukti, Kec. Katapang, 
               Kab. Bandung Prov. Jawa Barat <br>
                 <br><br>
-                <strong>Phone:</strong> (022)5893178<br>
+                <strong>Phone:</strong> (022)5893178
+                <br>
                 <strong>Email:</strong> smkmahaputracerdasutama@gmail.com<br>
               </p>
               <div class="social-links mt-3">
@@ -23,12 +26,12 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Informasi</h4>
+            <h4>Informasi Rekayasa Perangkat Lunak.</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> Guru : 18</li>
-              <li><i class="bx bx-chevron-right"></i> Siswa Laki-laki : 147</li>
-              <li><i class="bx bx-chevron-right"></i> Siswa Perempuan : 115</li>
-              <li><i class="bx bx-chevron-right"></i> Rombongan Pelajar : 9</li>
+              <li><i class="bx bx-chevron-right"></i> Guru : 5</li>
+              <li><i class="bx bx-chevron-right"></i> Siswa Laki-laki : 53</li>
+              <li><i class="bx bx-chevron-right"></i> Siswa Perempuan : 35</li>
+              <li><i class="bx bx-chevron-right"></i> Rombongan Pelajar : 3</li>
             </ul>
           </div>
 
@@ -52,7 +55,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; SMK Mahaputra <strong><span>Cerdas Utama</span></strong>
+        &copy; SMK Mahaputra<strong><span>Cerdas Utama</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
