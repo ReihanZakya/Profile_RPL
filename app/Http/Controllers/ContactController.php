@@ -12,6 +12,7 @@ class ContactController extends Controller
     }
 
     public function kirim_pesan(Request $request){
+
         $data = array(
             'email' => $request->email,
             'subject' => $request->subject,

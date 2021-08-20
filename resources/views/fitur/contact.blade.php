@@ -46,16 +46,19 @@
             <div class="row">
                 @csrf
              <div class="form-group mt-3">
-                    <input type="email" placeholder="Email..." class="form-control" name="email" id="email">
+                    <input type="email" placeholder="Email..." class="form-control"
+                    name="email" id="email" required>
                 </div>
 
                 <div class="form-group mt-3">
-                    <input type="subject" placeholder="Subjek..." class="form-control" name="subject" id="subject">
+                    <input type="subject" placeholder="Subjek..." class="form-control "
+                    name="subject" id="subject" required>
+                    <div class="invalid-feedback">{{ $errors->first('email')}}</div>
                 </div>
 
                 <div class="form-group mb-2 mt-3">
-                    <textarea rows="6" placeholder="Pesan...." class="form-control" name="message"
-                        id="message"></textarea>
+                    <textarea rows="6" placeholder="Pesan...." class="form-control "
+                    name="message" id="message" required></textarea>
                 </div>
 
                 <div id="cf-submit mt-3">
