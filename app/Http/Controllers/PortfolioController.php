@@ -11,7 +11,5 @@ class PortfolioController extends Controller
         return view('fitur.portfolio');
     }
 
-    function naon(){
-        return "naon";
-    }
+  
 }
