@@ -27,7 +27,7 @@ $('body').on('click','.btn-pa-munir',function(){
 	$('#pa-rey').collapse('hide');
 	$('#pa-dede').collapse('hide');
 	$('#pa-hannif').collapse('hide');
-	$('bu-syifa').collapse('hide');
+	$('#bu-syifa').collapse('hide');
 });
 
 $('body').on('click','.btn-bu-syifa',function(){
