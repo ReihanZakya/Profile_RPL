@@ -1557,4 +1557,6 @@ section {
   text-justify: inter-word;
 }
 
-
+p{
+    text-align: justify;
+}
