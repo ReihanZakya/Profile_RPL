@@ -38,9 +38,24 @@
           <div class="col-lg-4 col-md-6 rating">
               <h4>Penilaian</h4>
               <p class="nama">Testimoni Alumni</p>
-              <p>Rendy Hutagaol</p>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <p>Rendy Hutagaol</p>
               <p class="tulisan">Saya merasa senang bisa masuk jurusan RPL di SMKS MAHAPUTRA CERDAS UTAMA....
               Jurusan RPL di sekolah ini sangat baik, metode belajarnya juga enak, dan bebas menggunakan fasilitas LAB sekolah.</p>
+            </div>
+            <div class="carousel-item">
+            <p>Rehan Zakya Alawi</p>
+              <p class="tulisan">Saya Sangat Senang Karna Banyak Wifi</p>
+            </div>
+            <div class="carousel-item">
+            <p>Deden Alif</p>
+              <p class="tulisan">Karna Lengkapnya Fasilitas Di Sekolah ini,Saya Menjadi Semangat Untuk Mengerjakan Tugas apapun.</p>
+            </div>
+          </div>
+        </div>
+                    
               <br>
               <span class="fa fa-star rating"></span>
               <span class="fa fa-star rating"></span>
