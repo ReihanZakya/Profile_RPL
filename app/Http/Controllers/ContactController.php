@@ -25,8 +25,4 @@ class ContactController extends Controller
 
         return redirect('contact');
     }
-
-    function contoh(){
-        return "aaa";
-    }
 }
