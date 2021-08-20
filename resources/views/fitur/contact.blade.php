@@ -27,13 +27,13 @@
             <div class="email">
               <i class="bi bi-envelope"></i>
               <h4>Email:</h4>
-              <p>smkmahaputra@gmail.com</p>
+              <p>smkmahaputracerdasutama@gmail.com</p>
             </div>
 
             <div class="phone">
               <i class="bi bi-phone"></i>
               <h4>Hubungi:</h4>
-              <p>+628877665587</p>
+              <p>(022)5893178</p>
             </div>
 
           </div>
@@ -46,17 +46,19 @@
             <div class="row">
                 @csrf
              <div class="form-group mt-3">
-                    <input type="email" placeholder="Email..." class="form-control" name="email" id="email">
+                    <input type="email" placeholder="Email..." class="form-control"
+                    name="email" id="email" required>
                 </div>
 
                 <div class="form-group mt-3">
-                    <input type="subject" placeholder="Subjek..." class="form-control" name="subject" id="subject">
-                    <div class="invalid-feedback">{{ $errors->first('email') }}</div>
+                    <input type="subject" placeholder="Subjek..." class="form-control "
+                    name="subject" id="subject" required>
+                    <div class="invalid-feedback">{{ $errors->first('email')}}</div>
                 </div>
 
                 <div class="form-group mb-2 mt-3">
-                    <textarea rows="6" placeholder="Pesan...." class="form-control" name="message"
-                        id="message"></textarea>
+                    <textarea rows="6" placeholder="Pesan...." class="form-control "
+                    name="message" id="message" required></textarea>
                 </div>
 
                 <div id="cf-submit mt-3">
