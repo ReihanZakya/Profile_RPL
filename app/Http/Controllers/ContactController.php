@@ -23,6 +23,6 @@ class ContactController extends Controller
             $message->subject($data['subject']);
         });
 
-        return redirect('contact');
+        return redirect()->back();
     }
 }
