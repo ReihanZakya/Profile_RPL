@@ -63,7 +63,7 @@
                 </div>
             </li>
             <li>
-                <button class="btn btn-primary btn-sm btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#pdkkxii" aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn btn-primary btn-sm btn-light" type="button" data-bs-toggle="collapse" data-target="#open" aria-expanded="false" aria-controls="collapseExample">
                     Produk Kreatif dan Kewirausahaan
                   </button>
                 </p>

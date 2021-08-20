@@ -51,6 +51,7 @@
 
                 <div class="form-group mt-3">
                     <input type="subject" placeholder="Subjek..." class="form-control" name="subject" id="subject">
+                    <div class="invalid-feedback">{{ $errors->first('email') }}</div>
                 </div>
 
                 <div class="form-group mb-2 mt-3">
