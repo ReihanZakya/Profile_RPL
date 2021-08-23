@@ -1,8 +1,8 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>Kompetensi Dasar</th>
-            <th>Kompetensi Dasar</th>
+            <th class="text-center">Kompetensi Dasar</th>
+            <th class="text-center">Kompetensi Dasar</th>
         </tr>
     </thead>
     <tbody>
