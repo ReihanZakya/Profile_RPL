@@ -16,16 +16,15 @@
               <div class="member" data-aos="fade-up" data-aos-delay="400">
                 <div class="member-img">
                   <img src="{{ asset('assets/img/team/pa rey.jpg') }}" class="img-fluid" alt="">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                  </div>
                 </div>
                 <div class="member-info">
                   <h4>Raynaldi Syahputra Nonci, S.Pd</h4>
                   <span class="mb-4">Kepala Prodi</span>
                 </div>
+                <center>
+                <button class="btn btn-danger btn-sm btn-pa-rey">Mata Pelajaran</button>
+                <hr>
+              </center>
               </div>
             </div>
 
@@ -33,16 +32,15 @@
           <div class="member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa dede.jpg') }}" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-              </div>
              </div>
             <div class="member-info">
               <h4>Dede Suryana, A.md</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
+             <center>
+                <button class="btn btn-danger btn-sm btn-pa-dede">Mata Pelajaran</button>
+                <hr>
+              </center>
         </div>
     </div>
 
@@ -50,16 +48,15 @@
           <div class="member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa hannif.jpg') }}" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-              </div>
             </div>
             <div class="member-info">
               <h4>Hannif Kurniawan Muttaqin, S.T, M.T</h4>
               <span class="mb-2">Guru RPL</span>
             </div>
+             <center>
+                <button class="btn btn-danger btn-sm btn-pa-hannif">Mata Pelajaran</button>
+                <hr>
+              </center>
           </div>
         </div>
 
@@ -77,6 +74,10 @@
               <h4>Mujahid Munir Muttaqin, S.T</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
+            <center>
+                <button class="btn btn-danger btn-sm btn-pa-munir">Mata Pelajaran</button>
+                <hr>
+              </center>
           </div>
         </div>
 
@@ -84,94 +85,55 @@
           <div class="member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/bu syifa.jpg') }}" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-              </div>
             </div>
             <div class="member-info">
               <h4>Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
               <span class="mb-4">Guru RPL</span>
             </div>
+            <center>
+                <button class="btn btn-danger btn-sm btn-bu-syifa">Mata Pelajaran</button>
+                <hr>
+              </center>
         </div>
         </div>
 
-        <label for="" class="label bg-danger text-center text-white col-md-3 mb-5 mt-3">Mata Pelajaran</label>
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Raynaldi Syahputra Nonci, S.Pd
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>Pemrograman Dasar (KELAS X)</p>
-                  <p>Pemrograman Berorientasi Objek (KELAS XI & XII)</p>
-                </div>
-              </div>
+          <div class="container">
+            <div id="pa-rey" class="collapse">
+              <p>Pemrograman Dasar (KELAS X)</p>
+              <p>Pemrograman Berorientasi Objek (KELAS XI & XII)</p>
             </div>
+          </div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                 Dede Suryana, A.md
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                <p>Teknik Komputer Jaringan (KELAS X)</p>
+          <div class="container">
+            <div id="pa-dede" class="collapse">
+               <p>Teknik Komputer Jaringan (KELAS X)</p>
                 <p>Pemodelan Perangkat Lunak (KELAS XI)</p>
                 <p>Produk Kreatif dan Kewirausahaan (KELAS XI)</p>
                 <p>Basis Data (KELAS XI)</p>
-              </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Hannif Kurniawan Muttaqin, S.T, M.T
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>Produk Kreatif dan Kewirusahan (KELAS XII)</p>
-                  <p>Basis Data (KELAS XII)</p>
-                </div>
-              </div>
-            </div>
-
-             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Mujahid Munir Muttaqin, S.T
-                </button>
-              </h2>
-              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>Pemrograman Web dan Perangkat Bergerak (KELAS XI & XII)</p>
-                </div>
-              </div>
-            </div>
-
-             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Shyffa Ilmalia Noer Fadillah, S.Kom
-                </button>
-              </h2>
-              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                 <p>Sistem Komputer (KELAS X)</p>
-                 <P>Simulasi Digital (KELAS X)</P>
-                </div>
-              </div>
             </div>
           </div>
-      </div>
-</section>
 
+          <div class="container">
+            <div id="pa-hannif" class="collapse">
+              <p>Produk Kreatif dan Kewirusahan (KELAS XII)</p>
+              <p>Basis Data (KELAS XII)</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="pa-munir" class="collapse">
+              <p>Pemrograman Web dan Perangkat Bergerak (KELAS XI & XII)</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="bu-syifa" class="collapse">
+              <p>Sistem Komputer (KELAS X)</p>
+              <p>Simulasi Digital (KELAS X)</p>
+            </div>
+          </div>
+
+    </div>
+  </section>
 
 @endsection

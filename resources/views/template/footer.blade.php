@@ -9,7 +9,7 @@
               <p style="color:orange; font-size: 25px;">Rekayasa Perangkat Lunak<span>.</span></p>
               <br>
               <p>
-              JL. KATAPANG ANDIR KM. 4 KP. PASANTREN, Sukamukti, Kec. Katapang, 
+              JL. KATAPANG ANDIR KM. 4 KP. PASANTREN, Sukamukti, Kec. Katapang,
               Kab. Bandung Prov. Jawa Barat <br>
                 <br><br>
                 <strong>Phone:</strong> (022)5893178
