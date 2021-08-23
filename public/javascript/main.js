@@ -37,3 +37,31 @@ $('body').on('click','.btn-bu-syifa',function(){
 	$('#pa-hannif').collapse('hide');
 	$('#pa-munir').collapse('hide');
 });
+
+$('body').on('click','.siskomx',function(){
+    $('#siskomx').collapse('toggle');
+    $('#simdigx').collapse('hide');
+    $('#komjarx').collapse('hide');
+    $('#pdx').collapse('hide');
+});
+
+$('body').on('click','.simdigx',function(){
+    $('#simdigx').collapse('toggle');
+    $('#siskomx').collapse('hide');
+    $('#komjarx').collapse('hide');
+    $('#pdx').collapse('hide');
+});
+
+$('body').on('click','.komjarx',function(){
+    $('#komjarx').collapse('toggle');
+    $('#simdigx').collapse('hide');
+    $('#siskomx').collapse('hide');
+    $('#pdx').collapse('hide');
+});
+
+$('body').on('click','.pdx',function(){
+    $('#pdx').collapse('toggle');
+    $('#simdigx').collapse('hide');
+    $('#siskomx').collapse('hide');
+    $('#komjarx').collapse('hide');
+});
