@@ -3,7 +3,7 @@
 
       <div class="row">
         <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right">
-        <img src="{{ asset('assets/img/features.jpg') }}" alt="" style="width: 500px;" height="500px;">
+        <img src="{{ asset('assets/img/features.jpg') }}" class="img-fluid" alt="" style="width: 500px;" height="500px;">
         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-shield"></i>
             <h4>Developer Android</h4>

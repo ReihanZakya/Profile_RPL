@@ -8,7 +8,7 @@
       <div class="row">
         <h4 class="text-center mb-5"><strong>Peluang kerja lulusan jurusan RPL</strong></h4>
         <div class="image col-lg-6" data-aos="fade-right">
-        <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" alt="" style="width: 550px;" height="400px;" class="mb-4">
+        <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" class="img-fluid" alt="" style="width: 550px;" height="400px;" class="mb-4">
         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-shield"></i>
             <h4>Developer Android</h4>

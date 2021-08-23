@@ -1,4 +1,4 @@
-<section id="hero" class="d-flex align-items-center justify-content-center">
+<section id="hero" class="d-flex align-items-center justify-content-center ">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box">        
             <i class="ri-bar-chart-box-line"></i>
             <h3><a href="">Dolor Sitema</a></h3>
           </div>
