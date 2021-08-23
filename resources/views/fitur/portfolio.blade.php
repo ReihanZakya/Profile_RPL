@@ -6,8 +6,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>Tentang Kami</p>
+        <h2>Dokumentasi</h2>
+        <p>Dokumentasi Foto-Foto</p>
       </div>
 
       <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -170,5 +170,41 @@
     </div>
   </section>
 
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Portofolio</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">Semua</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-fasilitas ">
+          <div class="portfolio-wrap">
+            <img src="{{asset('assets/img/project/kelompok2.png')}}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <p>Kelompok 2</p>
+              <div class="portfolio-links">
+                <a href="{{asset('assets/img/project/kelompok2.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2.git" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
 
 @endsection
