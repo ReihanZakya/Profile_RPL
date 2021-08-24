@@ -1,3 +1,4 @@
+//TIM
 $('body').on('click','.btn-pa-rey',function(){
 	$('#pa-rey').collapse('toggle');
 	$('#pa-dede').collapse('hide');
@@ -38,6 +39,7 @@ $('body').on('click','.btn-bu-syifa',function(){
 	$('#pa-munir').collapse('hide');
 });
 
+//Mapel Kelas X
 $('body').on('click','.siskomx',function(){
     $('#siskomx').collapse('toggle');
     $('#simdigx').collapse('hide');
@@ -64,4 +66,60 @@ $('body').on('click','.pdx',function(){
     $('#simdigx').collapse('hide');
     $('#siskomx').collapse('hide');
     $('#komjarx').collapse('hide');
+});
+
+//Mapel Kelas XI
+$('body').on('click','.basdatxi',function(){
+    $('#basdatxi').collapse('toggle');
+    $('#pboxi').collapse('hide');
+    $('#pdkkxi').collapse('hide');
+    $('#pwpbxi').collapse('hide');
+    $('#pplxi').collapse('hide');
+});
+
+$('body').on('click','.pboxi',function(){
+    $('#pboxi').collapse('toggle');
+    $('#basdatxi').collapse('hide');
+    $('#pdkkxi').collapse('hide');
+    $('#pwpbxi').collapse('hide');
+    $('#pplxi').collapse('hide');
+});
+
+$('body').on('click','.pdkkxi',function(){
+    $('#pdkkxi').collapse('toggle');
+    $('#pboxi').collapse('hide');
+    $('#basdatxi').collapse('hide');
+    $('#pwpbxi').collapse('hide');
+    $('#pplxi').collapse('hide');
+});
+
+$('body').on('click','.pwpbxi',function(){
+    $('#pwpbxi').collapse('toggle');
+    $('#pboxi').collapse('hide');
+    $('basdatxi').collapse('hide');
+    $('#pdkkxi').collapse('hide');
+    $('#pplxi').collapse('hide');
+});
+
+$('body').on('click','.pplxi',function(){
+    $('#pplxi').collapse('toggle');
+    $('#pboxi').collapse('hide');
+    $('basdatxi').collapse('hide');
+    $('#pdkkxi').collapse('hide');
+    $('#pwpbxi').collapse('hide');
+});
+
+//DataTables
+$(document).ready(function(){
+    $('.pd').DataTable({
+        "paging": true,
+        "lengthChange": true,
+        "searching": true,
+        "ordering": true,
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+        "pageLength" : 5,
+        "lengthMenu" : [5,10,15,20]
+      });
 });

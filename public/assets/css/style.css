@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -542,6 +542,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about {
+    font-size: 14px;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;

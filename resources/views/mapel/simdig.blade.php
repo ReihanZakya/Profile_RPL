@@ -1,5 +1,5 @@
-<table class="table table-bordered">
-    <thead>
+<table class="table table-hover table-bordered pd">
+    <thead class="table-dark">
         <tr>
             <th class="text-center">Kompetensi Dasar</th>
             <th class="text-center">Kompetensi Dasar</th>
@@ -7,53 +7,53 @@
     </thead>
     <tbody>
         <tr>
-            <td><b>3.1</b> Menerapkan logika dan algoritma komputer</td>
-            <td><b>4.1</b> Membuat fungsi-fungsi perintah (Command)</td>
+            <td><b>3,1</b> Menerapkan logika dan algoritma komputer</td>
+            <td><b>4,1</b> Membuat fungsi-fungsi perintah (Command)</td>
         </tr>
         <tr>
-            <td><b>3.2</b>  Menerapkan metode petaminda</td>
-            <td><b>4.2</b>  Membuat peta-minda</td>
+            <td><b>3,2</b>  Menerapkan metode petaminda</td>
+            <td><b>4,2</b>  Membuat peta-minda</td>
         </tr>
         <tr>
-            <td><b>3.3</b>  Mengevaluasi paragraf
+            <td><b>3,3</b>  Mengevaluasi paragraf
              deskriptif, argumentatif,
              naratif dan persuasif</td>
-            <td><b>4.3</b> Membuat peta-minda</td>
+            <td><b>4,3</b> Membuat peta-minda</td>
         </tr>
         <tr>
-            <td><b>3.4</b>  Menerapkan logika dan
+            <td><b>3,4</b>  Menerapkan logika dan
              operasi perhitungan data</td>
-            <td><b>4.4</b> Mengoperasikan perangkat
+            <td><b>4,4</b> Mengoperasikan perangkat
              lunak pengolah angka</td>
         </tr>
         <tr>
-            <td><b>3.5</b> Menganalisis fitur yang tepat
+            <td><b>3,5</b> Menganalisis fitur yang tepat
              untuk pembuatan slide</td>
-            <td><b>4.5</b> Membuat slide untuk
+            <td><b>4,5</b> Membuat slide untuk
              presentasi</td>
         </tr>
         <tr>
-            <td><b>3.6</b> Menerapkan teknik presentasi
+            <td><b>3,6</b> Menerapkan teknik presentasi
              yang efektif</td>
-            <td><b>4.6</b> Melakukan presentasi yang
+            <td><b>4,6</b> Melakukan presentasi yang
              efektif</td>
         </tr>
         <tr>
-            <td><b>3.7</b> Menganalisis pembuatan e-
+            <td><b>3,7</b> Menganalisis pembuatan e-
              book</td>
-            <td><b>4.7</b> Membuat e-book dengan
+            <td><b>4,7</b> Membuat e-book dengan
              perangkat lunak e-book editor</td>
         </tr>
         <tr>
-            <td><b>3.8</b> Memahami konsep Kewargaan
+            <td><b>3,8</b> Memahami konsep Kewargaan
              Digital</td>
-            <td><b>4.8</b> Merumuskan etika
+            <td><b>4,8</b> Merumuskan etika
              Kewargaan Digital</td>
         </tr>
         <tr>
-            <td><b>3.9</b> Menerapkan teknik
+            <td><b>3,9</b> Menerapkan teknik
              penelusuran Search Engine</td>
-            <td><b>4.9</b> Melakukan penelusuran
+            <td><b>4,9</b> Melakukan penelusuran
              informasi</td>
         </tr>
         <tr>
