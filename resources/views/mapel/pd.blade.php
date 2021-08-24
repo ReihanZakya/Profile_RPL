@@ -1,5 +1,5 @@
-<table class="table table-bordered">
-    <thead>
+<table class="table table-bordered table-hover pd">
+    <thead class="table-dark">
         <tr>
             <th class="text-center">Kompetensi Dasar</th>
             <th class="text-center">Kompetensi Dasar</th>
@@ -7,84 +7,84 @@
     </thead>
     <tbody>
         <tr>
-            <td><b>3.1</b> Menerapkan alur logika
+            <td><b>3,1</b> Menerapkan alur logika
                 pemrograman komputer
             </td>
-            <td><b>4.1</b> Membuat alur logika
+            <td><b>4,1</b> Membuat alur logika
                 pemrograman komputer
             </td>
         </tr>
         <tr>
-            <td><b>3.2</b> Memahami perangkat lunak
+            <td><b>3,2</b> Memahami perangkat lunak
                 bahasa pemrograman
             </td>
-            <td><b>4.2</b> Melakukan Instalasi perangkat
+            <td><b>4,2</b> Melakukan Instalasi perangkat
                 lunak bahasa pemrograman
             </td>
         </tr>
         <tr>
-            <td><b>3.3</b> Menerapkan alur
+            <td><b>3,3</b> Menerapkan alur
                 pemrograman dengan
                 struktur bahasa
                 pemrograman komputer
             </td>
-            <td><b>4.3</b> Menulis kode pemrogram sesuai
+            <td><b>4,3</b> Menulis kode pemrogram sesuai
                 dengan aturan dan sintaks
                 bahasa pemrograman
             </td>
         </tr>
         <tr>
-            <td><b>3.4</b> Menerapkan penggunaan
+            <td><b>3,4</b> Menerapkan penggunaan
                 tipe data, variabel,
                 konstanta, operator, dan
                 ekspresi
             </td>
-            <td><b>4.4</b> Membuat kode program dengan
+            <td><b>4,4</b> Membuat kode program dengan
                 tipe data, variabel, konstanta,
                 operator dan ekspresi
             </td>
         </tr>
         <tr>
-            <td><b>3.5</b> Menerapkan operasi
+            <td><b>3,5</b> Menerapkan operasi
                 aritmatika dan logika
             </td>
-            <td><b>4.5</b> Menerapkan operasi
+            <td><b>4,5</b> Menerapkan operasi
                 aritmatika dan logika
             </td>
         </tr>
         <tr>
-            <td><b>3.6</b> Menerapkan struktur
+            <td><b>3,6</b> Menerapkan struktur
                 kontrol Percabangan dalam
                 bahasa pemrograman
             </td>
-            <td><b>4.6</b> Membuat kode program
+            <td><b>4,6</b> Membuat kode program
                 struktur kontrol percabangan
             </td>
         </tr>
         <tr>
-            <td><b>3.7</b> Menerapkan struktur
+            <td><b>3,7</b> Menerapkan struktur
                 kontrol Perulangan dalam
                 bahasa pemrograman
             </td>
-            <td><b>4.7</b> Membuat kode program
+            <td><b>4,7</b> Membuat kode program
                 struktur kontrol perulangan
             </td>
         </tr>
         <tr>
-            <td><b>3.8</b> Menganalisis penggunaan
+            <td><b>3,8</b> Menganalisis penggunaan
                 array untuk penyimpanan
                 data di memori
             </td>
-            <td><b>4.8</b> Membuat kode program untuk
+            <td><b>4,8</b> Membuat kode program untuk
                 menampilkan kumpulan data
                 array
             </td>
         </tr>
         <tr>
-            <td><b>3.9</b> Menerapkan penggunaan
+            <td><b>3,9</b> Menerapkan penggunaan
                 fungsi
             </td>
-            <td><b>4.9</b> Membuat kode program
+            <td><b>4,9</b> Membuat kode program
                 menggunakan fungsi
             </td>
         </tr>
