@@ -109,6 +109,35 @@ $('body').on('click','.pplxi',function(){
     $('#pwpbxi').collapse('hide');
 });
 
+//Kelas XII
+$('body').on('click','.pwpbxii',function(){
+    $('#pwpbxii').collapse('toggle');
+    $('#pboxii').collapse('hide');
+    $('#basdatxii').collapse('hide');
+    $('#pdkkxii').collapse('hide');
+});
+
+$('body').on('click','.pboxii',function(){
+    $('#pboxii').collapse('toggle');
+    $('#pwpbxii').collapse('hide');
+    $('#basdatxii').collapse('hide');
+    $('#pdkkxii').collapse('hide');
+});
+
+$('body').on('click','.basdatxii',function(){
+    $('#basdatxii').collapse('toggle');
+    $('#pboxii').collapse('hide');
+    $('#pwpbxii').collapse('hide');
+    $('#pdkkxii').collapse('hide');
+});
+
+$('body').on('click','.pdkkxii',function(){
+    $('#pdkkxii').collapse('toggle');
+    $('#pboxii').collapse('hide');
+    $('#pwpbxii').collapse('hide');
+    $('#basdatxii').collapse('hide');
+});
+
 //DataTables
 $(document).ready(function(){
     $('.pd').DataTable({

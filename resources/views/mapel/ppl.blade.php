@@ -1,4 +1,4 @@
-<table class="table table-bordered table-hover pd">
+<table class="table table-bordered table-striped table-hover pd">
     <thead class="table-dark">
         <tr>
             <th class="text-center">Kompetensi Dasar</th>

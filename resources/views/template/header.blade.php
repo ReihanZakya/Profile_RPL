@@ -12,7 +12,7 @@
           <li><a class="link " href="{{ url('RPL/guru') }}">Guru</a></li>
           <li><a class="link " href="{{ url('RPL/peluang_kerja') }}">Peluang Kerja</a></li>
           {{-- <li><a class="link " href="/RPL/tujuan">Tujuan</a></li> --}}
-          <li><a class="link " href="{{ url('RPL/portofolio') }}">Portofolio</a></li>
+          <li><a class="link " href="{{ url('RPL/portfolio') }}">Portofolio</a></li>
           <li><a href="{{ url('RPL/contact') }}" class="link">Kontak</a></li>
           </li>
         </ul>
