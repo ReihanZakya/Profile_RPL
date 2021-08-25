@@ -801,6 +801,10 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  float: left;
+  width:  100px;
+  height: 100px;
+  background-size: cover;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
