@@ -20,29 +20,49 @@
             </p>
         </div>
       </div>
-      <h3 class="mt-3 mb-3"><b>Visi & Misi</b></h3>
-    <span><i class="fa fa-calendar-alt" style="margin-right: 10px;"></i>Selasa, 22 Agustus 2016</span>
+      <div class="container mt-4">
+          <h4 class="text-center mb-3"><strong>Visi Misi</strong></h4>
+        <div class="row">
+          <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
+            <div class="card" id="card-home">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
+                  <li class="nav-item">
+                  <button type="button" class="nav-link active visi text-dark">Visi</button>
+                  </li>
+                  <li class="nav-item">
+                <button type="button" class="nav-link misi text-dark">Misi</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                 <div class="tab-content mt-3">
+                  <div class="tab-pane active" id="visi" role="tabpanel">
+                    <p class="card-text" style="font-family: Arial, Helvetica, sans-serif">Menjadi penyelenggara pendidikan kejuruan yang melahirkan tenaga ahli, terampil,
+                        kreatif, inovatif dam berpengetahuan yang ramah lingkungan di tahun 2025. </p>
+                  </div>
 
-    <div class="col-sm-6">
-        <h5 class="mt-4 mb-3"><b>Visi</b></h5>
-        <p>
-            Menjadi penyelenggara pendidikan kejuruan yang melahirkan tenaga ahli, terampil, kreatif, inovatif
-            dan berpengetahuan yang ramah lingkungan di tahun 2025.
-        </p>
-    </div>
-    <div class="col-sm-6">
-        <h5 class="mt-4 mb-3"><b>Misi</b></h5>
-        <ol>
-            <li>Menyelenggarakan pendidikan kejuruan.</li>
-            <li>Melahirkan tenaga ahli tingkat menengah.</li>
-            <li>Mewujudkan tenaga terampil, kreatif, inovatif dan berpengetahuan.</li>
-            <li>Menyiapkan dan melengkapi sarana dan prasarana pendukung pembelajaran berbasis
-                ICT dan berwawasan lingkungan.</li>
-            <li>Menciptakan suasana lingkungan sekolah yang bersih, hijau, indah dan nyaman.</li>
-            <li>Menerapkan perilaku berbudaya lingkungan kepada seluruh warga sekolah dan
-                masyarakat sekitar.</li>
-        </ol>
-    </div>
+                  <div class="tab-pane" id="misi" role="tabpanel" aria-labelledby="history-tab">
+                    <p class="card-text">
+                        <ol style="font-family: Arial, Helvetica, sans-serif">
+                            <li>Menyelenggarakan pendidikan kejujuran.</li>
+                            <li>Melahirkan tenaga ahli tingkat menegah.</li>
+                            <li>Mewujudkan tenaga terampil, kreatif, inovatif dan berpengetahuan.</li>
+                            <li>Menyiapkan dan melengkapi sarana dan prasarana pendukung pembelajaran
+                                berbasis ICT dan berwawasan lingkungan.</li>
+                            <li>Menciptakan suasana lingkungan sekolah yang bersih, hijau, indah dan nyaman.</li>
+                            <li>Menerapkan perilaku berbudaya lingkungan kepada seluruh warga sekolah
+                                dan masyarakat sekitar.</li>
+                        </ol>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
