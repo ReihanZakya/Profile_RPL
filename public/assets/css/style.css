@@ -505,7 +505,8 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .section-title h2 {
@@ -1573,7 +1574,7 @@ p{
 }
 
 .card{
-  height: 500px;
+  height: auto;
   width: 350px;
   margin-right: 110px;
 }
