@@ -70,6 +70,11 @@
             <p class="text-center container">
               <a href="{{url ('RPL/portfolio')}}" class="btn btn-outline-warning my-2 ">Portofolio</a>
               <a href="{{url ('RPL/dokumentasi')}}" class="btn btn-outline-warning my-2">Dokumentasi</a>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h1 class="fw-light">Portofolio Ujikom</h1>
             </p>
           </div>
         </div>
@@ -85,7 +90,7 @@
                   <img src="{{asset('assets/img/project/kelompok1.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">KELOMPOK 1</h5>
+                    <h5 class="card-text text-info">KELOMPOK 1 Ujikom</h5>
                   <p class="card-text">
                      <ul>
                          <li>Sumiartini</li>
@@ -98,7 +103,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/project/kelompok1.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://github.com/Sumiartini/2020_XII_RPL_KELOMPOK_1" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                        <a href="https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1.git" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                     </div>
                   </div>
                 </div>
@@ -110,7 +115,7 @@
                 <img src="{{asset('assets/img/project/kelompok2.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">KELOMPOK 2</h5>
+                    <h5 class="card-text text-info">KELOMPOK 2 Ujikom</h5>
                   <p class="card-text">
                     <ul>
                         <li>Santi Sintia</li>
@@ -131,43 +136,122 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="{{asset('assets/img/project/kelompok5.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                <img src="{{asset('assets/img/project/ujikom3.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">KELOMPOK 5</h5>
+                    <h5 class="card-text text-info">KELOMPOK 3 Ujikom</h5>
                   <p class="card-text">
-                      <ul>
-                          <li>Hania Fitrianti</li>
-                          <li>Desmarita</li>
-                      </ul>
+                    <ul>
+                        <li>Rayhan Salman</li>
+                        <li>Hania Fitriani</li>
+                    </ul>
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
-                        <a href="{{asset('assets/img/project/kelompok5.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://github.com/haniafirianti/2020-RPL-Kelompok-5" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                        <a href="{{asset('assets/img/project/ujikom3.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {{-- kelompok2 solo
             <div class="col">
               <div class="card shadow-sm">
-                <img src="{{asset('assets/img/project/kelompok2nadira.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                <img src="{{asset('assets/img/project/ujikom7.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">KELOMPOK 2</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-text text-info">KELOMPOK 4 Ujikom</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Tazkiah Alika</li>
+                          <li>Rismawati</li>
+                      </ul>
+                  </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
-                        <a href="{{asset('assets/img/project/kelompok2nadira.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://github.com/nadiranuruldwijaya/2020-RPL-Kelompok-2" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                        <a href="{{asset('assets/img/project/ujikom7.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/tazkiyahalika/2020_XII_RPL_KELOMPOK_4" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> --}}
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{{asset('assets/img/project/ujikom5.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+
+                <div class="card-body">
+                    <h5 class="card-text text-info">KELOMPOK 5 Ujikom</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Sinta Bela</li>
+                          <li>Desmarita</li>
+                          <li>Windi Yulyani</li>
+                          <li>Iis Widiya</li>
+                      </ul>
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="portfolio-links">
+                        <a href="{{asset('assets/img/project/ujikom5.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{{asset('assets/img/project/ujikom6.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+
+                <div class="card-body">
+                    <h5 class="card-text text-info">KELOMPOK 6 Ujikom</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Dian Citra</li>
+                          <li>Eka Wariah</li>
+                      </ul>
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="portfolio-links">
+                        <a href="{{asset('assets/img/project/kelompok6.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{{asset('assets/img/project/ujikom4.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+
+                <div class="card-body">
+                    <h5 class="card-text text-info">KELOMPOK 7 Ujikom</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Yuliawati</li>
+                          <li>Arif Rifaldi</li>
+                          <li>Farid</li>
+                      </ul>
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="portfolio-links">
+                        <a href="{{asset('assets/img/project/ujikom4.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                        <a href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+         
+
+         
 
     </main>
 
