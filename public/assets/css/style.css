@@ -1580,10 +1580,14 @@ p{
 }
 
 .card-body{
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 #card-home {
     width: 100%;
     height: auto;
+}
+
+.card-text {
+  font-size: 16px;
 }
