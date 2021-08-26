@@ -46,16 +46,15 @@
               Jurusan RPL di sekolah ini sangat baik, metode belajarnya juga enak, dan bebas menggunakan fasilitas LAB sekolah.</p>
             </div>
             <div class="carousel-item">
-            <p>Rehan Zakya Alawi</p>
-              <p class="tulisan">Saya Sangat Senang Karna Banyak Wifi</p>
-            </div>
-            <div class="carousel-item">
-            <p>Deden Alif</p>
-              <p class="tulisan">Karna Lengkapnya Fasilitas Di Sekolah ini,Saya Menjadi Semangat Untuk Mengerjakan Tugas apapun.</p>
+            <p>Ahmad</p>
+              <p class="tulisan">Bersyukur bisa sekolah di SMK MAHAPUTRA. Tapi sangat menyedihkan karena harus
+                  bertemu zaman COVID-19. Terimakasih SMK MAHAPUTRA.Sukses selalu dan maju terus.
+                  SMK BISA SMK HEBAT
+              </p>
             </div>
           </div>
         </div>
-                    
+
               <br>
               <span class="fa fa-star rating"></span>
               <span class="fa fa-star rating"></span>
