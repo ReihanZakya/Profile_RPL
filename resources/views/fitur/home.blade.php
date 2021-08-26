@@ -23,8 +23,8 @@
       <div class="container mt-4">
           <h4 class="text-center mb-3"><strong>Visi Misi</strong></h4>
         <div class="row">
-          <div class="col-lg-12">
-            <div class="card">
+          <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
+            <div class="card" id="card-home">
               <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
                   <li class="nav-item">
@@ -38,13 +38,13 @@
               <div class="card-body">
                  <div class="tab-content mt-3">
                   <div class="tab-pane active" id="visi" role="tabpanel">
-                    <p class="card-text">Menjadi penyelenggara pendidikan kejuruan yang melahirkan tenaga ahli, terampil,
+                    <p class="card-text" style="font-family: Arial, Helvetica, sans-serif">Menjadi penyelenggara pendidikan kejuruan yang melahirkan tenaga ahli, terampil,
                         kreatif, inovatif dam berpengetahuan yang ramah lingkungan di tahun 2025. </p>
                   </div>
 
                   <div class="tab-pane" id="misi" role="tabpanel" aria-labelledby="history-tab">
                     <p class="card-text">
-                        <ol>
+                        <ol style="font-family: Arial, Helvetica, sans-serif">
                             <li>Menyelenggarakan pendidikan kejujuran.</li>
                             <li>Melahirkan tenaga ahli tingkat menegah.</li>
                             <li>Mewujudkan tenaga terampil, kreatif, inovatif dan berpengetahuan.</li>
