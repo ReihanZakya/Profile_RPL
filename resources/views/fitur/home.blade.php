@@ -20,46 +20,50 @@
             </p>
         </div>
       </div>
-      <div class="container mt-4">
-          <h4 class="text-center mb-3"><strong>Visi Misi</strong></h4>
-        <div class="row">
-          <div class="col-lg-12 shadow p-3 mb-5 bg-body rounded">
-            <div class="card" id="card-home">
-              <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
-                  <li class="nav-item">
-                  <button type="button" class="nav-link active visi text-dark">Visi</button>
-                  </li>
-                  <li class="nav-item">
-                <button type="button" class="nav-link misi text-dark">Misi</button>
-                  </li>
-                </ul>
-              </div>
-              <div class="card-body">
-                 <div class="tab-content mt-3">
-                  <div class="tab-pane active" id="visi" role="tabpanel">
-                    <p class="card-text" style="font-family: Arial, Helvetica, sans-serif">Menjadi penyelenggara pendidikan kejuruan yang melahirkan tenaga ahli, terampil,
-                        kreatif, inovatif dam berpengetahuan yang ramah lingkungan di tahun 2025. </p>
-                  </div>
 
-                  <div class="tab-pane" id="misi" role="tabpanel" aria-labelledby="history-tab">
-                    <p class="card-text">
-                        <ol style="font-family: Arial, Helvetica, sans-serif">
-                            <li>Menyelenggarakan pendidikan kejujuran.</li>
-                            <li>Melahirkan tenaga ahli tingkat menegah.</li>
-                            <li>Mewujudkan tenaga terampil, kreatif, inovatif dan berpengetahuan.</li>
-                            <li>Menyiapkan dan melengkapi sarana dan prasarana pendukung pembelajaran
-                                berbasis ICT dan berwawasan lingkungan.</li>
-                            <li>Menciptakan suasana lingkungan sekolah yang bersih, hijau, indah dan nyaman.</li>
-                            <li>Menerapkan perilaku berbudaya lingkungan kepada seluruh warga sekolah
-                                dan masyarakat sekitar.</li>
-                        </ol>
-                    </p>
-                  </div>
-                </div>
+      <div class="container mt-5">
+        <div class="row">
+            <h4><strong>Sejarah Singkat</strong></h4>
+        <span class="mb-3"><i class="fas fa-calendar-alt" style="margin-right: 10px;"></i>22 Agustus 2016</span>
+            <p class="sejarah" style="font-size: 14px;">SMKS Mahaputra Cerdas Utama merupakan sekolah menengah
+                keatas yang memiliki lokasi tanah dengan lebar 1,8 hektare
+                dari hak milik pribadi Prof. Dr Ir. H. Eddy Jusuf, Sp.,Msi.,M.kom.
+                Disinilah asal mula tanah sawah berubah menjadi kebun tanaman,
+                sebagian diatas tanah tersebut dibangun rumah villa, kemudian
+                2014 di letakkan batu pertama untuk gedung sekolah, pembangunan
+                selesai pada tahun 2015. Sekolah SMKS Mahaputra Cerdas Utama ini
+                dibuka pada tahun ajaran 2016/2017. Sekolah ini juga sudah mendapatkan
+                predikat atau gelar Adiwiyata se-provinsi Jawa Barat dan memiliki angkatan
+                pertama berjumlah 36 siswa, angkatan kedua dengan total 90 siswa, dan angkatan
+                ketiga berjumlah 95 siswa. Pada tahun ajaran 2021/2022 ini, SMKS Mahaputra Cerdas
+                Utama sudah memiliki 3 angkatan dengan jumlah keseluruhannya adalah 221 siswa.
+            </p>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+          <h4 class="mb-3"><strong>Visi Misi</strong></h4>
+        <div class="row">
+          <h6>Visi</h6>
+          <div class="card" style="width: 100%">
+              <div class="card-header">
+                <p class="sejarah" style="font-size: 14px;">
+                    "Menjadi penyelenggara pendidikan kejuruan yang
+                    melahirkan tenaga ahli, terampil, kreatif, inovatif dam
+                    berpengetahuan yang ramah lingkungan di tahun 2025".
+                  </p>
               </div>
-            </div>
           </div>
+
+          <h6 class="mt-3">Misi</h6>
+          <ol style="margin-left: 30px;" class="sejarah">
+              <li>Menyelenggarakan pendidikan kejujuran.</li>
+              <li>Melahirkan tenaga ahli tingkat menegah.</li>
+              <li>Mewujudkan tenaga terampil, kreatif, inovatif dan berpengetahuan.</li>
+              <li>Menyiapkan dan melengkapi sarana dan prasarana pendukung pembelajaran berbasis ICT dan berwawasan lingkungan.</li>
+              <li>Menciptakan suasana lingkungan sekolah yang bersih, hijau, indah dan nyaman.</li>
+              <li>Menerapkan perilaku berbudaya lingkungan kepada seluruh warga sekolah dan masyarakat sekitar.</li>
+          </ol>
         </div>
       </div>
 
