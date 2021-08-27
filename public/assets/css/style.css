@@ -1591,3 +1591,15 @@ p{
 .card-text {
   font-size: 16px;
 }
+
+ol li {
+    font-size: 14px;;
+}
+
+span {
+    font-size: 15px;
+}
+
+.sejarah {
+    font-family: Arial, Helvetica, sans-serif;
+}

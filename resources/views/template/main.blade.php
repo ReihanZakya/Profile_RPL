@@ -26,7 +26,7 @@
  <!-- DataTables -->
  <link rel="stylesheet" href="{{ asset('admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
  <link rel="stylesheet" href="{{ asset('admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
- <link rel="stylesheet" href="{{ asset('assets/vendor/fontawesome/css/all.css') }}">
+ <link rel="stylesheet" href="{{ asset('assets/vendor/fontawesome/css/all.min.css') }}">
   <!-- Template Main CSS File -->
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 
@@ -75,8 +75,7 @@
     <script src="{{ asset('admin/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 
   <script src="{{ asset('javascript/main.js') }}"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src="{{ asset('assets/vendor/fontawesome/css/all.min.js') }}"></script>
 </body>
 
 </html>
