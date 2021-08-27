@@ -1576,11 +1576,11 @@ p{
 .card{
   height: auto;
   width: 350px;
-  margin-right: 110px;
+  margin-right: 300px;
 }
 
 .card-body{
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 #card-home {
