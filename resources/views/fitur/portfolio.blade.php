@@ -93,19 +93,13 @@
             <div class="col sm-4">
                 <div class="row mt-4 ">
                     <div class="card-group">
-                        <div class="card mx-3">
+                        <div class="card mx-3 shadow ">
                             <img src="{{asset('assets/img/project/kelompok1.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 1 Ujikom</h5>
                             <p class="card-text">
-                                <ul>
-                                    <li>Sumiartini</li>
-                                    <li>Ahmad Suherman</li>
-                                    <li>Rendy</li>
-                                    <li>Susilawati Elsa</li>
-                                    <li>Dede Suminar</li>
-                                </ul>
+                               
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -115,18 +109,13 @@
                             </div>
                             </div>
                         </div>
-                        <div class="card mx-3">
+                        <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/kelompok2.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 2 Ujikom</h5>
                             <p class="card-text">
-                                <ul>
-                                    <li>Santi Sintia</li>
-                                    <li>Candra</li>
-                                    <li>Taufik Pathurrohman</li>
-                                    <li>Nadira Nurul Dwijaya</li>
-                                </ul>
+                               
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -136,16 +125,13 @@
                             </div>
                             </div>
                         </div>
-                        <div class="card mx-3">
+                        <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/ujikom3.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 3 Ujikom</h5>
                               <p class="card-text">
-                                <ul>
-                                    <li>Rayhan Salman</li>
-                                    <li>Hania Fitriani</li>
-                                </ul>
+                               
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -162,16 +148,13 @@
             <div class="col sm-4">
                 <div class="row mt-4">
                     <div class="card-group">
-                        <div class="card mx-3">
+                        <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/ujikom7.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 4 Ujikom</h5>
                               <p class="card-text">
-                                  <ul>
-                                      <li>Tazkiah Alika</li>
-                                      <li>Rismawati</li>
-                                  </ul>
+                                 
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -182,18 +165,13 @@
                             </div>
                           </div>
 
-                          <div class="card mx-3">
+                          <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/ujikom5.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 5 Ujikom</h5>
                               <p class="card-text">
-                                  <ul>
-                                      <li>Sinta Bela</li>
-                                      <li>Desmarita</li>
-                                      <li>Windi Yulyani</li>
-                                      <li>Iis Widiya</li>
-                                  </ul>
+                               
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -204,16 +182,13 @@
                             </div>
                           </div>
 
-                          <div class="card mx-3">
+                          <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/ujikom6.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 6 Ujikom</h5>
                               <p class="card-text">
-                                  <ul>
-                                      <li>Dian Citra</li>
-                                      <li>Eka Wariah</li>
-                                  </ul>
+                                 
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -223,23 +198,23 @@
                               </div>
                             </div>
 
-                    </div>
+                          </div>
+
+                          
                 </div>
             </div>
 
+            <div class="col sm-4">
             <div class="row mt-4">
-                <div class="col sm-4">
-                        <div class="card mx-3">
+            <!-- <div class="card-group"> -->
+
+                        <div class="card mx-3 shadow">
                             <img src="{{asset('assets/img/project/ujikom4.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">KELOMPOK 7 Ujikom</h5>
                               <p class="card-text">
-                                  <ul>
-                                      <li>Yuliawati</li>
-                                      <li>Arif Rifaldi</li>
-                                      <li>Farid</li>
-                                  </ul>
+                               
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
@@ -247,11 +222,12 @@
                                     <a href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                 </div>
                               </div>
+                            </div>
+                          </div>
+
+                <!-- </div> -->
                 </div>
-            </div>
-
         </div>
-
     </main>
 
     {{-- PKL PORTOFOLIO --}}
