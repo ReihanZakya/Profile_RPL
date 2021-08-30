@@ -138,21 +138,6 @@ $('body').on('click','.pdkkxii',function(){
     $('#basdatxii').collapse('hide');
 });
 
-//Visi Misi
-$('body').on('click','.visi',function(){
-    $('#visi').show();
-    $('.visi').addClass('nav-link active');
-    $('.misi').removeClass('active');
-    $('#misi').hide();
-});
-
-$('body').on('click','.misi',function(){
-    $('#misi').show();
-    $('.misi').addClass('nav-link active');
-    $('.visi').removeClass('active');
-    $('#visi').hide();
-});
-
 //DataTables
 $(document).ready(function(){
     $('.pd').DataTable({

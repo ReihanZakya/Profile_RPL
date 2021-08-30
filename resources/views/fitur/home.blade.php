@@ -21,34 +21,33 @@
                         </p>
                     </div>
                 </div>
-                <section id="sejarah" class="sejarah">
-                    <div class="container mt-5">
-                        <div class="row">
-                            <h4><strong>Sejarah Singkat</strong></h4>
-                            <p style="text-align: right">
-                                <span class="mb-3"> Tanggal Didirikan : <i class="fas fa-calendar-alt"
-                                        style="margin-right: 10px;"></i>22 Agustus 2016</span>
-                            </p>
-                            <p class="sejarah" style="font-size: 14px;">SMKS Mahaputra Cerdas Utama merupakan sekolah
-                                menengah
-                                keatas yang memiliki lokasi tanah dengan lebar 1,8 hektare
-                                dari hak milik pribadi Prof. Dr Ir. H. Eddy Jusuf, Sp.,Msi.,M.kom.
-                                Disinilah asal mula tanah sawah berubah menjadi kebun tanaman,
-                                sebagian diatas tanah tersebut dibangun rumah villa, kemudian
-                                2014 di letakkan batu pertama untuk gedung sekolah, pembangunan
-                                selesai pada tahun 2015. Sekolah SMKS Mahaputra Cerdas Utama ini
-                                dibuka pada tahun ajaran 2016/2017. Sekolah ini juga sudah mendapatkan
-                                predikat atau gelar Adiwiyata se-provinsi Jawa Barat dan memiliki angkatan
-                                pertama berjumlah 36 siswa, angkatan kedua dengan total 90 siswa, dan angkatan
-                                ketiga berjumlah 95 siswa. Pada tahun ajaran 2021/2022 ini, SMKS Mahaputra Cerdas
-                                Utama sudah memiliki 3 angkatan dengan jumlah keseluruhannya adalah 221 siswa.
-                            </p>
-                        </div>
+
+                <div class="container mt-5">
+                    <div class="row">
+                        <h4><strong>Sejarah Singkat</strong></h4>
+                        <p style="text-align: right">
+                            <span class="mb-3"> Tanggal Didirikan : <i class="fas fa-calendar-alt"
+                                    style="margin-right: 10px;"></i>22 Agustus 2016</span>
+                        </p>
+                        <p class="sejarah" style="font-size: 14px;">SMKS Mahaputra Cerdas Utama merupakan sekolah
+                            menengah
+                            keatas yang memiliki lokasi tanah dengan lebar 1,8 hektare
+                            dari hak milik pribadi Prof. Dr Ir. H. Eddy Jusuf, Sp.,Msi.,M.kom.
+                            Disinilah asal mula tanah sawah berubah menjadi kebun tanaman,
+                            sebagian diatas tanah tersebut dibangun rumah villa, kemudian
+                            2014 di letakkan batu pertama untuk gedung sekolah, pembangunan
+                            selesai pada tahun 2015. Sekolah SMKS Mahaputra Cerdas Utama ini
+                            dibuka pada tahun ajaran 2016/2017. Sekolah ini juga sudah mendapatkan
+                            predikat atau gelar Adiwiyata se-provinsi Jawa Barat dan memiliki angkatan
+                            pertama berjumlah 36 siswa, angkatan kedua dengan total 90 siswa, dan angkatan
+                            ketiga berjumlah 95 siswa. Pada tahun ajaran 2021/2022 ini, SMKS Mahaputra Cerdas
+                            Utama sudah memiliki 3 angkatan dengan jumlah keseluruhannya adalah 221 siswa.
+                        </p>
                     </div>
-                </section>
+                </div>
 
 
-                <div class="container mt-4">
+                <div class="container mt-5">
                     <h4 class="mb-3"><strong>Visi Misi</strong></h4>
                     <div class="row">
                         <h6>Visi</h6>
