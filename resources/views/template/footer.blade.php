@@ -89,6 +89,11 @@
               <p class="tulisan">Dengan belajar di smk mahaputra terutama jurusan RPL menjadi bekal pada era digital 4.0 seperti saat ini, yang mana banyak menggunakan teknologi, kita jadi terbiasa dengan perkembangan teknologi yg ada kedepannya.
               </p>
               </div>
+              <div class="carousel-item">
+              <p>Dede Suminar</p>
+              <p class="tulisan">Saya merasa sangat bersyukur bisa bersekolah di SMK Mahaputra karena di SMK Mahaputra pembelajaran nya sangat baik, apa lagi SMK Mahaputra sangat menjunjung tinggi nilai keagamaan dan kedisplinanya. Saya juga merasa sangat senang bisa masuk ke jurusan Rekayasa Perangkat Lunak yang sudah pasti pelajaran nya asik dan menarik banget...
+              </p>
+              </div>
           </div>
         </div>
 

@@ -97,8 +97,15 @@
                             <img src="{{asset('assets/img/project/kelompok1.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
-                                <h5 class="card-text text-info">Penerimaan PEserta Didik Baru</h5>
+                                <h5 class="card-text text-info">Penerimaan Peserta Didik Baru</h5>
                             <p class="card-text">
+                            <lu>
+                              <li>Rendy Josua Hutagaol</li>
+                              <li>Ahmad Suherman</li>
+                              <li>Dede Suminar</li>
+                              <li>Elsa Susilawati</li>
+                              <li>Sumiartini Sri Rahayu</li>
+                            </lu> 
                                
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -115,6 +122,13 @@
                             <div class="card-body">
                                 <h5 class="card-text text-info">Inventaris Asset SMK Mahaputra</h5>
                             <p class="card-text">
+                            <lu>
+                              <li>Taupik P</li>
+                              <li>Santi Sintia Wati</li>
+                              <li>Candra</li>
+                              <li>Nadira Nurul D</li>
+                              <li>Rinaldi Anugrah P</li>
+                            </lu> 
                                
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -131,6 +145,13 @@
                             <div class="card-body">
                                 <h5 class="card-text text-info">Pembuatan Jadwal SMK Mahaputra</h5>
                               <p class="card-text">
+                              <lu>
+                              <li>Raihan Salman F</li>
+                              <li>Syahlaa Taufiqiah</li>
+                              <li>Hania Fitriani</li>
+                              <li>Clarisa Adi Nanda</li>
+                              <li>Bayu Setiawan</li>
+                            </lu> 
                                
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
@@ -154,6 +175,13 @@
                             <div class="card-body">
                                 <h5 class="card-text text-info">Pemilihan Anggota Baru Ekstakulikuler SMK Mahaputra</h5>
                               <p class="card-text">
+                              <lu>
+                              <li>Elsa Lusiani</li>
+                              <li>Rizqi Muhammad</li>
+                              <li>Rismawati</li>
+                              <li>Alika Tazkiah</li>
+                              <li>Asyiah Nurjannah</li>
+                            </lu> 
                                  
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
@@ -166,16 +194,23 @@
                           </div>
 
                           <div class="card mx-3 shadow">
-                            <img src="{{asset('assets/img/project/kelompok6.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                            <img src="{{asset('assets/img/project/ujikomm7.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">Sistem Pelanggaran</h5>
                               <p class="card-text">
+                              <lu>
+                              <li>Windi Yulianti</li>
+                              <li>Sinta Bella</li>
+                              <li>Malay Cahya</li>
+                              <li>Desma Fitriani</li>
+                              <li>Iis Widia</li>
+                            </lu> 
                                
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
-                                    <a href="{{asset('assets/img/project/kelompok6.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('assets/img/project/ujikomm7.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
                                     <a href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                 </div>
                               </div>
@@ -183,16 +218,22 @@
                           </div>
 
                           <div class="card mx-3 shadow">
-                            <img src="{{asset('assets/img/project/ujikom6.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                            <img src="{{asset('assets/img/project/ujikomm6.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">Perpustakaan Web</h5>
                               <p class="card-text">
-                                 
+                              <lu>
+                              <li>Evi Novianti</li>
+                              <li>Dian Citra A</li>
+                              <li>Eka Wariah</li>
+                              <li>Serli</li>
+                              <li>Lutfina Sabrina</li>
+                            </lu> 
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
-                                    <a href="{{asset('assets/img/project/ujikom6.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('assets/img/project/ujikomm6.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
                                     <a href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                 </div>
                               </div>
@@ -209,16 +250,23 @@
             <!-- <div class="card-group"> -->
 
                         <div class="card mx-3 shadow">
-                            <img src="{{asset('assets/img/project/kelompok51.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
+                            <img src="{{asset('assets/img/project/ujikommm.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                             <div class="card-body">
                                 <h5 class="card-text text-info">Tabungan Walikelas</h5>
                               <p class="card-text">
-                               
+                              <lu>
+                              <li>Yulianti N</li>
+                              <li>Arif Rifaldi</li>
+                              <li>Farid Adam F</li>
+                              <li>Amelia Putri</li>
+                              <li>Miftah Ramdhani</li>
+                              <li>Cristian Adiputra</li>
+                            </lu> 
                               </p>
                               <div class="d-flex justify-content-between align-items-center">
                                 <div class="portfolio-links">
-                                    <a href="{{asset('assets/img/project/kelompok51.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="{{asset('assets/img/project/ujikommm.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
                                     <a href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7" class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                 </div>
                               </div>
@@ -252,10 +300,16 @@
             <div class="card">
                 <img src="{{asset('assets/img/project/Kelompok5.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
-              <div class="card-body">
+              <div class="card-body" style="margin-bottom: 45px;">
                   <h5 class="card-text text-info">Sistem Pengadaan dan peminjaman buku</h5>
                 <p class="card-text">
-
+                <lu>
+                   <li>Candra</li>
+                   <li>Windi</li>
+                   <li>Eka</li>
+                   <li>Ahmad Saepudin</li>
+                 </lu> 
+                             
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="portfolio-links">
@@ -274,6 +328,13 @@
               <div class="card-body" style="margin-bottom: 20px;">
                   <h5 class="card-text text-info">Inventory barang SMK MAHAPUTRA</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Dede</li>
+                   <li>Arif</li>
+                   <li>Amel</li>
+                   <li>Sinta</li>
+                   <li>Sigit</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -293,6 +354,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Aplikasi Voting berbasis web menggunakan bahasa php</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Taupik</li>
+                   <li>Putri</li>
+                   <li>Serli</li>
+                   <li>Astri</li>
+                   <li>Rangga</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -312,6 +380,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Aplikasi sistem buku pelanggaran siswa berbasi web</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Santi</li>
+                   <li>Malay</li>
+                   <li>Ahmad Suherman</li>
+                   <li>Evi</li>
+                   <li>Rudi</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -332,6 +407,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Hania</li>
+                   <li>Cristian</li>
+                   <li>Rendy</li>
+                   <li>Desma</li>
+                   <li>Robi</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -348,9 +430,16 @@
             <div class="card shadow-sm">
               <img src="{{asset('assets/img/project/kelompok1.PNG')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
-              <div class="card-body">
+              <div class="card-body" style="margin-bottom: 18px;">
                   <h5 class="card-text text-info">Penerimaan dan pendaftaran siswa baru</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Yulia</li>
+                   <li>Alika</li>
+                   <li>Iis</li>
+                   <li>Luthfina</li>
+                   <li>Rika</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -368,9 +457,15 @@
             <div class="card shadow-sm">
               <img src="{{asset('assets/img/project/kelompok21.PNG')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
-              <div class="card-body">
+              <div class="card-body" style="margin-bottom: 20px;">
                   <h5 class="card-text text-info">Pembuatan Aplikasi Forum Mahaputra</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Clarisa</li>
+                   <li>Azizah</li>
+                   <li>Bimantara</li>
+                   <li>Farid</li>
+                </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -390,6 +485,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Tabungan Wali Kelas</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Nadira</li>
+                   <li>Elsa Lusi</li>
+                   <li>Bayu</li>
+                   <li>Dian</li>
+                   <li>Miftah</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -409,6 +511,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Sistem Absensi Siswa Berbasis Web</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Sumi</li>
+                   <li>Eneng</li>
+                   <li>Rinaldi</li>
+                   <li>Aulia</li>
+                   <li>Tegar</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -428,6 +537,13 @@
               <div class="card-body" style="margin-bottom: 20px;">
                   <h5 class="card-text text-info">Pendaftaran Ekstrakurikuler</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Syahlaa</li>
+                   <li>Raihan</li>
+                   <li>Rizki M</li>
+                   <li>Asyiah</li>
+                   <li>Rizki P A</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -447,6 +563,13 @@
               <div class="card-body">
                   <h5 class="card-text text-info">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA</h5>
                 <p class="card-text">
+                <lu>
+                   <li>Rismawati</li>
+                   <li>Elsa S</li>
+                   <li>Bowie</li>
+                   <li>Indra</li>
+                   <li>Al Fajri</li>
+                 </lu> 
 
                 </p>
                 <div class="d-flex justify-content-between align-items-center">

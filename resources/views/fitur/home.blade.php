@@ -24,7 +24,8 @@
       <div class="container mt-5">
         <div class="row">
             <h4><strong>Sejarah Singkat</strong></h4>
-        <span class="mb-3"><i class="fas fa-calendar-alt" style="margin-right: 10px;"></i>22 Agustus 2016</span>
+        <span class="mb-3"><i class="fas fa-calendar-alt" style="margin-right: 10px; "></i staticylt="width: 10px;">22 Agustus 2016</spa>
+
             <p class="sejarah" style="font-size: 14px;">SMKS Mahaputra Cerdas Utama merupakan sekolah menengah
                 keatas yang memiliki lokasi tanah dengan lebar 1,8 hektare
                 dari hak milik pribadi Prof. Dr Ir. H. Eddy Jusuf, Sp.,Msi.,M.kom.
