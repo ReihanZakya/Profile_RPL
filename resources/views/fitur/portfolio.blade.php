@@ -18,8 +18,7 @@
 
 
         <!-- Bootstrap core CSS -->
-        <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -58,8 +57,8 @@
                 <div class="container">
                     <a href="#" class="navbar-brand d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-                            viewBox="0 0 24 24">
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"
+                            class="me-2" viewBox="0 0 24 24">
                             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
                             <circle cx="12" cy="13" r="4" />
                         </svg>
@@ -135,9 +134,9 @@
                             </div>
                             <div class="card mx-3 shadow">
                                 <img src="{{ asset('assets/img/project/kelompok2.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
+                                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                    focusable="false">
 
                                 <div class="card-body">
                                     <h5 class="card-text text-info">Inventaris Asset SMK Mahaputra</h5>
@@ -356,40 +355,8 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
                         <div class="col">
-                            <div class="card">
-                                <img src="{{ asset('assets/img/project/Kelompok5.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body" style="margin-bottom: 45px;">
-                                    <h5 class="card-text text-info">Sistem Pengadaan dan peminjaman buku</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Candra</li>
-                                        <li>Windi</li>
-                                        <li>Eka</li>
-                                        <li>Ahmad Saepudin</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok5.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/haniafirianti/2020-RPL-Kelompok-5"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok4.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -408,7 +375,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok4.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -422,40 +389,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok3.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text text-info">Aplikasi Voting berbasis web menggunakan bahasa php</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Taupik</li>
-                                        <li>Putri</li>
-                                        <li>Serli</li>
-                                        <li>Astri</li>
-                                        <li>Rangga</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok3.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/gararetek44/2020-RPL-kelompok-3.git"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok6.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -474,7 +408,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok6.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -489,7 +423,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok2.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -508,7 +442,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok2.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -522,7 +456,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok1.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -541,7 +475,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok1.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -556,7 +490,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok21.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -574,7 +508,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok21.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -588,7 +522,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok51.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -607,7 +541,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok51.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -621,7 +555,7 @@
 
                         <div class="col-sm 3">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok31.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -640,7 +574,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok31.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -654,7 +588,7 @@
 
                         <div class="col-sm 3">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok11.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -673,7 +607,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok11.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -687,7 +621,7 @@
 
                         <div class="col-sm 3">
                             <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/project/kelompok41.PNG') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -706,7 +640,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok41.PNG') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -719,11 +653,6 @@
                         </div>
 
         </main>
-
-        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-        </script>
-
 
     </body>
 
