@@ -357,15 +357,15 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
+                                <div class="card-body" style="margin-bottom: 15px;">
                                     <h5 class="card-text text-info">Inventory barang SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Dede</li>
-                                        <li>Arif</li>
-                                        <li>Amel</li>
-                                        <li>Sinta</li>
-                                        <li>Sigit</li>
+                                        <li>Santi</li>
+                                        <li>Malay</li>
+                                        <li>Ahmad Suherman</li>
+                                        <li>Evi</li>
+                                        <li>Rudi</li>
                                     </ul>
 
                                     </p>
@@ -394,11 +394,11 @@
                                     <h5 class="card-text text-info">Aplikasi sistem buku pelanggaran siswa berbasi web</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Santi</li>
-                                        <li>Malay</li>
-                                        <li>Ahmad Suherman</li>
-                                        <li>Evi</li>
-                                        <li>Rudi</li>
+                                        <li>Yulia</li>
+                                        <li>Alika</li>
+                                        <li>Iis</li>
+                                        <li>Luthfina</li>
+                                        <li>Rika</li>
                                     </ul>
 
                                     </p>
@@ -428,11 +428,11 @@
                                     <h5 class="card-text text-info">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Hania</li>
-                                        <li>Cristian</li>
-                                        <li>Rendy</li>
-                                        <li>Desma</li>
-                                        <li>Robi</li>
+                                        <li>Dede</li>
+                                        <li>Arif</li>
+                                        <li>Amel</li>
+                                        <li>Sinta</li>
+                                        <li>Sigit</li>
                                     </ul>
 
                                     </p>
@@ -461,11 +461,10 @@
                                     <h5 class="card-text text-info">Penerimaan dan pendaftaran siswa baru</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Yulia</li>
-                                        <li>Alika</li>
-                                        <li>Iis</li>
-                                        <li>Luthfina</li>
-                                        <li>Rika</li>
+                                        <li>Clarisa</li>
+                                        <li>Azizah</li>
+                                        <li>Bimantara</li>
+                                        <li>Farid</li>
                                     </ul>
 
                                     </p>
@@ -491,14 +490,15 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 60px;">
+                                <div class="card-body" style="margin-bottom: 10px;">
                                     <h5 class="card-text text-info">Pembuatan Aplikasi Forum Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Clarisa</li>
-                                        <li>Azizah</li>
-                                        <li>Bimantara</li>
-                                        <li>Farid</li>
+                                        <li>Nadira</li>
+                                        <li>Elsa Lusi</li>
+                                        <li>Bayu</li>
+                                        <li>Dian</li>
+                                        <li>Miftah</li>
                                     </ul>
 
                                     </p>
@@ -523,15 +523,15 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 35px;">
+                                <div class="card-body" style="margin-bottom: 15px;">
                                     <h5 class="card-text text-info">Tabungan Wali Kelas</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Nadira</li>
-                                        <li>Elsa Lusi</li>
-                                        <li>Bayu</li>
-                                        <li>Dian</li>
-                                        <li>Miftah</li>
+                                        <li>Rismawati</li>
+                                        <li>Elsa S</li>
+                                        <li>Bowie</li>
+                                        <li>Indra</li>
+                                        <li>Al Fajri</li>
                                     </ul>
 
                                     </p>
@@ -589,15 +589,14 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 20px;">
+                                <div class="card-body" style="margin-bottom: 40px;">
                                     <h5 class="card-text text-info">Pendaftaran Ekstrakurikuler</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Syahlaa</li>
-                                        <li>Raihan</li>
-                                        <li>Rizki M</li>
-                                        <li>Asyiah</li>
-                                        <li>Rizki P A</li>
+                                        <li>Candra</li>
+                                        <li>Windi</li>
+                                        <li>Eka</li>
+                                        <li>Ahmad Saepudin</li>
                                     </ul>
 
                                     </p>
@@ -626,11 +625,11 @@
                                     <h5 class="card-text text-info">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
-                                        <li>Rismawati</li>
-                                        <li>Elsa S</li>
-                                        <li>Bowie</li>
-                                        <li>Indra</li>
-                                        <li>Al Fajri</li>
+                                        <li>Syahlaa</li>
+                                        <li>Raihan</li>
+                                        <li>Rizki M</li>
+                                        <li>Aisyah</li>
+                                        <li>Rizki P A</li>
                                     </ul>
 
                                     </p>
@@ -641,6 +640,72 @@
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
                                             <a href="https://github.com/kelompok4xiirpl2/2020-RPL-Kelompok-4"
+                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm 3">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}" alt=""
+                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="card-body">
+                                    <h5 class="card-text text-info">Aplikasi Voting Berbasis Web Wenggunakan Bahasa PHP
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Taupik</li>
+                                        <li>Putri</li>
+                                        <li>Serli</li>
+                                        <li>Astri</li>
+                                        <li>Rangga</li>
+                                    </ul>
+
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="portfolio-links">
+                                            <a href="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}"
+                                                data-gallery="portfolioGallery"
+                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a href="https://github.com/taupik3007/2020-RPL-kelompok-3"
+                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm 3">
+                            <div class="card shadow-sm">
+                                <img src="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}" alt=""
+                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="card-body" style="margin-bottom: 20px;">
+                                    <h5 class="card-text text-info">Sistem Pengadaan dan Peminjaman
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Hania</li>
+                                        <li>Christian</li>
+                                        <li>Rendy</li>
+                                        <li>Desma</li>
+                                        <li>Robi</li>
+                                    </ul>
+
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="portfolio-links">
+                                            <a href="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}"
+                                                data-gallery="portfolioGallery"
+                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a href="https://github.com/haniafirianti/2020-RPL-Kelompok-5"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
