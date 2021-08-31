@@ -16,10 +16,6 @@
         <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
 
-
-        <!-- Bootstrap core CSS -->
-
-
         <!-- Favicons -->
         <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
         <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -103,7 +99,7 @@
                     <div class="row mt-4 ">
                         <div class="card-group">
                             <div class="card mx-3 shadow ">
-                                <img src="{{ asset('assets/img/project/kelompok1.jpeg') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -122,7 +118,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok1.jpeg') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -133,7 +129,7 @@
                                 </div>
                             </div>
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/kelompok2.png') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
                                     aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
                                     focusable="false">
@@ -152,7 +148,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok2.png') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -163,7 +159,7 @@
                                 </div>
                             </div>
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/ujikom3.jpeg') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -182,7 +178,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/ujikom3.jpeg') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -200,7 +196,7 @@
                     <div class="row mt-4">
                         <div class="card-group">
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/ujikom.jpeg') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -219,7 +215,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/ujikom.jpeg') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -231,7 +227,7 @@
                             </div>
 
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/ujikomm7.png') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -250,7 +246,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/ujikomm7.png') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -262,7 +258,7 @@
                             </div>
 
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/ujikomm6.png') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -280,7 +276,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/ujikomm6.png') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -301,7 +297,7 @@
                             <!-- <div class="card-group"> -->
 
                             <div class="card mx-3 shadow">
-                                <img src="{{ asset('assets/img/project/ujikommm.png') }}" alt=""
+                                <img src="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -320,7 +316,7 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/ujikommm.png') }}"
+                                            <a href="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
@@ -361,7 +357,7 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 20px;">
+                                <div class="card-body">
                                     <h5 class="card-text text-info">Inventory barang SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
@@ -495,7 +491,7 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 20px;">
+                                <div class="card-body" style="margin-bottom: 60px;">
                                     <h5 class="card-text text-info">Pembuatan Aplikasi Forum Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
@@ -527,7 +523,7 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
+                                <div class="card-body" style="margin-bottom: 35px;">
                                     <h5 class="card-text text-info">Tabungan Wali Kelas</h5>
                                     <p class="card-text">
                                     <ul>
@@ -560,7 +556,7 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
+                                <div class="card-body" style="margin-bottom: 20px;">
                                     <h5 class="card-text text-info">Sistem Absensi Siswa Berbasis Web</h5>
                                     <p class="card-text">
                                     <ul>
