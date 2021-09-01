@@ -327,6 +327,39 @@
                                 </div>
                             </div>
 
+
+
+
+                            <div class="card mx-3 shadow">
+                                <img src="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}" alt=""
+                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                                <div class="card-body">
+                                    <h5 class="card-text text-info">Pemilihan Osis</h5>
+                                    <p class="card-text">
+                                    <ul>
+                                        <li>Bimantara P</li>
+                                        <li>Astri Nurrohmah</li>
+                                        <li>Putri Nabila</li>
+                                        <li>Aulia Rahma N</li>
+                                        <li>Eneng Jayanti</li>
+                                        <li>Roby Nugraha</li>
+                                    </ul>
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="portfolio-links">
+                                            <a href="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}"
+                                                data-gallery="portfolioGallery"
+                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                    class="bi bi-zoom-in"></i></a>
+                                            <a href="https://github.com/astrinur09/2020_XII_RPL_KELOMPOK_8"
+                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- </div> -->
                         </div>
                     </div>
