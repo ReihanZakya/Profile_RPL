@@ -61,6 +61,23 @@
                             </div>
                         </div>
 
+                        <div class="form-group row {{ $errors->has('level') ? 'has-error' : null}}">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Level') }}</label>
+
+                            <div class="col-md-6">
+                                <select name="level" id="" class="form-control">
+                                    <option value="" hidden selected>Pilih Level</option>
+                                    <option value="admin">admin</option>
+                                    <option value="guru">guru</option>
+                                </select>
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
@@ -68,6 +85,7 @@
                                 </button>
                             </div>
                         </div>
+
                     </form>
                 </div>
             </div>

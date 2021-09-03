@@ -21,4 +21,7 @@ Route::get('RPL/peluang_kerja','PeluangKerjaController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+// admin
+Route::get('dashboard','DashboardController@index')->name('home');
