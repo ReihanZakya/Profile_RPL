@@ -13,7 +13,7 @@
       <div class="row justify-content-center">
 
       <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
                   <img src="{{ asset('assets/img/team/pa rey.jpg') }}" class="img-fluid" alt="">
                 </div>
@@ -29,7 +29,7 @@
             </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa dede.jpg') }}" class="img-fluid" alt="">
              </div>
@@ -45,7 +45,7 @@
     </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa hannif.jpg') }}" class="img-fluid" alt="">
             </div>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa munir.jpg') }}" class="img-fluid" alt="">
             </div>
