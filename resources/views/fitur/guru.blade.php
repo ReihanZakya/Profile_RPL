@@ -18,7 +18,7 @@
                   <img src="{{ asset('assets/img/team/pa rey.jpg') }}" class="img-fluid" alt="">
                 </div>
                 <div class="member-info">
-                  <h4>Raynaldi Syahputra Nonci, S.Pd</h4>
+                  <h4 style="font-size: 15px;">Raynaldi Syahputra Nonci, S.Pd</h4>
                   <span class="mb-4">Kepala Prodi</span>
                 </div>
                 <center>
@@ -34,7 +34,7 @@
               <img src="{{ asset('assets/img/team/pa dede.jpg') }}" class="img-fluid" alt="">
              </div>
             <div class="member-info">
-              <h4>Dede Suryana, A.md</h4>
+              <h4 style="font-size: 15px;">Dede Suryana, A.md</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
              <center>
@@ -50,7 +50,7 @@
               <img src="{{ asset('assets/img/team/pa hannif.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="member-info">
-              <h4>Hannif Kurniawan Muttaqin, S.T, M.T</h4>
+              <h4 style="font-size: 15px;">Hannif Kurniawan Muttaqin, S.T, M.T</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
              <center>
@@ -66,7 +66,7 @@
               <img src="{{ asset('assets/img/team/pa munir.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="member-info">
-              <h4>Mujahid Munir Muttaqin, S.T</h4>
+              <h4 style="font-size: 15px;">Mujahid Munir Muttaqin, S.T</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
             <center>
@@ -82,7 +82,7 @@
               <img src="{{ asset('assets/img/team/bu syifa.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="member-info">
-              <h4>Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
+              <h4 style="font-size: 15px;">Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
               <span class="mb-5">Guru RPL</span>
             </div>
             <center>
