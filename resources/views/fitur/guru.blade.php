@@ -13,7 +13,7 @@
       <div class="row justify-content-center">
 
       <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-              <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
                   <img src="{{ asset('assets/img/team/pa rey.jpg') }}" class="img-fluid" alt="">
                 </div>
@@ -29,7 +29,7 @@
             </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa dede.jpg') }}" class="img-fluid" alt="">
              </div>
@@ -45,13 +45,13 @@
     </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa hannif.jpg') }}" class="img-fluid" alt="">
             </div>
             <div class="member-info">
               <h4>Hannif Kurniawan Muttaqin, S.T, M.T</h4>
-              <span class="mb-2">Guru RPL</span>
+              <span class="mb-5">Guru RPL</span>
             </div>
              <center>
                 <button class="btn btn-danger btn-sm btn-pa-hannif">Mata Pelajaran</button>
@@ -61,7 +61,7 @@
         </div>
 
         <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
-          <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
               <img src="{{ asset('assets/img/team/pa munir.jpg') }}" class="img-fluid" alt="">
             </div>
@@ -83,7 +83,7 @@
             </div>
             <div class="member-info">
               <h4>Shyffa Ilmalia Noer Fadillah, S.Kom</h4>
-              <span class="mb-4">Guru RPL</span>
+              <span class="mb-5">Guru RPL</span>
             </div>
             <center>
                 <button class="btn btn-danger btn-sm btn-bu-syifa">Mata Pelajaran</button>
