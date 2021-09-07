@@ -105,7 +105,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Penerimaan Peserta Didik Baru</h5>
+                                    <h5 class="card-text  warna">Penerimaan Peserta Didik Baru</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Rendy Josua Hutagaol</li>
@@ -135,7 +135,7 @@
                                     focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Inventaris Asset SMK Mahaputra</h5>
+                                    <h5 class="card-text warna">Inventaris Asset SMK Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Taupik P</li>
@@ -165,7 +165,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Pembuatan Jadwal SMK Mahaputra</h5>
+                                    <h5 class="card-text warna">Pembuatan Jadwal SMK Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Raihan Salman F</li>
@@ -202,7 +202,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Pemilihan Anggota Baru Ekstakulikuler SMK Mahaputra</h5>
+                                    <h5 class="card-text warna">Pemilihan Anggota Baru Ekstakulikuler SMK Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Elsa Lusiani</li>
@@ -233,7 +233,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Sistem Pelanggaran</h5>
+                                    <h5 class="card-text warna">Sistem Pelanggaran</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Windi Yulianti</li>
@@ -264,7 +264,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Perpustakaan Web</h5>
+                                    <h5 class="card-text warna">Perpustakaan Web</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Evi Novianti</li>
@@ -303,7 +303,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Tabungan Walikelas</h5>
+                                    <h5 class="card-text warna">Tabungan Walikelas</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Yulianti N</li>
@@ -337,7 +337,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Pemilihan Osis</h5>
+                                    <h5 class="card-text warna">Pemilihan Osis</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Bimantara P</li>
@@ -391,7 +391,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 15px;">
-                                    <h5 class="card-text text-info">Inventory barang SMK MAHAPUTRA</h5>
+                                    <h5 class="card-text warna">Inventory barang SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Santi</li>
@@ -424,7 +424,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Aplikasi sistem buku pelanggaran siswa berbasi web</h5>
+                                    <h5 class="card-text warna">Aplikasi sistem buku pelanggaran siswa berbasi web</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Yulia</li>
@@ -458,7 +458,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
+                                    <h5 class="card-text warna">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Dede</li>
@@ -491,7 +491,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 18px;">
-                                    <h5 class="card-text text-info">Penerimaan dan pendaftaran siswa baru</h5>
+                                    <h5 class="card-text warna">Penerimaan dan pendaftaran siswa baru</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Clarisa</li>
@@ -524,7 +524,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 10px;">
-                                    <h5 class="card-text text-info">Pembuatan Aplikasi Forum Mahaputra</h5>
+                                    <h5 class="card-text warna">Pembuatan Aplikasi Forum Mahaputra</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Nadira</li>
@@ -557,7 +557,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 15px;">
-                                    <h5 class="card-text text-info">Tabungan Wali Kelas</h5>
+                                    <h5 class="card-text warna">Tabungan Wali Kelas</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Rismawati</li>
@@ -590,7 +590,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 20px;">
-                                    <h5 class="card-text text-info">Sistem Absensi Siswa Berbasis Web</h5>
+                                    <h5 class="card-text warna">Sistem Absensi Siswa Berbasis Web</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Sumi</li>
@@ -623,7 +623,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 40px;">
-                                    <h5 class="card-text text-info">Pendaftaran Ekstrakurikuler</h5>
+                                    <h5 class="card-text warna">Pendaftaran Ekstrakurikuler</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Candra</li>
@@ -655,7 +655,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA</h5>
+                                    <h5 class="card-text warna">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Syahlaa</li>
@@ -687,7 +687,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Aplikasi Voting Berbasis Web Wenggunakan Bahasa PHP
+                                    <h5 class="card-text warna">Aplikasi Voting Berbasis Web Wenggunakan Bahasa PHP
                                     </h5>
                                     <p class="card-text">
                                     <ul>
@@ -720,7 +720,7 @@
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body" style="margin-bottom: 20px;">
-                                    <h5 class="card-text text-info">Sistem Pengadaan dan Peminjaman
+                                    <h5 class="card-text warna">Sistem Pengadaan dan Peminjaman
                                     </h5>
                                     <p class="card-text">
                                     <ul>
