@@ -24,12 +24,14 @@
 
                 <div class="container mt-5">
                     <div class="row">
-                        <h1><strong>Sejarah Singkat</strong></h1>
+                    
+                    <div class="col-6" data-aos="fade-left" data-aos-delay="100">   
+                    <h4><strong>Sejarah Singkat</strong></h4>
                         <p style="text-align: right">
                             <span class="mb-3"> Tanggal Didirikan : <i class="fas fa-calendar-alt"
                                     style="margin-right: 10px;"></i>22 Agustus 2016</span>
                         </p>
-                        <h5 class="sejarah">SMKS Mahaputra Cerdas Utama merupakan sekolah
+                        <h5 class="misi">SMKS Mahaputra Cerdas Utama merupakan sekolah
                             menengah
                             keatas yang memiliki lokasi tanah dengan lebar 1,8 hektare
                             dari hak milik pribadi Prof. Dr Ir. H. Eddy Jusuf, Sp.,Msi.,M.kom.
@@ -44,29 +46,36 @@
                             Utama sudah memiliki 3 angkatan dengan jumlah keseluruhannya adalah 221 siswa.
                         </h5>
                     </div>
+                    <div class="image col-6 komputer" data-aos="fade-right">
+                        <img src="{{ asset('assets/img/logo_smk.JPG') }}" style="width: 350px; size: 20px; margin: 150px; margin-bottom: 10px; margin-top: 10px" class="img-fluid">
+                    </div>
                 </div>
+</div>
 
 
                 <div class="container mt-5">
-                    <h1 class="mb-3"><strong>Visi Misi</strong></h1>
+                    <h4 class="mb-3"><strong>Visi Misi</strong></h4>
                     <div class="row">
-                        <h2>Visi</h2>
-                        <h4 class="sejarah">
-                            "Menjadi penyelenggara pendidikan kejuruan yang
+                    <!-- <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150"> -->
+
+                        <h4>Visi</h4>
+                        <h6 class="misi">
+                            Menjadi penyelenggara pendidikan kejuruan yang
                             melahirkan tenaga ahli, terampil, kreatif, inovatif dam
-                            berpengetahuan yang ramah lingkungan di tahun 2025".
-                        </h4>
-                        <h1 class="mt-3">Misi</h1>
+                            berpengetahuan yang ramah lingkungan di tahun 2025.
+                        </h6>
+                        <h4 class="mt-3">Misi</h4>
                         <ol style="margin-left: 30px;" class="sejarah">
-                            <li class="misi">Menyelenggarakan Pendidikan Kejuruan Berkarakter Religus.</li>
-                            <li class="misi">Melahirkan Tenaga Ahli Tingkat Menengah yang Berahklakul Karimah.</li>
-                            <li class="misi">Mewujudkan Tenaga Terampil, Kreatif, dan Berpengetahuan.</li>
-                            <li class="misi">Membangun Perilaku yang Ramah Lingkungan.</li>
-                            <li class="misi">Menjalin Kerjasama Dengan Lembaga Akademik dan Non Akademik Ditingkat Lokal dan
-                                Internasional.</li>
+                            <li class="misi">Menyelenggarakan pendidikan kejuruan berkarakter religus.</li>
+                            <li class="misi">Melahirkan tenaga ahli tingkat menengah yang berahklakul karimah.</li>
+                            <li class="misi">Mewujudkan tenaga terampil, kreatif, dan berpengetahuan.</li>
+                            <li class="misi">Membangun perilaku yang ramah lingkungan.</li>
+                            <li class="misi">Menjalin kerjasama dengan lembaga akademik dan non akademik ditingkat lokal dan
+                                internasional.</li>
                         </ol>
                     </div>
                 </div>
+            </div>
 
             </div>`
     </section>
