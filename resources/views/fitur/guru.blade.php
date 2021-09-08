@@ -26,10 +26,26 @@
                 <hr>
                 <div class="container">
             <div id="pa-rey" class="collapse">
-              <ul>
-              <p><li class="guru">Pemrograman Dasar (KELAS X)</li></p>
-              <p><li class="guru">Pemrograman Berorientasi Objek (KELAS XI & XII)</li></p>
-              <ul>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Mengajar</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Pemrograman Dasar (KELAS X)</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Pemrograman Berorientasi Objek (KELAS XI & XII)</td>
+                </tr>
+              </tbody>
+            </table>
             </div>
           </div>
               </center>
@@ -50,12 +66,34 @@
                 <hr>
                 <div class="container">
             <div id="pa-dede" class="collapse">
-              <ul>
-               <p><li class="guru">Teknik Komputer Jaringan (KELAS X)</li></p>
-                <p><li class="guru">Pemodelan Perangkat Lunak (KELAS XI)</li></p>
-                <p><li class="guru">Produk Kreatif dan Kewirausahaan (KELAS XI)</li></p>
-                <p><li class="guru">Basis Data (KELAS XI)</li></p>
-                <ul>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Mengajar</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Teknik Komputer Jaringan (KELAS X)</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Pemodelan Perangkat Lunak (KELAS XI)</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Produk Kreatif dan Kewirausahaan (KELAS XI)</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Basis Data (KELAS XI)</td>
+                </tr>
+              </tbody>
+            </table>
             </div>
           </div>
               </center>
@@ -76,10 +114,25 @@
                 <hr>
                 <div class="container">
             <div id="pa-hannif" class="collapse">
-              <ul>
-              <p><li class="guru">Produk Kreatif dan Kewirusahan (KELAS XII)</li></p>
-              <p><li class="guru">Basis Data (KELAS XII)</li></p>
-              <ul>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Mengajar</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Produk Kreatif dan Kewirusahan (KELAS XII)</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Basis Data (KELAS XII)</td>
+                </tr>
+            </table>
             </div>
           </div>
 
@@ -101,8 +154,21 @@
                 <hr>
                 <div class="container">
             <div id="pa-munir" class="collapse">
-              <ul>
-            <p><li class="guru">Pemrograman Web dan Perangkat Bergerak (KELAS XI & XII)</li></p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Mengajar</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Pemrograman Web dan Perangkat Bergerak (KELAS XI & XII)</td>
+                </tr>
+            </table>
             </div>
           </div>
               </center>
@@ -123,10 +189,25 @@
                 <hr>
                 <div class="container">
             <div id="bu-syifa" class="collapse">
-              <ul>
-              <p><li class="guru">Sistem Komputer (KELAS X)</li></p>
-              <p><li class="guru">Simulasi Digital (KELAS X)</li></p>
-              </ul>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Mengajar</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Sistem Komputer (KELAS X)</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Simulasi Digital (KELAS X)</td>
+                </tr>
+            </table>
             </div>
           </div>
               </center>
