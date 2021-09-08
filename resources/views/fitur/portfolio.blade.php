@@ -93,13 +93,12 @@
             </div>
 
 
-            <div class="container">
+            <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-                <div class="col sm-4">
-                    <div class="row mt-4 ">
-                        <div class="card-group">
-                            <div class="card mx-3 shadow ">
-                                <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" alt=""
+                    <div class="col-md-4 col-sm-12 mb-3">
+                            <div class="card shadow-sm garis">
+                                <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" class="card-img"  alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -128,7 +127,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mx-3 shadow">
+        </div>
+                            <div class="col-md-4 col-sm-12 mb-3">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
                                     aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
@@ -158,7 +159,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mx-3 shadow">
+                        </div>
+
+                            <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -189,20 +193,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col sm-4">
-                    <div class="row mt-4">
-                        <div class="card-group">
-                            <div class="card mx-3 shadow">
+                        <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text warna">Pemilihan Anggota Baru Ekstakulikuler SMK Mahaputra</h5>
+                                    <h5 class="card-text warna">Pemilihan Anggota Baru Ekstakulikuler</h5>
                                     <p class="card-text">
                                     <ul>
                                         <li>Elsa Lusiani</li>
@@ -225,8 +225,11 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card mx-3 shadow">
+
+                            <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -256,8 +259,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="card mx-3 shadow">
+                            <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -287,16 +292,10 @@
                                 </div>
 
                             </div>
-
-
                         </div>
-                    </div>
 
-                    <div class="col sm-4">
-                        <div class="row mt-4">
-                            <!-- <div class="card-group"> -->
-
-                            <div class="card mx-3 shadow">
+                    <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -326,11 +325,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-
-
-
-                            <div class="card mx-3 shadow">
+                        <div class="col">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -360,14 +358,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- </div> -->
                         </div>
                     </div>
-        </main>
+        
 
         {{-- PKL PORTOFOLIO --}}
 
-        <div class="container" data-aos="fade-up">
+        <div class="container mt-5" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>PKL</h2>
@@ -384,7 +381,7 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -417,7 +414,7 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -451,7 +448,7 @@
 
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -484,7 +481,7 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -517,7 +514,7 @@
 
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -550,7 +547,7 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -583,7 +580,7 @@
                         </div>
 
                         <div class="col-sm 3">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -616,7 +613,7 @@
                         </div>
 
                         <div class="col-sm 3">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -648,7 +645,7 @@
                         </div>
 
                         <div class="col-sm 3">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -680,7 +677,7 @@
                             </div>
                         </div>
                         <div class="col-sm 3">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
@@ -713,7 +710,7 @@
                             </div>
                         </div>
                         <div class="col-sm 3">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
