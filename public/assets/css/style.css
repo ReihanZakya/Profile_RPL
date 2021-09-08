@@ -1603,4 +1603,41 @@ span {
 
 .sejarah {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
+
+.jurusan {
+    text-align: justify;
+}
+
+.misi {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.warna {
+    color: darkblue;
+    font-weight: bold;  
+}
+
+.guru {
+    text-align: justify;
+}
+
+.shadow {
+    color: black;
+}
+
+.garis {
+    border-top-right-radius: 200;
+    border-bottom-left-radius: 200;
+    border-color: darkblue;
+}
+
+.img{
+  width:100%;
+  height:auto;
+}
+
+
