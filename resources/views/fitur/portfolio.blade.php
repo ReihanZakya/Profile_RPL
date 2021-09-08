@@ -117,11 +117,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1.git"
+                                            <a target="_blank"
+                                                href="https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1.git"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -149,11 +151,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2"
+                                            <a target="_blank" href="https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -182,11 +185,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3"
+                                            <a target="_blank"
+                                                href="https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -215,11 +220,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/tazkiyahalika/2020_XII_RPL_KELOMPOK_4"
+                                            <a target="_blank"
+                                                href="https://github.com/tazkiyahalika/2020_XII_RPL_KELOMPOK_4"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -249,11 +256,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git"
+                                            <a target="_blank"
+                                                href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -281,11 +290,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git"
+                                            <a target="_blank"
+                                                href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -315,11 +326,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7"
+                                            <a target="_blank"
+                                                href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -348,11 +361,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/astrinur09/2020_XII_RPL_KELOMPOK_8"
+                                            <a target="_blank" href="https://github.com/astrinur09/2020_XII_RPL_KELOMPOK_8"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -401,11 +415,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/AhmadSuherman/2020-XIIRPL1-Kelompok-4"
+                                            <a target="_blank"
+                                                href="https://github.com/AhmadSuherman/2020-XIIRPL1-Kelompok-4"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -434,11 +450,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/tazkiyahalika/2020-RPL-Kelompok-6"
+                                            <a target="_blank" href="https://github.com/tazkiyahalika/2020-RPL-Kelompok-6"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -468,11 +485,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/dedesuminar/2020-RPL-kelompok-2"
+                                            <a target="_blank" href="https://github.com/dedesuminar/2020-RPL-kelompok-2"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -500,11 +518,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/12rpl2kelompok1/2020-RPL2-Kelompok1-PPDB"
+                                            <a target="_blank"
+                                                href="https://github.com/12rpl2kelompok1/2020-RPL2-Kelompok1-PPDB"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -534,11 +554,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/nadiranuruldwijaya/2020-RPL-Kelompok-2"
+                                            <a target="_blank"
+                                                href="https://github.com/nadiranuruldwijaya/2020-RPL-Kelompok-2"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -567,11 +589,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/kelompok5pkl/2020-RPL-Kelompok-5"
+                                            <a target="_blank" href="https://github.com/kelompok5pkl/2020-RPL-Kelompok-5"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -600,11 +623,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/Sumiartini/2020-RPL-KELOMPOK-3"
+                                            <a target="_blank" href="https://github.com/Sumiartini/2020-RPL-KELOMPOK-3"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -632,11 +656,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/eka-wariah/2020-RPL-Kelompok-1"
+                                            <a target="_blank" href="https://github.com/eka-wariah/2020-RPL-Kelompok-1"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -665,11 +690,13 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/kelompok4xiirpl2/2020-RPL-Kelompok-4"
+                                            <a target="_blank"
+                                                href="https://github.com/kelompok4xiirpl2/2020-RPL-Kelompok-4"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -698,11 +725,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/taupik3007/2020-RPL-kelompok-3"
+                                            <a target="_blank" href="https://github.com/taupik3007/2020-RPL-kelompok-3"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
@@ -731,11 +759,12 @@
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a href="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}"
+                                            <a target="_blank"
+                                                href="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a href="https://github.com/haniafirianti/2020-RPL-Kelompok-5"
+                                            <a target="_blank" href="https://github.com/haniafirianti/2020-RPL-Kelompok-5"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>

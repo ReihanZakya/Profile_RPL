@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/','HomeController@index');
+Route::get('/','HomeController@home');
 
 Route::get('/RPL/mata_pelajaran','Mata_PelajaranController@index');
 
@@ -18,3 +18,10 @@ Route::get('RPL/dokumentasi','DokumentasiController@index');
 
 Route::get('RPL/peluang_kerja','PeluangKerjaController@index');
 // Route::get('RPL/tujuan','TujuanController@index');
+
+Auth::routes();
+
+
+
+// admin
+Route::get('dashboard','DashboardController@index')->name('home');
