@@ -81,11 +81,11 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
             <div class="col">
-              <div class="card">
+              <div class="card shadow-sm garis">
                   <img src="{{asset('assets/img/fasilitas/gerbang.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Gerbang Masuk</h5>
+                    <h5 class="card-text warna">Gerbang Masuk</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -98,11 +98,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/lapangan.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Lapangan</h5>
+                    <h5 class="card-text warna">Lapangan</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -115,11 +115,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/jabon.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Jabon</h5>
+                    <h5 class="card-text warna">Jabon</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -132,11 +132,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/balema.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Balema</h5>
+                    <h5 class="card-text warna">Balema</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -149,11 +149,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/hanggar.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Hangar</h5>
+                    <h5 class="card-text warna">Hangar</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -165,11 +165,11 @@
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/masjid.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Masjid</h5>
+                    <h5 class="card-text warna">Masjid</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -182,11 +182,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/lab.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Lab Komputer</h5>
+                    <h5 class="card-text warna">Lab Komputer</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -199,11 +199,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/perpustakaan.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Perpustakaan</h5>
+                    <h5 class="card-text warna">Perpustakaan</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -216,11 +216,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/fasilitas/ruangguru.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Ruangguru</h5>
+                    <h5 class="card-text warna">Ruangguru</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -233,11 +233,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/kegiatan/kegiatan1.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Juara 1 Lomba RPL</h5>
+                    <h5 class="card-text warna">Juara 1 Lomba RPL</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
@@ -250,11 +250,11 @@
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm garis">
                 <img src="{{asset('assets/img/kegiatan/kegiatan2.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
 
                 <div class="card-body">
-                    <h5 class="card-text text-info">Penyerahan Piagam</h5>
+                    <h5 class="card-text warna">Penyerahan Piagam</h5>
                   <p class="card-text"></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
