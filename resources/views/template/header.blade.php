@@ -15,8 +15,7 @@
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/guru') ? 'active' : '' }}"
                         href="{{ url('RPL/guru') }}">Guru</a></li>
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/peluang_kerja') ? 'active' : '' }}"
-                        href="{{ url('RPL/peluang_kerja') }}">Peluang Kerja</a></li>
-                <li class="nav-item"><a class="link " href="/RPL/tujuan">Tujuan</a></li> 
+                        href="{{ url('RPL/peluang_kerja') }}">Peluang Kerja</a></li> 
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/portfolio') ? 'active' : '' }}"
                         href="{{ url('RPL/portfolio') }}">Portofolio</a></li>
                 <li class="nav-item"><a href="{{ url('RPL/contact') }}"
