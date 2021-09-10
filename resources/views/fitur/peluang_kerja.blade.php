@@ -58,7 +58,7 @@
 
                     <div class="col-md-4 col-sm-12 mb-3">
                             <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" class="card-img"  alt=""
+                                <img src="{{ asset('assets/img/web.jpeg') }}" class="card-img"  alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -112,7 +112,7 @@
                           </div>
                             <div class="col-md-4 col-sm-12 mb-3">
                             <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}" alt=""
+                                <img src="{{ asset('assets/img/design.jpeg') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
                                     aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
                                     focusable="false">
@@ -170,13 +170,13 @@
 
                             <div class="col">
                             <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}" alt=""
+                                <img src="{{ asset('assets/img/hacker.jpeg') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text warna">Pembuatan Jadwal SMK Mahaputra</h5>
+                                    <h5 class="card-text warna">Hacker</h5>
                                     <p class="card-text">
                                    
                                     </p>
