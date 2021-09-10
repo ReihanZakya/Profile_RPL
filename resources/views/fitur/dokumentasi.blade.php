@@ -39,214 +39,6 @@
                 -moz-user-select: none;
                 user-select: none;
             }
-          }
-        </style>
-
-
-      </head>
-      <body>
-
-    <header>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-            <strong>Dokumentasi</strong>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <main>
-
-      <section class="py-5 text-center container">
-        <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Dokumentasi</h1>
-            <p class="lead text-muted text-center">Dokumentasi dari SMKS Mahaputra Cerdas Utama</p>
-            <p class="text-center container">
-              <a href="{{url ('RPL/portfolio')}}" class="btn btn-outline-warning my-2 ">Portofolio</a>
-              <a href="{{url ('RPL/dokumentasi')}}" class="btn btn-outline-warning my-2">Dokumentasi</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                  <img src="{{asset('assets/img/fasilitas/gerbang.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Gerbang Masuk</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/gerbang.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/lapangan.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Lapangan</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/lapangan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/jabon.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Jabon</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/jabon.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/balema.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Balema</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/balema.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/hanggar.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Hangar</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/hanggar.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/masjid.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Masjid</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/masjid.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/lab.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Lab Komputer</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/lab.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/perpustakaan.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Perpustakaan</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/perpustakaan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/fasilitas/ruangguru.png')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Ruangguru</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/fasilitas/ruangguru.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/kegiatan/kegiatan1.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Juara 1 Lomba RPL</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/kegiatan/kegiatan1.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                    font-size: 3.5rem;
-                }
             }
 
         </style>
@@ -270,18 +62,6 @@
                     </a>
                 </div>
             </div>
-
-            <div class="col">
-              <div class="card shadow-sm garis">
-                <img src="{{asset('assets/img/kegiatan/kegiatan2.jpeg')}}" alt=""  class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" >
-
-                <div class="card-body">
-                    <h5 class="card-text warna">Penyerahan Piagam</h5>
-                  <p class="card-text"></p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="portfolio-links">
-                        <a href="{{asset('assets/img/kegiatan/kegiatan2.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
         </header>
 
         <main>
@@ -305,22 +85,22 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
                         <div class="col">
-                            <div class="card">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/gerbang.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Gerbang Masuk</h5>
+                                    <h5 class="card-text warna">Gerbang Masuk</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/gerbang.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/gerbang.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -330,22 +110,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/lapangan.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Lapangan</h5>
+                                    <h5 class="card-text warna">Lapangan</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/lapangan.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/lapangan.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -355,22 +135,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/jabon.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Jabon</h5>
+                                    <h5 class="card-text warna">Jabon</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/jabon.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/jabon.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -380,22 +160,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/balema.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Balema</h5>
+                                    <h5 class="card-text warna">Balema</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/balema.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/balema.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -405,22 +185,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/hanggar.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Hangar</h5>
+                                    <h5 class="card-text warna">Hangar</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/hanggar.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/hanggar.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -429,22 +209,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/masjid.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Masjid</h5>
+                                    <h5 class="card-text warna">Masjid</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/masjid.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/masjid.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -454,22 +234,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/lab.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Lab Komputer</h5>
+                                    <h5 class="card-text warna">Lab Komputer</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/lab.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/lab.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -479,23 +259,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/perpustakaan.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Perpustakaan</h5>
+                                    <h5 class="card-text warna">Perpustakaan</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/fasilitas/perpustakaan.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/perpustakaan.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -505,22 +284,22 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/fasilitas/ruangguru.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Ruangguru</h5>
+                                    <h5 class="card-text warna">Ruangguru</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/fasilitas/ruangguru.png') }}"
+                                            <a href="{{ asset('assets/img/fasilitas/ruangguru.png') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
@@ -530,65 +309,38 @@
                         </div>
 
                         <div class="col">
-                            <div class="card shadow-sm">
+                            <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/kegiatan/kegiatan1.jpeg') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
                                 <div class="card-body">
-                                    <h5 class="card-text text-info">Juara 1 Lomba RPL</h5>
+                                    <h5 class="card-text warna">Juara 1 Lomba RPL</h5>
                                     <p class="card-text"></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/kegiatan/kegiatan1.jpeg') }}"
+                                            <a href="{{ asset('assets/img/kegiatan/kegiatan1.jpeg') }}"
                                                 data-gallery="portfolioGallery"
                                                 class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                     class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
+                                            <a href="https://www.instagram.com/smkmahaputracerdasutama/"
                                                 class="btn btn-sm btn-outline-secondary" title="More Details"><i
                                                     class="bi bi-instagram"></i></a>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="{{ asset('assets/img/kegiatan/kegiatan2.jpeg') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text text-info">Penyerahan Piagam</h5>
-                                    <p class="card-text"></p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank" href="{{ asset('assets/img/kegiatan/kegiatan2.jpeg') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://www.instagram.com/smkmahaputracerdasutama/"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details"><i
-                                                    class="bi bi-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-
-
-        <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-        </script>
-
-
     </body>
 
     </html>
+
 
 
 @endsection
