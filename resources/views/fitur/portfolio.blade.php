@@ -1,4 +1,4 @@
-@extends('template.main')
+@extends('template.main3')
 
 @section('content')
 
@@ -755,7 +755,6 @@
                                         <li>Desma</li>
                                         <li>Robi</li>
                                     </ul>
-
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="portfolio-links">
@@ -771,6 +770,10 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+        </div>
+        </div>
 
         </main>
 
