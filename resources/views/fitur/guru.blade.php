@@ -1,4 +1,4 @@
-@extends('template.main')
+@extends('template.main2')
 
 @section('content')
 
@@ -23,7 +23,7 @@
                 </div>
                 <center>
 	              <button type="button" class="btn btn-danger" style= "margin-bottom: 50px;" data-bs-toggle="modal" data-bs-target="#pakrey">
-                  Mengajar
+                  Mata Pelajaran
                 </button>
                 
               </center>
@@ -41,7 +41,7 @@
             </div>
              <center>
              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pakdede">
-                  Mengajar
+                  Mata Pelajaran                 
               </button>
                
               </center>
@@ -59,7 +59,7 @@
             </div>
              <center>
              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pakhanif">
-                  Mengajar
+                  Mata Pelajaran
                 </button>
 
               </center>
@@ -77,7 +77,7 @@
             </div>
             <center>
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pakmunir">
-                  Mengajar
+                  Mata Pelajaran
                 </button>
                    
               </center>
@@ -95,7 +95,7 @@
             </div>
             <center>
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#bushyffa">
-                  Mengajar
+                  Mata Pelajaran
                 </button>
                 
               </center>
@@ -270,6 +270,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+        
       <table class="table">
               <thead>
                 <tr>
