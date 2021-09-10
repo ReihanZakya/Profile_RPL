@@ -94,644 +94,660 @@
 
 
             <div class="container mt-5">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
                     <div class="col-md-4 col-sm-12 mb-3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" class="card-img"  alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}" class="card-img"
+                                alt="" class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
-                                    <h5 class="card-text  warna">Penerimaan Peserta Didik Baru</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Rendy Josua Hutagaol</li>
-                                        <li>Ahmad Suherman</li>
-                                        <li>Dede Suminar</li>
-                                        <li>Elsa Susilawati</li>
-                                        <li>Sumiartini Sri Rahayu</li>
-                                    </ul>
+                            <div class="card-body">
+                                <h5 class="card-text  warna">Penerimaan Peserta Didik Baru</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Rendy Josua Hutagaol</li>
+                                    <li>Ahmad Suherman</li>
+                                    <li>Dede Suminar</li>
+                                    <li>Elsa Susilawati</li>
+                                    <li>Sumiartini Sri Rahayu</li>
+                                </ul>
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1.git"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-        </div>
-                            <div class="col-md-4 col-sm-12 mb-3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
-                                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
-                                    focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Inventaris Asset SMK Mahaputra</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Taupik P</li>
-                                        <li>Santi Sintia Wati</li>
-                                        <li>Candra</li>
-                                        <li>Nadira Nurul D</li>
-                                        <li>Rinaldi Anugrah P</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                            <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Pembuatan Jadwal SMK Mahaputra</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Raihan Salman F</li>
-                                        <li>Syahlaa Taufiqiah</li>
-                                        <li>Hania Fitriani</li>
-                                        <li>Clarisa Adi Nanda</li>
-                                        <li>Bayu Setiawan</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Pemilihan Anggota Baru Ekstakulikuler</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Elsa Lusiani</li>
-                                        <li>Rizqi Muhammad</li>
-                                        <li>Rismawati</li>
-                                        <li>Alika Tazkiah</li>
-                                        <li>Asyiah Nurjannah</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/tazkiyahalika/2020_XII_RPL_KELOMPOK_4"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                            <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Sistem Pelanggaran</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Windi Yulianti</li>
-                                        <li>Sinta Bella</li>
-                                        <li>Malay Cahya</li>
-                                        <li>Desma Fitriani</li>
-                                        <li>Iis Widia</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                            <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Perpustakaan Web</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Evi Novianti</li>
-                                        <li>Dian Citra A</li>
-                                        <li>Eka Wariah</li>
-                                        <li>Serli</li>
-                                        <li>Lutfina Sabrina</li>
-                                    </ul>
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Tabungan Walikelas</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Yulianti N</li>
-                                        <li>Arif Rifaldi</li>
-                                        <li>Farid Adam F</li>
-                                        <li>Amelia Putri</li>
-                                        <li>Miftah Ramdhani</li>
-                                        <li>Cristian Adiputra</li>
-                                    </ul>
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Pemilihan Osis</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Bimantara P</li>
-                                        <li>Astri Nurrohmah</li>
-                                        <li>Putri Nabila</li>
-                                        <li>Aulia Rahma N</li>
-                                        <li>Eneng Jayanti</li>
-                                        <li>Roby Nugraha</li>
-                                    </ul>
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/astrinur09/2020_XII_RPL_KELOMPOK_8"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_1_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank"
+                                            href="https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1.git"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-        
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225" role="img"
+                                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-        {{-- PKL PORTOFOLIO --}}
+                            <div class="card-body">
+                                <h5 class="card-text warna">Inventaris Asset SMK Mahaputra</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Taupik P</li>
+                                    <li>Santi Sintia Wati</li>
+                                    <li>Candra</li>
+                                    <li>Nadira Nurul D</li>
+                                    <li>Rinaldi Anugrah P</li>
+                                </ul>
 
-        <div class="container mt-5" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>PKL</h2>
-                <p>Portofolio PKL</p>
-            </div>
-
-        </div>
-
-        <main>
-
-            <div class="album py-5 bg-light">
-                <div class="container">
-
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
-
-                                <div class="card-body" style="margin-bottom: 15px;">
-                                    <h5 class="card-text warna">Inventory barang SMK MAHAPUTRA</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Santi</li>
-                                        <li>Malay</li>
-                                        <li>Ahmad Suherman</li>
-                                        <li>Evi</li>
-                                        <li>Rudi</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/AhmadSuherman/2020-XIIRPL1-Kelompok-4"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_2_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Aplikasi sistem buku pelanggaran siswa berbasi web</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Yulia</li>
-                                        <li>Alika</li>
-                                        <li>Iis</li>
-                                        <li>Luthfina</li>
-                                        <li>Rika</li>
-                                    </ul>
+                            <div class="card-body">
+                                <h5 class="card-text warna">Pembuatan Jadwal SMK Mahaputra</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Raihan Salman F</li>
+                                    <li>Syahlaa Taufiqiah</li>
+                                    <li>Hania Fitriani</li>
+                                    <li>Clarisa Adi Nanda</li>
+                                    <li>Bayu Setiawan</li>
+                                </ul>
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/tazkiyahalika/2020-RPL-Kelompok-6"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_3_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <div class="card-body">
+                                <h5 class="card-text warna">Pemilihan Anggota Baru Ekstakulikuler</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Elsa Lusiani</li>
+                                    <li>Rizqi Muhammad</li>
+                                    <li>Rismawati</li>
+                                    <li>Alika Tazkiah</li>
+                                    <li>Asyiah Nurjannah</li>
+                                </ul>
 
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Dede</li>
-                                        <li>Arif</li>
-                                        <li>Amel</li>
-                                        <li>Sinta</li>
-                                        <li>Sigit</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/dedesuminar/2020-RPL-kelompok-2"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_4_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/tazkiyahalika/2020_XII_RPL_KELOMPOK_4"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 18px;">
-                                    <h5 class="card-text warna">Penerimaan dan pendaftaran siswa baru</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Clarisa</li>
-                                        <li>Azizah</li>
-                                        <li>Bimantara</li>
-                                        <li>Farid</li>
-                                    </ul>
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/12rpl2kelompok1/2020-RPL2-Kelompok1-PPDB"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-text warna">Sistem Pelanggaran</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Windi Yulianti</li>
+                                    <li>Sinta Bella</li>
+                                    <li>Malay Cahya</li>
+                                    <li>Desma Fitriani</li>
+                                    <li>Iis Widia</li>
+                                </ul>
+
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_5_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/SintaBellaa/2020_XII_RPL_KELOMPOK_5.git"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <div class="card-body">
+                                <h5 class="card-text warna">Perpustakaan Web</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Evi Novianti</li>
+                                    <li>Dian Citra A</li>
+                                    <li>Eka Wariah</li>
+                                    <li>Serli</li>
+                                    <li>Lutfina Sabrina</li>
+                                </ul>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_6_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                    </div>
+                                </div>
+                            </div>
 
-                                <div class="card-body" style="margin-bottom: 10px;">
-                                    <h5 class="card-text warna">Pembuatan Aplikasi Forum Mahaputra</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Nadira</li>
-                                        <li>Elsa Lusi</li>
-                                        <li>Bayu</li>
-                                        <li>Dian</li>
-                                        <li>Miftah</li>
-                                    </ul>
+                        </div>
+                    </div>
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/nadiranuruldwijaya/2020-RPL-Kelompok-2"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                            <div class="card-body">
+                                <h5 class="card-text warna">Tabungan Walikelas</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Yulianti N</li>
+                                    <li>Arif Rifaldi</li>
+                                    <li>Farid Adam F</li>
+                                    <li>Amelia Putri</li>
+                                    <li>Miftah Ramdhani</li>
+                                    <li>Cristian Adiputra</li>
+                                </ul>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_7_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div class="col">
+                        <div class="card shadow-sm garis">
+                            <img src="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}" alt=""
+                                class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 15px;">
-                                    <h5 class="card-text warna">Tabungan Wali Kelas</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Rismawati</li>
-                                        <li>Elsa S</li>
-                                        <li>Bowie</li>
-                                        <li>Indra</li>
-                                        <li>Al Fajri</li>
-                                    </ul>
-
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/kelompok5pkl/2020-RPL-Kelompok-5"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-text warna">Pemilihan Osis</h5>
+                                <p class="card-text">
+                                <ul>
+                                    <li>Bimantara P</li>
+                                    <li>Astri Nurrohmah</li>
+                                    <li>Putri Nabila</li>
+                                    <li>Aulia Rahma N</li>
+                                    <li>Eneng Jayanti</li>
+                                    <li>Roby Nugraha</li>
+                                </ul>
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="portfolio-links">
+                                        <a target="_blank" href="{{ asset('assets/img/project/kelompok_8_ujikom.png') }}"
+                                            data-gallery="portfolioGallery"
+                                            class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                class="bi bi-zoom-in"></i></a>
+                                        <a target="_blank" href="https://github.com/astrinur09/2020_XII_RPL_KELOMPOK_8"
+                                            class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="col-sm 3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 20px;">
-                                    <h5 class="card-text warna">Sistem Absensi Siswa Berbasis Web</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Sumi</li>
-                                        <li>Eneng</li>
-                                        <li>Rinaldi</li>
-                                        <li>Aulia</li>
-                                        <li>Tegar</li>
-                                    </ul>
+                {{-- PKL PORTOFOLIO --}}
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/Sumiartini/2020-RPL-KELOMPOK-3"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                <div class="container mt-5" data-aos="fade-up">
+
+                    <div class="section-title">
+                        <h2>PKL</h2>
+                        <p>Portofolio PKL</p>
+                    </div>
+
+                </div>
+
+                <main>
+
+                    <div class="album py-5 bg-light">
+                        <div class="container">
+
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body" style="margin-bottom: 15px;">
+                                            <h5 class="card-text warna">Inventory barang SMK MAHAPUTRA</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Santi</li>
+                                                <li>Malay</li>
+                                                <li>Ahmad Suherman</li>
+                                                <li>Evi</li>
+                                                <li>Rudi</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_41_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/AhmadSuherman/2020-XIIRPL1-Kelompok-4"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="col-sm 3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
 
-                                <div class="card-body" style="margin-bottom: 40px;">
-                                    <h5 class="card-text warna">Pendaftaran Ekstrakurikuler</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Candra</li>
-                                        <li>Windi</li>
-                                        <li>Eka</li>
-                                        <li>Ahmad Saepudin</li>
-                                    </ul>
+                                        <div class="card-body">
+                                            <h5 class="card-text warna">Aplikasi sistem buku pelanggaran siswa berbasi web
+                                            </h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Yulia</li>
+                                                <li>Alika</li>
+                                                <li>Iis</li>
+                                                <li>Luthfina</li>
+                                                <li>Rika</li>
+                                            </ul>
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/eka-wariah/2020-RPL-Kelompok-1"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_61_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/tazkiyahalika/2020-RPL-Kelompok-6"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="col-sm 3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA</h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Syahlaa</li>
-                                        <li>Raihan</li>
-                                        <li>Rizki M</li>
-                                        <li>Aisyah</li>
-                                        <li>Rizki P A</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank"
-                                                href="https://github.com/kelompok4xiirpl2/2020-RPL-Kelompok-4"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                        <div class="card-body">
+                                            <h5 class="card-text warna">Sistem penjadwalan upacara di SMK MAHAPUTRA</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Dede</li>
+                                                <li>Arif</li>
+                                                <li>Amel</li>
+                                                <li>Sinta</li>
+                                                <li>Sigit</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_21_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/dedesuminar/2020-RPL-kelompok-2"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-sm 3">
-                            <div class="card shadow-sm garis">
-                                <img src="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}" alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                    preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                                <div class="card-body">
-                                    <h5 class="card-text warna">Aplikasi Voting Berbasis Web Wenggunakan Bahasa PHP
-                                    </h5>
-                                    <p class="card-text">
-                                    <ul>
-                                        <li>Taupik</li>
-                                        <li>Putri</li>
-                                        <li>Serli</li>
-                                        <li>Astri</li>
-                                        <li>Rangga</li>
-                                    </ul>
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
 
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="portfolio-links">
-                                            <a target="_blank"
-                                                href="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}"
-                                                data-gallery="portfolioGallery"
-                                                class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
-                                                    class="bi bi-zoom-in"></i></a>
-                                            <a target="_blank" href="https://github.com/taupik3007/2020-RPL-kelompok-3"
-                                                class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
+                                        <div class="card-body" style="margin-bottom: 18px;">
+                                            <h5 class="card-text warna">Penerimaan dan pendaftaran siswa baru</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Clarisa</li>
+                                                <li>Azizah</li>
+                                                <li>Bimantara</li>
+                                                <li>Farid</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_1_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/12rpl2kelompok1/2020-RPL2-Kelompok1-PPDB"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body" style="margin-bottom: 10px;">
+                                            <h5 class="card-text warna">Pembuatan Aplikasi Forum Mahaputra</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Nadira</li>
+                                                <li>Elsa Lusi</li>
+                                                <li>Bayu</li>
+                                                <li>Dian</li>
+                                                <li>Miftah</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_2_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/nadiranuruldwijaya/2020-RPL-Kelompok-2"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body" style="margin-bottom: 15px;">
+                                            <h5 class="card-text warna">Tabungan Wali Kelas</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Rismawati</li>
+                                                <li>Elsa S</li>
+                                                <li>Bowie</li>
+                                                <li>Indra</li>
+                                                <li>Al Fajri</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_5_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/kelompok5pkl/2020-RPL-Kelompok-5"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm 3">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body" style="margin-bottom: 20px;">
+                                            <h5 class="card-text warna">Sistem Absensi Siswa Berbasis Web</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Sumi</li>
+                                                <li>Eneng</li>
+                                                <li>Rinaldi</li>
+                                                <li>Aulia</li>
+                                                <li>Tegar</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_3_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/Sumiartini/2020-RPL-KELOMPOK-3"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm 3">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body" style="margin-bottom: 40px;">
+                                            <h5 class="card-text warna">Pendaftaran Ekstrakurikuler</h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Candra</li>
+                                                <li>Windi</li>
+                                                <li>Eka</li>
+                                                <li>Ahmad Saepudin</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/eka-wariah/2020-RPL-Kelompok-1"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm 3">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body">
+                                            <h5 class="card-text warna">Pembuatan Aplikasi Sistem Informasi SMK MAHAPUTRA
+                                            </h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Syahlaa</li>
+                                                <li>Raihan</li>
+                                                <li>Rizki M</li>
+                                                <li>Aisyah</li>
+                                                <li>Rizki P A</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_4_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/kelompok4xiirpl2/2020-RPL-Kelompok-4"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm 3">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
+
+                                        <div class="card-body">
+                                            <h5 class="card-text warna">Aplikasi Voting Berbasis Web Wenggunakan Bahasa PHP
+                                            </h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Taupik</li>
+                                                <li>Putri</li>
+                                                <li>Serli</li>
+                                                <li>Astri</li>
+                                                <li>Rangga</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_31_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/taupik3007/2020-RPL-kelompok-3"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -776,7 +792,46 @@
         </div>
 
         </main>
+                                <div class="col-sm 3">
+                                    <div class="card shadow-sm garis">
+                                        <img src="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}" alt=""
+                                            class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                            xmlns="http://www.w3.org/2000/svg" role="img"
+                                            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                                            focusable="false">
 
+                                        <div class="card-body" style="margin-bottom: 20px;">
+                                            <h5 class="card-text warna">Sistem Pengadaan dan Peminjaman
+                                            </h5>
+                                            <p class="card-text">
+                                            <ul>
+                                                <li>Hania</li>
+                                                <li>Christian</li>
+                                                <li>Rendy</li>
+                                                <li>Desma</li>
+                                                <li>Robi</li>
+                                            </ul>
+
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="portfolio-links">
+                                                    <a target="_blank"
+                                                        href="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}"
+                                                        data-gallery="portfolioGallery"
+                                                        class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
+                                                            class="bi bi-zoom-in"></i></a>
+                                                    <a target="_blank"
+                                                        href="https://github.com/haniafirianti/2020-RPL-Kelompok-5"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details">Github</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                </main>
+            </div>
     </body>
 
     </html>
