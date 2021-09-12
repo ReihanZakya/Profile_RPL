@@ -2048,6 +2048,110 @@ span {
   }
 }
 
+#hero6 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/landingpage.jpeg") top center;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero6:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero6 .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#hero6 h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero6 h1 span {
+  color: #ffc451;
+}
+
+#hero6 h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero6 .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero6 .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#hero6 .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero6 .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero6 .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#hero6 .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #hero6 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero6 {
+    height: auto;
+  }
+  #hero6 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero6 h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+
+
 
 
 

@@ -20,6 +20,8 @@
                         href="{{ url('RPL/portfolio') }}">Portofolio</a></li>
                 <li class="nav-item"><a href="{{ url('RPL/contact') }}"
                         class="link {{ url()->current() == url('RPL/contact') ? 'active' : '' }}">Kontak</a></li>
+                <li class="nav-item"><a href="{{ url('RPL/berita') }}"
+                        class="link {{ url()->current() == url('RPL/berita') ? 'active' : '' }}">Berita</a></li>        
                 </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
