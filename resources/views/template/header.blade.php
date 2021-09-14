@@ -10,6 +10,8 @@
         <nav id="navbar" class="navbar order-last order-lg-0 ">
             <ul class="nav ml-auto">
                 <li class="nav-item"><a class="link {{ url()->current() == url('/') ? 'active' : '' }}" href="/">Beranda</a></li>
+                <li class="nav-item"><a href="{{ url('RPL/berita') }}"
+                        class="link {{ url()->current() == url('RPL/berita') ? 'active' : '' }}">Berita</a></li>
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/mata_pelajaran') ? 'active' : '' }}"
                         href="{{ url('RPL/mata_pelajaran') }}">Mata Pelajaran</a></li>
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/guru') ? 'active' : '' }}"
@@ -19,9 +21,7 @@
                 <li class="nav-item"><a class="link {{ url()->current() == url('RPL/portfolio') ? 'active' : '' }}"
                         href="{{ url('RPL/portfolio') }}">Portofolio</a></li>
                 <li class="nav-item"><a href="{{ url('RPL/contact') }}"
-                        class="link {{ url()->current() == url('RPL/contact') ? 'active' : '' }}">Kontak</a></li>
-                <li class="nav-item"><a href="{{ url('RPL/berita') }}"
-                        class="link {{ url()->current() == url('RPL/berita') ? 'active' : '' }}">Berita</a></li>        
+                        class="link {{ url()->current() == url('RPL/contact') ? 'active' : '' }}">Kontak</a></li>        
                 </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

@@ -4,7 +4,7 @@
 
 <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <h2>Berita Global</h2>
+                    <h2 style="color: orange;">Berita Global</h2>
                     <p>Seputar Rekayasa Perangkat Lunak</p>
                 </div>
             </div>
@@ -23,42 +23,19 @@
                                     <h5 class="card-text  warna">Apa Itu "Sunburst"?</h5>
                                     <p class="card-text">
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webdeveloper">
-                                                Selengkapnya
-                                    </button>  
-
+                                    <a target="_blank"
+                                                        href="https://www.bbc.com/indonesia/dunia-55328416"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                                      </div>
                                     <div class="modal fade" id="webdeveloper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
                                                     <div class="modal-content">
                                                       <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel">SELENGKAPNYA</h5>
-                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                      </div>
-                                                      <div class="modal-body">
-                                                        
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">Apa itu SUNBURST</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td style="text-align: justify;">Belum lama ini di Amerika Serikat terjadi "Sunburst" pembobolan sejumlah kementerian penting. Lalu, apakah kamu tahu apa itu "Sunburst"?</td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
-                                                      </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                                      </div>
-                                                    </div>
+                                                     
                                                   </div>
                                                 </div>
-                                                
+                                                </div>                                                
                                 </div>
                             </div>
                           </div>
@@ -74,9 +51,14 @@
                                     <p class="card-text">
                                     
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webdesign">
-                                                Selengkapnya
-                                    </button> 
+                                    <a target="_blank"
+                                                        href="https://www.cnnindonesia.com/teknologi/20210913110134-185-693412/bulan-bulanan-ri-di-tangan-peretas"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+
+                                    
+                                                
+                                    
 
                                     <div class="modal fade" id="webdesign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -87,26 +69,9 @@
                                                       </div>
                                                       <div class="modal-body">
                                                         
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">PERETASAN</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td style="text-align: justify;">Jakarta, CNN Indonesia -- Peretasan di berbagai instansi milik pemerintah belakangan marak terjadi. Tak tanggung-tanggung, hacker membobol hingga ratusan juta data penduduk Indonesia.
-                                                                      Terbaru, peretas bukan hanya bereaksi untuk menyitat data pribadi lewat aplikasi eHAC, namun hacker asal China dikabarkan telah menembus beberapa lembaga pemerintah Indonesia, termasuk Badan Intelijen Negara (BIN).</td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
+                                                     
                                                       </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                                      </div>
+                                                     
                                                     </div>
                                                   </div>
                                                 </div>
@@ -129,9 +94,12 @@
                                     <p class="card-text">
                                    
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hacker">
-                                                Selengkapnya
-                                    </button> 
+                                    <a target="_blank"
+                                                        href="https://www.jpnn.com/news/waduh-hacker-china-diduga-bobol-jaringan-bin-dan-kementerian-ri"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+
+              
 
                                     <div class="modal fade" id="hacker" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -142,30 +110,7 @@
                                                       </div>
                                                       <div class="modal-body">
                                                         
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">PEMBOBOLAN</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td style="text-align: justify;">Peneliti Inskit pertama kali menemukan upaya pembobolan 10 Kementerian termasuk BIN pada April 2021. Peretasan itu dikabarkan terhubung dengan Mustang Panda yang dikenal sebagai peretas asal China, yang menargetkan kawasan Asia Tenggara.
-                                                                  Awalnya, mereka saat itu sedang mendeteksi server pengendali dan control (C&C) malware PlugX yang dioperasikan Mustang Panda. Server tersebut ternyata berkomunikasi dengan beberapa host dalam jaringan pemerintah Indonesia.
-                                                                  Mereka kemudian menelusuri lebih lanjut dan mengklaim hal itu telah berlangsung sejak Maret 2021. Namun, belum jelas metode serta target dari peretasan tersebut.
-                                                                  Peneliti Insikt Group menyatakan telah memberi tahu celah tersebut ke Indonesia pada Juni 2021 dan dilakukan lagi pada Juli 2021. Namun, pemerintah Indonesia disebut tidak merespons laporan itu.
-                                                                  BIN juga disebut menjadi salah satu target paling sensitif dari aksi peretasan itu. Mereka juga tidak merespons laporan The Record pada Juli dan Agustus 2021.
-                                                                </td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
-                                                      </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                                      </div>
+                                                     
                                                     </div>
                                                   </div>
                                                 </div>
@@ -179,7 +124,7 @@
                     </div>
              <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <h2>Berita Edukasi</h2>
+                    <h2 style="color: orange;">Berita Edukasi</h2>
                     <p>Seputar Rekayasa Perangkat Lunak</p>
                 </div>
             </div>
@@ -198,9 +143,11 @@
                                     <p class="card-text">
                                     
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pendidikan">
-                                                Selengkapnya
-                                    </button> 
+                                    <a target="_blank"
+                                                        href="https://edukasi.kompas.com/read/2020/11/25/122655771/fakultas-teknik-ui-buat-perangkat-lunak-prediksi-kerusakan-pipa-gas"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                   
 
                                     <div class="modal fade" id="pendidikan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -211,24 +158,7 @@
                                                       </div>
                                                       <div class="modal-body">
                                                         
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">Kebocoran pipa gas</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td style="text-align: justify;">Dosen dan mahasiswa Fakultas Teknik Universitas Indonesia membuat perangkat lunak Prediksi Risiko Kerusakan Pipa Gas.</td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
-                                                      </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                                                     
                                                       </div>
                                                     </div>
                                                   </div>
@@ -253,9 +183,11 @@
                                     <h5 class="card-text  warna">Antusias Belajar di Masa Pandemi.</h5>
                                     <p class="card-text">
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#edukasi">
-                                                Selengkapnya
-                                    </button>  
+                                    <a target="_blank"
+                                                        href="http://rpl.kd-cibiru.upi.edu/pkm-rpl-antusias-guru-smp-mengikuti-pembelajaran-koding-di-masa-pandemi/"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                    
 
                                     <div class="modal fade" id="edukasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -266,25 +198,8 @@
                                                       </div>
                                                       <div class="modal-body">
                                                         
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">PENDIDIKAN</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td style="text-align: justify;">Pemahaman dasar tentang pemrograman atau koding menjadi kebutuhan yang penting pada saat sekarang ini. Diberbagai negara sudah menerapkan pembelajaran pemrograman sejak sekolah dasar. Sementara di Indonesia, pembelajaran pemrograman akan diajarkan ditingkat Sekolah Menegah Atas atau bisa didapatkan diluar sekolah . Mayoritas siswa menyadari manfaat pemrograman dan besarnya potensi yang bisa didapat ketika menguasai pemrograman, sehingga siswa sangat berharap dapat mengetahui lebih tentang pemrograman. Namun, saat ini masih banyak kualifikasi guru TIK bukan lah dari jurusan informatika. Seperti yang dijelaskan oleh Kepala Pusat Kurikulum dan Pembelajaran Kementerian Pendidikan dan Kebudayaan dalam acara Grow with Google, menjelaskan bahwa banyak guru yang mengajarkan TIK yang mempunyai background bukan dari informatika, misalnya teknik komputer, teknik informatika.</td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
                                                       </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                                      </div>
+                                                      
                                                     </div>
                                                   </div>
                                                 </div>
@@ -306,9 +221,10 @@
                                     <p class="card-text">
                                    
                                     </p>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hacker">
-                                                Selengkapnya
-                                    </button> 
+                                    <a target="_blank"
+                                                        href="https://www.liputan6.com/tag/software"
+                                                        class="btn btn-sm btn-outline-secondary"
+                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
 
                                     <div class="modal fade" id="hacker" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -319,25 +235,8 @@
                                                       </div>
                                                       <div class="modal-body">
                                                         
-                                                      <table class="table">
-                                                              <thead>
-                                                                <tr>
-                                                                  <th scope="col"></th>
-                                                                  <th scope="col">Apa itu software</th>
-                                                                  <th scope="col"></th>
-                                                                </tr>
-                                                              </thead>
-                                                              <tbody>
-                                                                <tr>
-                                                                  <th scope="row"></th>
-                                                                  <td>Software adalah kumpulan instruksi atau program yang menginstruksikan komputer untuk melakukan tugas. Tanpa perangkat lunak, komputer tidak berguna.</td>
-                                                                </tr>
-                                                              </tbody>
-                                                            </table>
                                                       </div>
-                                                      <div class="modal-footer">
-                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-                                                      </div>
+                                                      
                                                     </div>
                                                   </div>
                                                 </div>
@@ -349,6 +248,8 @@
                         </div>
                       </div>
                     </div>
+                    </div>
+
                     
 
 
