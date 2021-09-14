@@ -18,6 +18,9 @@ Route::get('RPL/portfolio','PortfolioController@index');
 Route::get('RPL/dokumentasi','DokumentasiController@index');
 
 Route::get('RPL/peluang_kerja','PeluangKerjaController@index');
+
+Route::get('RPL/berita','BeritaController@index');
+
 // Route::get('RPL/tujuan','TujuanController@index');
 
 

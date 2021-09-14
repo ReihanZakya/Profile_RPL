@@ -1,4 +1,4 @@
-@extends('template.main')
+@extends('template.main4')
 @section('content')
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">

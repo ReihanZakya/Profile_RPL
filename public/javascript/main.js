@@ -96,7 +96,7 @@ $('body').on('click','.pdkkxi',function(){
 $('body').on('click','.pwpbxi',function(){
     $('#pwpbxi').collapse('toggle');
     $('#pboxi').collapse('hide');
-    $('basdatxi').collapse('hide');
+    $('#basdatxi').collapse('hide');
     $('#pdkkxi').collapse('hide');
     $('#pplxi').collapse('hide');
 });
