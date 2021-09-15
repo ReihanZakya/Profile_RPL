@@ -64,10 +64,17 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Peluang Kerja
     Route::get('job_opportunities','Admin\JobOpportunitiesController@index');
+    Route::get('job_opportunities/add_job','Admin\JobOpportunitiesController@add');
+    Route::post('job_opportunities/store','Admin\JobOpportunitiesController@store');
+    Route::get('job_opportunities/{id}/edit','Admin\JobOpportunitiesController@edit');
+
 
 
     //Portofolio
     Route::get('portfolio','Admin\PortfolioController@index');
+    Route::get('portfolio/add_portfolio','Admin\PortfolioController@add');
+    Route::post('portfolio/store','Admin\PortfolioController@store');
+    Route::get('portfolio/{id}/edit','Admin\PortfolioController@edit');
 
 
     //Dokumentasi

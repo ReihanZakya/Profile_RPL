@@ -61,7 +61,7 @@
                     <a href="{{ url('job_opportunities') }}"
                         class="nav-link {{ Request::path() === 'job_opportunities' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Peluag Kerja</p>
+                        <p>Peluang Kerja</p>
                     </a>
                 </li>
                 <!--Portofolio-->
