@@ -33,5 +33,14 @@ class TeacherSubjectController extends Controller
             'teacher_id' => $request->teacher_id,
             'subject_id' => $request->subject_id
         ]);
+
+        return redirect('teacher_subject');
+    }
+
+    public function edit($id)
+    {
+        $title = 'Edit Guru Mapel';
+
+        return view('admin.teacher_subject.edit',compact('title'));
     }
 }

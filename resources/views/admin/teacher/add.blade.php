@@ -1,10 +1,10 @@
-@extends('backend.admin.main')
+@extends('backend.admin.dashboard')
 @section('content')
     <div class="card card-primary">
         <div class="card-header">
             <h3 class="card-title">{{ $title }}</h3>
         </div>
-        <form action="{{ url('/manage_teacher/store') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ url('teacher/store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="card-body">
                 <div class="form-group">

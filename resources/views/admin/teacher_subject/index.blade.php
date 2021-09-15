@@ -3,8 +3,8 @@
     <div class="card">
         <div class="card-header">
             {{ $title }}
-            <a href="{{ url('manage_teacher_subject/add_teacher_subject') }}"
-                class="btn btn-primary btn-sm float-right">Tambah Guru Mapel</a>
+            <a href="{{ url('teacher_subject/add_teacher_subject') }}" class="btn btn-primary btn-sm float-right">Tambah
+                Guru Mapel</a>
         </div>
         <div class="card-body">
             <table class="table table-bordered">
@@ -25,7 +25,8 @@
                             <td>{{ $dt->subject->subject_name }}</td>
                             <td>{{ $dt->subject->class }}</td>
                             <td>
-                                <a href="" class="btn btn-warning btn-sm btn-outline-light">Edit</a>
+                                <a href="{{ url('teacher_subject/' . $dt->id . '/edit') }}"
+                                    class="btn btn-warning btn-sm btn-outline-light">Edit</a>
                                 <a href="" class="btn btn-danger btn-sm btn-outline-light">Delete</a>
                             </td>
                         </tr>

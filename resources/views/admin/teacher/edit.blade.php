@@ -1,4 +1,4 @@
-@extends('backend.admin.main')
+@extends('backend.admin.dashboard')
 @section('content')
     <div class="card card-info">
         <div class="card-header">
@@ -10,24 +10,23 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama Guru</label>
-                    <input type="text" name="teacher_name" class="form-control" id="exampleInputEmail1"
-                        value="{{ $dt->teacher_name }}">
+                    <input type="text" name="teacher_name" class="form-control" id="exampleInputEmail1" value="Guru">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Jenis Kelamin</label>
                     <select name="gender" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih---</option>
-                        <option value="Laki-laki" {{ $dt->gender == 'Laki-laki' ? 'selected' : '' }}>Laki-laki</option>
-                        <option value="Perempuan" {{ $dt->gender == 'Perempuan' ? 'selected' : '' }}>Perempuan</option>
+                        <option value="">Laki-laki</option>
+                        <option value="">Perempuan</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Jenis Posisi</label>
                     <select name="position_types" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih---</option>
-                        <option value="Kepala Prodi" {{ $dt->position_types == 'Kepala Prodi' ? 'selected' : '' }}>
+                        <option value="Kepala Prodi">
                             Kepala Prodi</option>
-                        <option value="Guru RPL" {{ $dt->position_types == 'Guru RPL' ? 'selected' : '' }}>Guru RPL
+                        <option value="Guru RPL">Guru RPL
                         </option>
                     </select>
                 </div>

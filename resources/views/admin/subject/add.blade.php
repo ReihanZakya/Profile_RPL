@@ -1,15 +1,15 @@
-@extends('backend.admin.main')
+@extends('backend.admin.dashboard')
 @section('content')
     <div class="card card-primary">
         <div class="card-header">
             <h3 class="card-title">{{ $title }}</h3>
         </div>
-        <form action="{{ url('/manage_subject/store') }}" method="POST">
+        <form action="{{ url('subject/store') }}" method="POST">
             @csrf
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Mata Pelajaran</label>
-                    <input type="text" name="name_subject" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="subject_name" class="form-control" id="exampleInputEmail1">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Kelas</label>

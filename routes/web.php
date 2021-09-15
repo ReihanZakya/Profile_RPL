@@ -59,6 +59,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('teacher_subject','Admin\TeacherSubjectController@index');
     Route::get('teacher_subject/add_teacher_subject','Admin\TeacherSubjectController@add');
     Route::post('teacher_subject/store','Admin\TeacherSubjectController@store');
+    Route::get('teacher_subject/{id}/edit','Admin\TeacherSubjectController@edit');
 
 
     //Peluang Kerja

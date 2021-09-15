@@ -27,11 +27,11 @@ class SubjectController extends Controller
     public function store(Request $request)
     {
         Subject::create([
-            'name_subject' => $request->name_subject,
+            'subject_name' => $request->subject_name,
             'class' => $request->class
         ]);
 
-        return redirect('/manage_subject');
+        return redirect('subject');
     }
 
     public function edit($id)

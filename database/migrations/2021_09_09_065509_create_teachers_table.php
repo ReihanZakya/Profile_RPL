@@ -18,6 +18,7 @@ class CreateTeachersTable extends Migration
             $table->string('teacher_name',191);
             $table->string('gender',191);
             $table->string('position_types',191);
+            $table->text('photo')->nullable();
             $table->timestamps();
         });
     }

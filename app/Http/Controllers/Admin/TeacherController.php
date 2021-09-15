@@ -27,7 +27,7 @@ class TeacherController extends Controller
     {
         $file = $request->file('photo');
 
-        $path = 'image';
+        $path = 'AdminLTE\teacher';
         $file->move($path,$file->getClientOriginalName());
 
         Teacher::create([
@@ -36,7 +36,7 @@ class TeacherController extends Controller
             'position_types' => $request->position_types,
             'photo' => $file->getClientOriginalName()
         ]);
-        dd($request);
+
         return redirect('teacher');
     }
 

@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-header">
             {{ $title }}
-            <a href="{{ url('manage_subject/add_subject') }}" class="btn btn-primary btn-sm float-right">Tambah Mata
+            <a href="{{ url('subject/add_subject') }}" class="btn btn-primary btn-sm float-right">Tambah Mata
                 Pelajaran</a>
         </div>
         <div class="card-body">
