@@ -23,10 +23,10 @@
                                     <h5 class="card-text  warna">Apa Itu "Sunburst"?</h5>
                                     <p class="card-text">
                                     </p>
-                                    <a target="_blank"
-                                                        href="https://www.bbc.com/indonesia/dunia-55328416"
-                                                        class="btn btn-sm btn-outline-secondary"
-                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                    <!-- <button type="button" class="btn btn-primary">SELENGKAPNYA -->
+                                    <button type="button" class="btn btn-primary"><a href="{{ url('RPL/berita1') }}"class="link {{ url()->current() == url('RPL/berita1') ? 'active' : '' }}" style="font-size: 14px; color: white;">SELENGKAPNYA</button>
+                                    <!-- </button> -->
+                                    <a></a>
                                                       </div>
                                     <div class="modal fade" id="webdeveloper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -51,10 +51,9 @@
                                     <p class="card-text">
                                     
                                     </p>
-                                    <a target="_blank"
-                                                        href="https://www.cnnindonesia.com/teknologi/20210913110134-185-693412/bulan-bulanan-ri-di-tangan-peretas"
-                                                        class="btn btn-sm btn-outline-secondary"
-                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                    <button type="button" class="btn btn-primary"><a href="{{ url('RPL/berita2') }}"class="link {{ url()->current() == url('RPL/berita2') ? 'active' : '' }}" style="font-size: 14px; color: white;">SELENGKAPNYA</button>
+
+                                    <a></a>
 
                                     
                                                 
@@ -94,10 +93,9 @@
                                     <p class="card-text">
                                    
                                     </p>
-                                    <a target="_blank"
-                                                        href="https://www.jpnn.com/news/waduh-hacker-china-diduga-bobol-jaringan-bin-dan-kementerian-ri"
-                                                        class="btn btn-sm btn-outline-secondary"
-                                                        title="More Details" style="color: darkblue;">SELENGKAPNYA</a>
+                                    <button type="button" class="btn btn-primary"><a href="{{ url('RPL/berita3') }}"class="link {{ url()->current() == url('RPL/berita3') ? 'active' : '' }}" style="font-size: 14px; color: white;">SELENGKAPNYA</button>
+
+                                    <a></a>
 
               
 
