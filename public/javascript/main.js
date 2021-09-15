@@ -138,7 +138,6 @@ $('body').on('click','.pdkkxii',function(){
     $('#basdatxii').collapse('hide');
 });
 
-
 //DataTables
 $(document).ready(function(){
     $('.pd').DataTable({
