@@ -4,12 +4,12 @@
         <div class="card-header">
             <h3 class="card-title">{{ $title }}</h3>
         </div>
-        <form action="{{ url('portfolio/store') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ url('documentation/store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="card-body">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Judul Portofolio</label>
-                    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
+                    <label for="exampleInputEmail1">Nama Dokumentasi</label>
+                    <input type="text" name="name" class="form-control" id="exampleInputEmail1" value="OOO">
                 </div>
                 <div class="form-group">
                     <label for="formFile" class="form-label">Foto</label>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Sumber</label>
-                    <input type="text" name="source" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="source" class="form-control" id="exampleInputEmail1" value="Kkk">
                 </div>
             </div>
             <!-- /.card-body -->

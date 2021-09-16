@@ -13,9 +13,9 @@ class TeacherSeeder extends Seeder
     public function run()
     {
         Teacher::create([
-            'teacher_name' => 'Raynaldi',
-            'gender' => 'Laki-laki',
-            'position_types' => 'Kepala Prodi'
+            'name' => 'Raynaldi',
+            'gender' => '1',
+            'position_types' => '1'
         ]);
     }
 }

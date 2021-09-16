@@ -31,8 +31,8 @@ class PortfolioController extends Controller
         $file->move($path,$file->getClientOriginalName());
 
         portfolios::create([
-            'port_name' => $request->port_name,
-            'port_source' => $request->port_source,
+            'name' => $request->name,
+            'source' => $request->source,
             'photo' => $file->getClientOriginalName()
         ]);
 

@@ -79,10 +79,16 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Dokumentasi
     Route::get('documentation','Admin\DocumentationController@index');
+    Route::get('documentation/add_documentation','Admin\DocumentationController@add');
+    Route::post('documentation/store','Admin\DocumentationController@store');
+    Route::get('documentation/{id}/edit','Admin\DocumentationController@edit');
 
 
     //Berita
     Route::get('news','Admin\NewsController@index');
+    Route::get('news/add_news','Admin\NewsController@add');
+    Route::post('news/store','Admin\NewsController@store');
+    Route::get('news/{id}/edit','Admin\NewsController@edit');
 
 });
 

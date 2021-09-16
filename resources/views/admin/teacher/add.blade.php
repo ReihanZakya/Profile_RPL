@@ -9,22 +9,22 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama Guru</label>
-                    <input type="text" name="teacher_name" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Jenis Kelamin</label>
                     <select name="gender" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih---</option>
-                        <option value="Laki-laki">Laki-laki</option>
-                        <option value="Perempuan">Perempuan</option>
+                        <option value="1">Laki-laki</option>
+                        <option value="2">Perempuan</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Jenis Posisi</label>
                     <select name="position_types" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih---</option>
-                        <option value="Kepala Prodi">Kepala Prodi</option>
-                        <option value="Guru RPL">Guru RPL</option>
+                        <option value="1">Kepala Prodi</option>
+                        <option value="2">Guru RPL</option>
                     </select>
                 </div>
                 <div class="form-group">

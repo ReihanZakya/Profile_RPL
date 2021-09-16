@@ -24,15 +24,10 @@ class JobOpportunitiesController extends Controller
     }
     public function store(Request $request)
     {
-        $file = $request->file('photo');
-
-        $path = 'AdminLTE\job_opportunities';
-        $file->move($path,$file->getClientOriginalName());
 
         job_opportunities::create([
-            'job_name' => $request->job_name,
-            'job_description' => $request->job_description,
-            'photo' => $file->getClientOriginalName()
+            'name' => $request->name,
+            'description' => $request->description
         ]);
 
         return redirect('job_opportunities');

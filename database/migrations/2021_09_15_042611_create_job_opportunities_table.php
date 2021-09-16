@@ -15,9 +15,8 @@ class CreateJobOpportunitiesTable extends Migration
     {
         Schema::create('job_opportunities', function (Blueprint $table) {
             $table->id();
-            $table->string('job_name',191);
-            $table->string('job_description',191);
-            $table->text('photo')->nullable();
+            $table->string('name',191);
+            $table->string('description',191);
             $table->timestamps();
         });
     }

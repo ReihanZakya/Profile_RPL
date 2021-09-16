@@ -20,7 +20,7 @@
                     @foreach ($data as $dt)
                         <tr>
                             <td>{{ $loop->iteration }}</td>
-                            <td>{{ $dt->subject_name }}</td>
+                            <td>{{ $dt->name }}</td>
                             <td>{{ $dt->class }}</td>
                             <td>
                                 <a href="{{ url('subject/' . $dt->id . '/edit') }}"
@@ -35,3 +35,25 @@
         </div>
     </div>
 @endsection
+
+@push('datatables')
+    <!-- DataTables  & Plugins -->
+    <script src="{{ asset('AdminLTE/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
+        });
+    </script>
+
+@endpush

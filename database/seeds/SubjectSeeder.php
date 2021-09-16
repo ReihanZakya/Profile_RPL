@@ -13,7 +13,7 @@ class SubjectSeeder extends Seeder
     public function run()
     {
         Subject::create([
-            'subject_name' => 'Basdat',
+            'name' => 'Basdat',
             'class' => 'Kelas X'
         ]);
     }

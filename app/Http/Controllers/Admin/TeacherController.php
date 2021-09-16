@@ -31,7 +31,7 @@ class TeacherController extends Controller
         $file->move($path,$file->getClientOriginalName());
 
         Teacher::create([
-            'teacher_name' => $request->teacher_name,
+            'name' => $request->name,
             'gender' => $request->gender,
             'position_types' => $request->position_types,
             'photo' => $file->getClientOriginalName()

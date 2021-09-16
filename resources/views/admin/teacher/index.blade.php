@@ -21,7 +21,7 @@
                     @foreach ($data as $dt)
                         <tr>
                             <td>{{ $loop->iteration }}</td>
-                            <td>{{ $dt->teacher_name }}</td>
+                            <td>{{ $dt->name }}</td>
                             <td>
                                 <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}" style="width: 100px;">
                             </td>
@@ -40,3 +40,26 @@
         </div>
     </div>
 @endsection
+
+
+@push('datatables')
+    <!-- DataTables  & Plugins -->
+    <script src="{{ asset('AdminLTE/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
+        });
+    </script>
+
+@endpush

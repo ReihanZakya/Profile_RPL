@@ -10,15 +10,11 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Tambah Pekerjaan</label>
-                    <input type="text" name="job_name" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Deskripsi Pekerjaan</label>
-                    <input type="text" name="job_description" class="form-control" id="exampleInputEmail1">
-                </div>
-                <div class="form-group">
-                    <label for="formFile" class="form-label">Foto</label>
-                    <input type="file" name="photo" class="form-control" id=" formFile">
+                    <input type="text" name="description" class="form-control" id="exampleInputEmail1">
                 </div>
             </div>
             <!-- /.card-body -->

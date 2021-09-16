@@ -12,7 +12,7 @@
                     <select name="teacher_id" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih Guru---</option>
                         @foreach ($teacher as $tc)
-                            <option value="{{ $tc->id }}">{{ $tc->teacher_name }}</option>
+                            <option value="{{ $tc->id }}">{{ $tc->name }}</option>
                         @endforeach
                     </select>
                 </div>
@@ -21,7 +21,7 @@
                     <select name="subject_id" class="form-control custom-select">
                         <option selected="" disabled="">---Pilih Mata Pelajaran---</option>
                         @foreach ($subject as $sc)
-                            <option value="{{ $sc->id }}">{{ $sc->subject_name }} ({{ $sc->class }})</option>
+                            <option value="{{ $sc->id }}">{{ $sc->name }} ({{ $sc->class }})</option>
                         @endforeach
                     </select>
                 </div>
