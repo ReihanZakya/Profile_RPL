@@ -16,5 +16,15 @@ class SubjectSeeder extends Seeder
             'name' => 'Basdat',
             'class' => 'Kelas X'
         ]);
+
+        Subject::create([
+            'name' => 'PDKK',
+            'class' => 'Kelas XI'
+        ]);
+
+        Subject::create([
+            'name' => 'PWPB',
+            'class' => 'Kelas XI'
+        ]);
     }
 }

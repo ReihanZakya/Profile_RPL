@@ -17,5 +17,19 @@ class TeacherSeeder extends Seeder
             'gender' => '1',
             'position_types' => '1'
         ]);
+
+        Teacher::create([
+            'name' => 'Munir',
+            'gender' => '1',
+            'position_types' => '2'
+        ]);
+
+        Teacher::create([
+            'name' => 'Shyffa',
+            'gender' => '2',
+            'position_types' => '2'
+        ]);
+
+        
     }
 }
