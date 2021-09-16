@@ -1745,7 +1745,7 @@ span {
 #hero4 {
   width: 100%;
   height: 100vh;
-  background: url("../img/landingpage2.jpeg") top center;
+  background: url("../img/guruu.png.jpeg") top center;
   /* background-size: cover; */
   background-size: 100% 100%;
   position: relative;
@@ -1949,7 +1949,7 @@ span {
 #hero5 {
   width: 100%;
   height: 100vh;
-  background: url("../img/landingpage3.png") top center;
+  background: url("../img/guru2.jpeg") top center;
   /* background-size: cover; */
   background-size: 100% 100%;
   position: relative;
@@ -2556,6 +2556,11 @@ span {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+.cover{
+  height: 700px;
+  width: 500px;
 }
 
 
