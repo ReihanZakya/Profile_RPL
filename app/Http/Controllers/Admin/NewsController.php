@@ -74,4 +74,11 @@ class NewsController extends Controller
        }
         return redirect('news');
     }
+
+    public function delete($id)
+    {
+        News::findOrFail($id)->delete();
+
+        return redirect('news');
+    }
 }

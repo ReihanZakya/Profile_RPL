@@ -57,4 +57,11 @@ class TeacherSubjectController extends Controller
 
         return redirect('teacher_subject');
     }
+
+    public function delete($id)
+    {
+        TeacherSubject::findOrFail($id)->delete();
+
+        return redirect('teacher_subject');
+    }
 }

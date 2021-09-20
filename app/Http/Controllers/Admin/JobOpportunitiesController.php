@@ -50,4 +50,11 @@ class JobOpportunitiesController extends Controller
 
         return redirect('job_opportunities');
     }
+
+    public function delete($id)
+    {
+        job_opportunities::findOrFail($id)->delete();
+
+        return redirect('job_opportunities');
+    }
 }

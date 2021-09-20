@@ -56,6 +56,6 @@ class SubjectController extends Controller
     {
         Subject::findOrFail($id)->delete();
 
-        return redirect('subject');
+        return redirect('subject')->with('status','Data Berhasi dihapus');
     }
 }

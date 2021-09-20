@@ -18,6 +18,7 @@ class CreateJobOpportunitiesTable extends Migration
             $table->string('name',191);
             $table->string('description',191);
             $table->timestamps();
+            $table->softDeletes('deleted_at')->nullable();
         });
     }
 

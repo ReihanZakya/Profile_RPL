@@ -20,6 +20,7 @@ class CreateTeachersTable extends Migration
             $table->tinyInteger('position_types');
             $table->text('photo')->nullable();
             $table->timestamps();
+            $table->softDeletes('deleted_at')->nullable();
         });
     }
 

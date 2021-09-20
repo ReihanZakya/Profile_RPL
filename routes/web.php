@@ -61,6 +61,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::post('teacher_subject/store','Admin\TeacherSubjectController@store');
     Route::get('teacher_subject/{id}/edit','Admin\TeacherSubjectController@edit');
     Route::put('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
+    Route::get('teacher_subject/{id}/delete','Admin\TeacherSubjectController@delete');
 
 
     //Peluang Kerja
@@ -69,6 +70,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::post('job_opportunities/store','Admin\JobOpportunitiesController@store');
     Route::get('job_opportunities/{id}/edit','Admin\JobOpportunitiesController@edit');
     Route::put('job_opportunities/{id}/update','Admin\JobOpportunitiesController@update');
+    Route::get('job_opportunities/{id}/delete','Admin\JobOpportunitiesController@delete');
 
 
 
@@ -78,6 +80,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::post('portfolio/store','Admin\PortfolioController@store');
     Route::get('portfolio/{id}/edit','Admin\PortfolioController@edit');
     Route::put('portfolio/{id}/update','Admin\PortfolioController@update');
+    Route::get('portfolio/{id}/delete','Admin\PortfolioController@delete');
 
 
     //Dokumentasi
@@ -86,6 +89,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::post('documentation/store','Admin\DocumentationController@store');
     Route::get('documentation/{id}/edit','Admin\DocumentationController@edit');
     Route::put('documentation/{id}/update','Admin\DocumentationController@update');
+    Route::get('documentation/{id}/delete','Admin\DocumentationController@delete');
 
 
     //Berita
@@ -94,6 +98,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::post('news/store','Admin\NewsController@store');
     Route::get('news/{id}/edit','Admin\NewsController@edit');
     Route::put('news/{id}/update','Admin\NewsController@update');
+    Route::get('news/{id}/delete','Admin\newsController@delete');
 
 });
 

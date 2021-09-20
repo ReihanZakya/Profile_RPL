@@ -75,4 +75,10 @@ class PortfolioController extends Controller
 
            return redirect('portfolio');
     }
+    public function delete($id)
+    {
+        portfolios::findOrFail($id)->delete();
+
+        return redirect('portfolio');
+    }
 }

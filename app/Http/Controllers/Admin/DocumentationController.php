@@ -74,4 +74,10 @@ class DocumentationController extends Controller
        }
         return redirect('documentation');
     }
+    public function delete($id)
+    {
+        Documentation::findOrFail($id)->delete();
+
+        return redirect('documentation');
+    }
 }
