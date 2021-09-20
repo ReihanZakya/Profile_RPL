@@ -26,18 +26,26 @@ class TeacherController extends Controller
     public function store(Request $request)
     {
         $file = $request->file('photo');
-
         $path = 'AdminLTE\teacher';
-        $file->move($path,$file->getClientOriginalName());
 
-        Teacher::create([
-            'name' => $request->name,
-            'gender' => $request->gender,
-            'position_types' => $request->position_types,
-            'photo' => $file->getClientOriginalName()
-        ]);
+        if ($file) {
+            $file->move($path,$file->getClientOriginalName());
+            Teacher::create([
+                'name' => $request->name,
+                'gender' => $request->gender,
+                'position_types' => $request->position_types,
+                'photo' => $file->getClientOriginalName()
+            ]);
+        }else{
+            Teacher::create([
+                'name' => $request->name,
+                'gender' => $request->gender,
+                'position_types' => $request->position_types,
+            ]);
 
-        return redirect('teacher');
+        }
+
+            return redirect('teacher');
     }
 
     public function edit($id)
@@ -50,11 +58,23 @@ class TeacherController extends Controller
 
     public function update(Request $request,$id)
     {
-        Teacher::findOrFail($id)->update([
-            'teacher_name' => $request->teacher_name,
-            'gender' => $request->gender,
-            'position_types' => $request->position_types
-        ]);
+
+        $file = $request->file('photo');
+        $path = 'AdminLTE\teacher';
+
+        if($file){
+            $file->move($path,$file->getClientOriginalName());
+            Teacher::findOrFail($id)->update([
+                'photo' => $file->getClientOriginalName()
+            ]);
+           }else{
+            Teacher::findOrFail($id)->update([
+                'name' => $request->name,
+                'gender' => $request->gender,
+                'position_types' => $request->position_types
+            ]);
+           }
+
 
         return redirect('teacher');
     }

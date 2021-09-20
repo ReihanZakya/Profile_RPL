@@ -26,16 +26,22 @@ class DocumentationController extends Controller
     public function store(Request $request)
     {
         $file = $request->file('photo');
-
         $path = 'AdminLTE\documentation';
-        $file->move($path,$file->getClientOriginalName());
 
+       if ($file) {
+        $file->move($path,$file->getClientOriginalName());
         Documentation::create([
             'name' => $request->name,
             'source' => $request->source,
             'photo' => $file->getClientOriginalName()
         ]);
+       }else{
+        Documentation::create([
+            'name' => $request->name,
+            'source' => $request->source,
+        ]);
 
+       }
         return redirect('documentation');
     }
 
@@ -45,5 +51,27 @@ class DocumentationController extends Controller
         $dt = Documentation::findOrFail($id);
 
         return view('admin.documentation.edit',compact('title','dt'));
+    }
+
+    public function update(Request $request,$id)
+    {
+        $file = $request->file('photo');
+        $path = 'AdminLTE\documentation';
+
+       if ($file) {
+        $file->move($path,$file->getClientOriginalName());
+        Documentation::findOrFail($id)->update([
+            'name' => $request->name,
+            'source' => $request->source,
+            'photo' => $file->getClientOriginalName()
+        ]);
+       }else{
+        Documentation::findOrFail($id)->update([
+            'name' => $request->name,
+            'source' => $request->source,
+        ]);
+
+       }
+        return redirect('documentation');
     }
 }

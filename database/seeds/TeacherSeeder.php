@@ -15,21 +15,24 @@ class TeacherSeeder extends Seeder
         Teacher::create([
             'name' => 'Raynaldi',
             'gender' => '1',
-            'position_types' => '1'
+            'position_types' => '1',
+            'photo' => 'pa rey.jpg'
+        ]);
+
+        Teacher::create([
+            'name' => 'Dede',
+            'gender' => '1',
+            'position_types' => '2',
+            'photo' => 'pa dede.jpg'
         ]);
 
         Teacher::create([
             'name' => 'Munir',
             'gender' => '1',
-            'position_types' => '2'
+            'position_types' => '2',
+            'photo' => 'pa munir.jpg'
         ]);
 
-        Teacher::create([
-            'name' => 'Shyffa',
-            'gender' => '2',
-            'position_types' => '2'
-        ]);
 
-        
     }
 }

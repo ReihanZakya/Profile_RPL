@@ -41,5 +41,13 @@ class JobOpportunitiesController extends Controller
         return view('admin.job_opportunities.edit',compact('title','dt'));
     }
 
+    public function update(Request $request,$id)
+    {
+        job_opportunities::findOrFail($id)->update([
+            'name' => $request->name,
+            'description' => $request->description
+        ]);
 
+        return redirect('job_opportunities');
+    }
 }

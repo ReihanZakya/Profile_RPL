@@ -7,36 +7,61 @@
         <form action="{{ url('teacher/store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="card-body">
+                <!--Nama-->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama Guru</label>
                     <input type="text" name="name" class="form-control" id="exampleInputEmail1">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Jenis Kelamin</label>
-                    <select name="gender" class="form-control custom-select">
-                        <option selected="" disabled="">---Pilih---</option>
-                        <option value="1">Laki-laki</option>
-                        <option value="2">Perempuan</option>
-                    </select>
+                <!-- Jenis Kelamin-->
+                <label for="exampleInputEmail1">Jenis Kelamin</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="Laki-laki" value="1">
+                    <label class="form-check-label" for="Laki-laki">Laki-laki</label>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Jenis Posisi</label>
-                    <select name="position_types" class="form-control custom-select">
-                        <option selected="" disabled="">---Pilih---</option>
-                        <option value="1">Kepala Prodi</option>
-                        <option value="2">Guru RPL</option>
-                    </select>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="Perempuan" value="2">
+                    <label class="form-check-label" for="Perempuan">Perempuan</label>
+                </div><br>
+                <!-- Jenis Posisi-->
+                <label for="exampleInputEmail1" class="mt-3 mb-2">Jenis Posisi</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="position_types" id="Kepala Prodi" value="1">
+                    <label class="form-check-label" for="Kepala Prodi">Kepala Prodi</label>
                 </div>
-                <div class="form-group">
-                    <label for="formFile" class="form-label">Foto</label>
-                    <input type="file" name="photo" class="form-control" id=" formFile">
+                <div class="form-check form-check-inline mb-3">
+                    <input class="form-check-input GRPL" type="radio" name="position_types" id="Guru RPL" value="2">
+                    <label class="form-check-label" for="Guru RPL">Guru RPL</label>
+                </div><br>
+                <!--Foto-->
+                <label for="exampleFormControlFile1">Foto</label>
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" name="photo" class="custom-file-input" id="inputGroupFile03"
+                            aria-describedby="inputGroupFileAddon03">
+                        <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
+                    </div>
                 </div>
             </div>
             <!-- /.card-body -->
 
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Batal</button>
             </div>
         </form>
     </div>
 @endsection
+
+
+@push('form')
+    <script src="{{ asset('AdminLTE/photojs/bs-custom-file-input.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            bsCustomFileInput.init()
+            $("#inputFile").change(function(event) {
+                fadeInAdd();
+                getURL(this);
+            });
+        });
+    </script>
+@endpush

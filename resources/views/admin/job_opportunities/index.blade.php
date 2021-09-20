@@ -22,7 +22,7 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
-                            <td>{{ $dt->description }}</td>
+                            <td class="col-md-6">{{ $dt->description }}</td>
 
                             <td>
                                 <a href="{{ url('job_opportunities/' . $dt->id . '/edit') }}"

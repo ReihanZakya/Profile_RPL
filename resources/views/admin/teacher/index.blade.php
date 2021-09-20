@@ -23,10 +23,18 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
                             <td>
-                                <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}" style="width: 100px;">
+                                <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}" style="width:65px;">
                             </td>
-                            <td>{{ $dt->gender }}</td>
-                            <td>{{ $dt->position_types }}</td>
+                            @if ($dt->gender == 1)
+                                <td>Laki-laki</td>
+                            @else
+                                <td>Perempuan</td>
+                            @endif
+                            @if ($dt->postion_types == 1)
+                                <td>Kepala Prodi</td>
+                            @else
+                                <td>Guru RPL</td>
+                            @endif
                             <td>
                                 <a href="{{ url('teacher/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
@@ -49,6 +57,7 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
     <script>
+        //DataTables
         $(document).ready(function() {
             $('.table').DataTable({
                 "paging": true,
@@ -58,6 +67,8 @@
                 "info": true,
                 "autoWidth": false,
                 "responsive": true,
+                "pageLength": 5,
+                "lengthMenu": [5, 10, 15, 20]
             });
         });
     </script>

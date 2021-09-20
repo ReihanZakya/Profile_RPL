@@ -5,3 +5,4 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/AdminLTE/dist/js/adminlte.min.js') }}"></script>
 @stack('datatables')
+@stack('form')

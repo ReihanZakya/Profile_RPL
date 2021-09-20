@@ -21,7 +21,7 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->title }}</td>
-                            <td>{{ $dt->content }}</td>
+                            <td class="col-md-4">{{ $dt->content }}</td>
                             <td>
                                 <img src="{{ asset('AdminLTE/news/' . $dt->photo) }}" style="width: 100px;">
                             </td>

@@ -24,6 +24,7 @@ class TeacherSubjectController extends Controller
         $teacher = Teacher::get();
         $subject = Subject::get();
 
+
         return view('admin.teacher_subject.add',compact('title','teacher','subject'));
     }
 
@@ -40,7 +41,20 @@ class TeacherSubjectController extends Controller
     public function edit($id)
     {
         $title = 'Edit Guru Mapel';
+        $dt = TeacherSubject::findOrFail($id);
+        $teacher = Teacher::get();
+        $subject = Subject::get();
 
-        return view('admin.teacher_subject.edit',compact('title'));
+        return view('admin.teacher_subject.edit',compact('title','dt','teacher','subject'));
+    }
+
+    public function update(Request $request,$id)
+    {
+        TeacherSubject::findOrFail($id)->update([
+            'teacher_id' => $request->teacher_id,
+            'subject_id' => $request->subject_id
+        ]);
+
+        return redirect('teacher_subject');
     }
 }

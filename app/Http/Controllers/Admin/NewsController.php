@@ -26,23 +26,52 @@ class NewsController extends Controller
     public function store(Request $request)
     {
         $file = $request->file('photo');
-
         $path = 'AdminLTE\news';
-        $file->move($path,$file->getClientOriginalName());
 
+       if ($file) {
+        $file->move($path,$file->getClientOriginalName());
         News::create([
             'title' => $request->title,
             'content' => $request->content,
             'photo' => $file->getClientOriginalName()
         ]);
+       }else{
+        News::create([
+            'title' => $request->title,
+            'content' => $request->content,
+        ]);
 
+       }
         return redirect('news');
     }
 
     public function edit($id)
     {
         $title = 'Edit Berita';
+        $dt = News::findOrFail($id);
 
-        return view('admin.news.edit',compact('title'));
+        return view('admin.news.edit',compact('title','dt'));
+    }
+
+    public function update(Request $request,$id)
+    {
+        $file = $request->file('photo');
+        $path = 'AdminLTE\news';
+
+       if ($file) {
+        $file->move($path,$file->getClientOriginalName());
+        News::findOrFail($id)->update([
+            'title' => $request->title,
+            'content' => $request->content,
+            'photo' => $file->getClientOriginalName()
+        ]);
+       }else{
+        News::findOrFail($id)->update([
+            'title' => $request->title,
+            'content' => $request->content,
+        ]);
+
+       }
+        return redirect('news');
     }
 }

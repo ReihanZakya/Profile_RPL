@@ -45,11 +45,11 @@ class SubjectController extends Controller
     public function update(Request $request,$id)
     {
         Subject::findOrFail($id)->update([
-            'name_subject' => $request->name_subject,
+            'name' => $request->name,
             'class' => $request->class
         ]);
 
-        return redirect('/manage_subject');
+        return redirect('subject');
     }
 
     public function delete($id)

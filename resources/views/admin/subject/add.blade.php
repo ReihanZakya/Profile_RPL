@@ -11,20 +11,25 @@
                     <label for="exampleInputEmail1">Mata Pelajaran</label>
                     <input type="text" name="name" class="form-control" id="exampleInputEmail1">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Kelas</label>
-                    <select name="class" class="form-control custom-select">
-                        <option selected="" disabled="">---Pilih---</option>
-                        <option value="Kelas X">Kelas X</option>
-                        <option value="Kelas XI">Kelas XI</option>
-                        <option value="Kelas XII">Kelas XII</option>
-                    </select>
+                <label for="exampleInputEmail1">Kelas</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="class" id="Laki-laki" value="1">
+                    <label class="form-check-label" for="Laki-laki">Kelas X</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="class" id="Perempuan" value="2">
+                    <label class="form-check-label" for="Perempuan">Kelas XI</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="class" id="Perempuan" value="3">
+                    <label class="form-check-label" for="Perempuan">Kelas XII</label>
                 </div>
             </div>
             <!-- /.card-body -->
 
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Batal</button>
             </div>
         </form>
     </div>

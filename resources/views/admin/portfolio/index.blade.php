@@ -22,7 +22,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
                             <td>
-                                <img src="{{ asset('AdminLTE/portofolio/' . $dt->photo) }}" style="width: 100px;">
+                                <img src="{{ asset('AdminLTE/portfolio/' . $dt->photo) }}" style="width: 65px;">
                             </td>
                             <td>{{ $dt->source }}</td>
                             <td>

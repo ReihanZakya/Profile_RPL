@@ -60,6 +60,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('teacher_subject/add_teacher_subject','Admin\TeacherSubjectController@add');
     Route::post('teacher_subject/store','Admin\TeacherSubjectController@store');
     Route::get('teacher_subject/{id}/edit','Admin\TeacherSubjectController@edit');
+    Route::put('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
 
 
     //Peluang Kerja
@@ -67,6 +68,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('job_opportunities/add_job','Admin\JobOpportunitiesController@add');
     Route::post('job_opportunities/store','Admin\JobOpportunitiesController@store');
     Route::get('job_opportunities/{id}/edit','Admin\JobOpportunitiesController@edit');
+    Route::put('job_opportunities/{id}/update','Admin\JobOpportunitiesController@update');
 
 
 
@@ -75,6 +77,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('portfolio/add_portfolio','Admin\PortfolioController@add');
     Route::post('portfolio/store','Admin\PortfolioController@store');
     Route::get('portfolio/{id}/edit','Admin\PortfolioController@edit');
+    Route::put('portfolio/{id}/update','Admin\PortfolioController@update');
 
 
     //Dokumentasi
@@ -82,6 +85,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('documentation/add_documentation','Admin\DocumentationController@add');
     Route::post('documentation/store','Admin\DocumentationController@store');
     Route::get('documentation/{id}/edit','Admin\DocumentationController@edit');
+    Route::put('documentation/{id}/update','Admin\DocumentationController@update');
 
 
     //Berita
@@ -89,6 +93,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('news/add_news','Admin\NewsController@add');
     Route::post('news/store','Admin\NewsController@store');
     Route::get('news/{id}/edit','Admin\NewsController@edit');
+    Route::put('news/{id}/update','Admin\NewsController@update');
 
 });
 

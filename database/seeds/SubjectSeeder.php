@@ -14,17 +14,17 @@ class SubjectSeeder extends Seeder
     {
         Subject::create([
             'name' => 'Pemograman Dasar',
-            'class' => 'Kelas X'
+            'class' => '1'
         ]);
 
         Subject::create([
             'name' => 'Pemodelan Perangkat Lunak',
-            'class' => 'Kelas XI'
+            'class' => '2'
         ]);
 
         Subject::create([
             'name' => 'Pemograman Web dan Perangkat Bergerak',
-            'class' => 'Kelas XI'
+            'class' => '3'
         ]);
     }
 }

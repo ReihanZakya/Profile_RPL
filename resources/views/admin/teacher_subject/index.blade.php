@@ -23,7 +23,13 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->teacher->name }}</td>
                             <td>{{ $dt->subject->name }}</td>
-                            <td>{{ $dt->subject->class }}</td>
+                            @if ($dt->subject->class == 1)
+                                <td>Kelas X</td>
+                            @elseif ($dt->subject->class == 2)
+                                <td>Kelas XI</td>
+                            @elseif ($dt->subject->class == 3)
+                                <td>Kelas XII</td>
+                            @endif
                             <td>
                                 <a href="{{ url('teacher_subject/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>

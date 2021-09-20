@@ -10,17 +10,18 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Tambah Pekerjaan</label>
-                    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="name" class="form-control" id="exampleInputEmail1" value="{{ $dt->name }}">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Deskripsi Pekerjaan</label>
-                    <input type="text" name="description" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="description" class="form-control" id="exampleInputEmail1" value="{{ $dt->description }}">
                 </div>
             </div>
             <!-- /.card-body -->
 
             <div class="card-footer">
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Batal</button>
             </div>
         </form>
     </div>
