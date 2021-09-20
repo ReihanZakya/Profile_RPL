@@ -13,17 +13,17 @@ class SubjectSeeder extends Seeder
     public function run()
     {
         Subject::create([
-            'name' => 'Basdat',
+            'name' => 'Pemograman Dasar',
             'class' => 'Kelas X'
         ]);
 
         Subject::create([
-            'name' => 'PDKK',
+            'name' => 'Pemodelan Perangkat Lunak',
             'class' => 'Kelas XI'
         ]);
 
         Subject::create([
-            'name' => 'PWPB',
+            'name' => 'Pemograman Web dan Perangkat Bergerak',
             'class' => 'Kelas XI'
         ]);
     }

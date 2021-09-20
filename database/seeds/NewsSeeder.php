@@ -13,17 +13,22 @@ class NewsSeeder extends Seeder
     {
         news::create([
             'title'=>'Apa itu SUNBURST?',
-            'content'=>'Penjelasan SUNBURST.',
+            'content'=>'APA ITU SUNBURST?, Salah satu peretasan terbesar
+            dalam sejarah yang membobol kementrian 
+            penting di Amerika Serikat.',
         ]);
 
         news::create([
             'title'=>'Bulan-bulanan RI ditangan peretas.',
-            'content'=>'Dijadikannya RI Bulan-bulanan Peretas',
+            'content'=>'Peretasan di berbagai instansi milik pemerintah belakangan 
+            marak terjadi. Tak tanggung-tanggung, hacker membobol 
+            hingga ratusan juta data penduduk Indonesia.',
         ]);
 
         news::create([
             'title'=>'Hacker China membobol BNI.',
-            'content'=>'Dicurigai Hacker China Meretas BNI',
+            'content'=>'peretas atau hacker asal China menggunakan private ransomware 
+            bernama Thanos.',
         ]);
     }
 }
