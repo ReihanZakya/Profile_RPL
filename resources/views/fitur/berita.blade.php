@@ -6,13 +6,17 @@
 <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('assets/img/sunburst.png') }}" class="d-block w-100 cover" alt="...">
+    <a href="{{ url('RPL/berita1') }}"class="link {{ url()->current() == url('RPL/berita1') ? 'active' : '' }}">
+      <img src="{{ asset('assets/img/sunburst.png') }}" class="d-block w-100 cover" alt="..." >
+    </a>
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('assets/img/hacker4.png') }}" class="d-block w-100 cover" alt="...">
+    <a href="{{ url('RPL/berita2') }}"class="link {{ url()->current() == url('RPL/berita2') ? 'active' : '' }}">
+      <img src="{{ asset('assets/img/hacker4.png') }}" class="d-block w-100 cover" alt="..." >
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('assets/img/hacker3.png') }}" class="d-block w-100 cover" alt="...">
+    <a href="{{ url('RPL/berita3') }}"class="link {{ url()->current() == url('RPL/berita3') ? 'active' : '' }}">
+      <img src="{{ asset('assets/img/hacker3.png') }}" class="d-block w-100 cover" alt="..." >
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
