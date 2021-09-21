@@ -9,4 +9,10 @@ class Subject extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+
+
+    public function teacher_subject()
+    {
+        return $this->hasMany(TeacherSubject::class);
+    }
 }

@@ -41,7 +41,7 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <!-- @include('template.hero6') -->
+    @include('template.hero9')
     <!-- End Hero -->
 
     <main id="main">

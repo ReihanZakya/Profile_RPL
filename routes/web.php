@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/','HomeController@home');
@@ -21,16 +21,14 @@ Route::get('RPL/peluang_kerja','PeluangKerjaController@index');
 
 Route::get('RPL/berita','BeritaController@index');
 
-// Route::get('RPL/tujuan','TujuanController@index');
+Route::get('RPL/berita1','Berita1Controller@index');
+
+Route::get('RPL/berita2','Berita2Controller@index');
+
+Route::get('RPL/berita3','Berita3Controller@index');
 
 
-//-------------------------------Backend--------------------------------//
 
-
-//Dashboard
-Route::group(['middleware' => ['auth','verified']],function(){
-    Route::get('dashboard','DashboardController@index');
-});
 
 
 

@@ -750,9 +750,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             </div>
-                        </div>
                         <div class="col-sm 3">
                             <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}" alt=""
@@ -783,15 +781,12 @@
                                                 class="btn btn-sm btn-outline-secondary" title="More Details">Github</a>
                                         </div>
                                     </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
-                </div>
-        </div>
-        </div>
 
-        </main>
+        
                                 <div class="col-sm 3">
                                     <div class="card shadow-sm garis">
                                         <img src="{{ asset('assets/img/project/kelompok_51_pkl.PNG') }}" alt=""
@@ -832,7 +827,9 @@
 
                 </main>
             </div>
+            
     </body>
+    
 
     </html>
 

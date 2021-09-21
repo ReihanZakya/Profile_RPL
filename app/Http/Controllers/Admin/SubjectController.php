@@ -54,8 +54,10 @@ class SubjectController extends Controller
 
     public function delete($id)
     {
-        Subject::findOrFail($id)->delete();
+        $data = Subject::findOrFail($id);
+        $data->teacher_subject()->delete();
+        $data->delete();
 
-        return redirect('subject')->with('status','Data Berhasi dihapus');
+        return redirect('subject');
     }
 }
