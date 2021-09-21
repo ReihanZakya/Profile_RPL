@@ -31,12 +31,12 @@
         <div class="container-login100">
             <div class="wrap-login100">
                 <div class="login100-pic js-tilt" data-tilt>
-                    <img src="{{ asset('assets/login/images/logo smk.jpg') }}" alt="IMG">
+                    <img src="{{ asset('assets/login/images/logo_smk.png') }}" alt="IMG">
                 </div>
                 <form class="login100-form validate-form" action="{{ route('login') }}" method="POST">
                     @csrf
                     <span class="login100-form-title">
-                        Member Login
+                        Admin Login
                     </span>
                     <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                         <input class="input100" type="text" name="email" placeholder="Email">
