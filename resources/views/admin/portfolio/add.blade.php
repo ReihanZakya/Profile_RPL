@@ -15,6 +15,10 @@
                     <label for="exampleInputPassword1">Sumber</label>
                     <input type="text" name="source" class="form-control" id="exampleInputEmail1">
                 </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Kelompok</label>
+                    <input type="text" name="source" class="form-control" id="exampleInputEmail1">
+                </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>
                    <div class="input-group mb-3">
