@@ -27,8 +27,7 @@
                             <td>
                                 <a href="{{ url('job_opportunities/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
-                                <a href="{{ url('job_opportunities/' . $dt->id . '/delete') }}"
-                                    class="btn btn-danger btn-sm btn-outline-light">Delete</a>
+                                <a href="#" class="btn btn-danger btn-sm btn-outline-light delete" data-id="{{ $dt->id }}" data-nama="{{ $dt->name }}">Delete</a>
                             </td>
                         </tr>
                     @endforeach
@@ -58,5 +57,10 @@
             });
         });
     </script>
+
+    {{-- Delete confirmation --}}
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script>
+    <script src="{{asset ('javascript/main.js') }}"></script>
+
 
 @endpush

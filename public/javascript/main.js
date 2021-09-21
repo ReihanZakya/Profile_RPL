@@ -153,3 +153,26 @@ $(document).ready(function(){
         "lengthMenu" : [5,10,15,20]
       });
 });
+
+// Delete confirmation
+$('.delete').click(function(){
+    var namaid = $(this).attr('data-id');
+    var nama = $(this).attr('data-nama');
+        swal({
+        title: "Yakin?",
+        text: "Kamu akan menghapus data dengan nama "+nama+" ?",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+        })
+        .then((willDelete) => {
+        if (willDelete) {
+            window.location = "subject/"+namaid+"/delete"
+            swal("Data berhasi di hapus", {
+            icon: "success",
+            });
+        } else {
+            swal("Data tidak jadi dihapus");
+        }
+        });
+});

@@ -28,8 +28,7 @@
                             <td>
                                 <a href="{{ url('news/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
-                                <a href="{{ url('news/' . $dt->id . '/delete') }}"
-                                    class="btn btn-danger btn-sm btn-outline-light">Delete</a>
+                                <a href="#" class="btn btn-danger btn-sm btn-outline-light delete" data-id="{{ $dt->id }}" data-nama="{{ $dt->title }}">Delete</a>
                             </td>
                         </tr>
                     @endforeach
@@ -46,6 +45,7 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+
     <script>
         $(document).ready(function() {
             $('.table').DataTable({
@@ -58,6 +58,10 @@
                 "responsive": true,
             });
         });
-    </script>
+        </script>
+
+    {{-- Delete confirmation --}}
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script>
+    <script src="{{asset ('javascript/main.js') }}"></script>
 
 @endpush
