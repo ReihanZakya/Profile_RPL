@@ -16,6 +16,10 @@
                     <label for="exampleInputPassword1">Sumber</label>
                     <input type="text" name="source" class="form-control" id="exampleInputEmail1" value="{{ $dt->source }}">
                 </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Kelopmpok</label>
+                    <input type="text" name="source" class="form-control" id="exampleInputEmail1" value="{{ $dt->source }}">
+                </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>
                    <div class="input-group mb-3">
