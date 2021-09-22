@@ -45,7 +45,7 @@ class TeacherController extends Controller
 
         }
 
-            return redirect('teacher');
+            return redirect('teacher')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -76,7 +76,7 @@ class TeacherController extends Controller
            }
 
 
-        return redirect('teacher');
+        return redirect('teacher')->with('success', 'Data Berhasil Diedit');
     }
 
     public function delete($id)
@@ -84,7 +84,7 @@ class TeacherController extends Controller
         $data = Teacher::findOrFail($id);
         $data->teacher_subject()->delete();
         $data->delete();
-        return redirect('teacher');
+        return redirect('teacher')->with('success', 'Data Berhasil Didelete');
     }
 }
 

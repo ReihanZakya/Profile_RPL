@@ -30,7 +30,7 @@ class JobOpportunitiesController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('job_opportunities');
+        return redirect('job_opportunities')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -48,13 +48,13 @@ class JobOpportunitiesController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('job_opportunities');
+        return redirect('job_opportunities')->with('success', 'Data Berhasil Diedit');
     }
 
     public function delete($id)
     {
         job_opportunities::findOrFail($id)->delete();
 
-        return redirect('job_opportunities');
+        return redirect('job_opportunities')->with('success', 'Data Berhasil Dihapus');
     }
 }

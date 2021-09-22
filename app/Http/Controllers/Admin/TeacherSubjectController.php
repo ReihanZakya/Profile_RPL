@@ -35,7 +35,7 @@ class TeacherSubjectController extends Controller
             'subject_id' => $request->subject_id
         ]);
 
-        return redirect('teacher_subject');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -55,13 +55,13 @@ class TeacherSubjectController extends Controller
             'subject_id' => $request->subject_id
         ]);
 
-        return redirect('teacher_subject');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Diedit');
     }
 
     public function delete($id)
     {
         TeacherSubject::findOrFail($id)->delete();
 
-        return redirect('teacher_subject');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Didelete');
     }
 }

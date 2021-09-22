@@ -42,7 +42,7 @@ class PortfolioController extends Controller
         ]);
 
        }
-        return redirect('portfolio');
+        return redirect('portfolio')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -73,12 +73,12 @@ class PortfolioController extends Controller
 
            }
 
-           return redirect('portfolio');
+           return redirect('portfolio')->with('success', 'Data Berhasil Diedit');
     }
     public function delete($id)
     {
         portfolios::findOrFail($id)->delete();
 
-        return redirect('portfolio');
+        return redirect('portfolio')->with('success', 'Data Berhasil Didelete');
     }
 }

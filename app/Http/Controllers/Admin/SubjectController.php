@@ -31,7 +31,7 @@ class SubjectController extends Controller
             'class' => $request->class
         ]);
 
-        return redirect('subject');
+        return redirect('subject')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -49,7 +49,7 @@ class SubjectController extends Controller
             'class' => $request->class
         ]);
 
-        return redirect('subject');
+        return redirect('subject')->with('success', 'Data Berhasil Diedit');
     }
 
     public function delete($id)
@@ -58,6 +58,6 @@ class SubjectController extends Controller
         $data->teacher_subject()->delete();
         $data->delete();
 
-        return redirect('subject');
+        return redirect('subject')->with('success', 'Data Berhasil Dihapus');
     }
 }

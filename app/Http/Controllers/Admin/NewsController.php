@@ -42,7 +42,7 @@ class NewsController extends Controller
         ]);
 
        }
-        return redirect('news');
+        return redirect('news')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -72,13 +72,13 @@ class NewsController extends Controller
         ]);
 
        }
-        return redirect('news');
+        return redirect('news')->with('success', 'Data Berhasil Diedit');
     }
 
     public function delete($id)
     {
         News::findOrFail($id)->delete();
 
-        return redirect('news');
+        return redirect('news')->with('success', 'Data Berhasil Didelete');
     }
 }

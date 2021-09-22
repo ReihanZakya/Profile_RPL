@@ -42,7 +42,7 @@ class DocumentationController extends Controller
         ]);
 
        }
-        return redirect('documentation');
+        return redirect('documentation')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -72,12 +72,12 @@ class DocumentationController extends Controller
         ]);
 
        }
-        return redirect('documentation');
+        return redirect('documentation')->with('success', 'Data Berhasil Diedit');
     }
     public function delete($id)
     {
         Documentation::findOrFail($id)->delete();
 
-        return redirect('documentation');
+        return redirect('documentation')->with('success', 'Data Berhasil Didelete');
     }
 }
