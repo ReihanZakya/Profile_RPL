@@ -26,7 +26,6 @@ class DocumentationSeeder extends Seeder
 
         documentation::create([
             'name'=>'Balema',
-            'source'=>'https://www.instagram.com/smkmahaputracerdasutama/',
             'photo' => 'balema.png'
         ]);
     }

@@ -25,6 +25,19 @@ class NewsController extends Controller
 
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'title' => 'required|min:3|unique:news,title',
+            'content' => 'required|min:10',
+            'photo' => 'image'
+        ],
+        [
+            'title.required' => 'Inputan nama tidak boleh kosong',
+            'title.min' => 'Inputan Minimal 3 karakter',
+            'title.unique' => 'Inputan judul sudah tersedia',
+            'content.required' => 'Inputan konten wajib diisi',
+            'content.min' => 'Inputan minimal 10 karakter',
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\news';
 
@@ -55,6 +68,19 @@ class NewsController extends Controller
 
     public function update(Request $request,$id)
     {
+        $validate = $request->validate([
+            'title' => 'required|min:3|unique:news,title,' .$id,
+            'content' => 'required|min:10',
+            'photo' => 'image'
+        ],
+        [
+            'title.required' => 'Inputan nama tidak boleh kosong',
+            'title.min' => 'Inputan Minimal 3 karakter',
+            'title.unique' => 'Inputan judul sudah tersedia',
+            'content.required' => 'Inputan konten wajib diisi',
+            'content.min' => 'Inputan minimal 10 karakter',
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\news';
 

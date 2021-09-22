@@ -20,7 +20,7 @@
       });
     })
   </script>
-
+@stack('datatables')
 <script>
     //DataTables
     $(document).ready(function() {
@@ -37,5 +37,4 @@
         });
     });
 </script>
-@stack('datatables')
 @stack('form')

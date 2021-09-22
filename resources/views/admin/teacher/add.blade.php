@@ -10,37 +10,54 @@
                 <!--Nama-->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama Guru</label>
-                    <input type="text" name="name" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
+                    id="exampleInputEmail1" value="{{ old('name') }}">
+                    @error('name')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
                 </div>
                 <!-- Jenis Kelamin-->
                 <label for="exampleInputEmail1">Jenis Kelamin</label><br>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="gender" id="Laki-laki" value="1">
-                    <label class="form-check-label" for="Laki-laki">Laki-laki</label>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input @error('gender') is-invalid @enderror"
+                        id="customControlValidation1" name="gender" value="1" @if (old('gender') == 1) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation1">Laki-laki</label>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="gender" id="Perempuan" value="2">
-                    <label class="form-check-label" for="Perempuan">Perempuan</label>
-                </div><br>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input @error('gender') is-invalid @enderror"
+                        id="customControlValidation2" name="gender" value="2" @if (old('gender') == 2) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation2">Perempuan</label>
+                    @error('gender')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
+                </div>
                 <!-- Jenis Posisi-->
-                <label for="exampleInputEmail1" class="mt-3 mb-2">Jenis Posisi</label><br>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="position_types" id="Kepala Prodi" value="1">
-                    <label class="form-check-label" for="Kepala Prodi">Kepala Prodi</label>
+                <label for="exampleInputEmail1" class="mt-3">Jenis Posisi</label><br>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
+                        id="customControlValidation3" name="position_types" value="1" @if (old('position_types') == 1) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation3">Kepala Prodi</label>
                 </div>
-                <div class="form-check form-check-inline mb-3">
-                    <input class="form-check-input GRPL" type="radio" name="position_types" id="Guru RPL" value="2">
-                    <label class="form-check-label" for="Guru RPL">Guru RPL</label>
-                </div><br>
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
+                        id="customControlValidation4" name="position_types" value="2" @if (old('position_types') == 2) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation4">Guru RPL</label>
+                    @error('position_types')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
+                </div>
                 <!--Foto-->
                 <label for="exampleFormControlFile1">Foto</label>
                 <div class="input-group mb-3">
                     <div class="custom-file">
-                        <input type="file" name="photo" class="custom-file-input" id="inputGroupFile03"
+                        <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="inputGroupFile03"
                             aria-describedby="inputGroupFileAddon03">
                         <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
                     </div>
                 </div>
+                @error('photo')
+                <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
             </div>
             <!-- /.card-body -->
 

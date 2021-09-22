@@ -30,6 +30,14 @@ class TeacherSubjectController extends Controller
 
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'teacher_id' => 'required',
+            'subject_id' => 'required',
+        ],
+        [
+            'teacher_id.required' => 'Inputan guru wajib diisi',
+            'subject_id.required' => 'Inputan mata pelajaran wajib diisi',
+        ]);
         TeacherSubject::create([
             'teacher_id' => $request->teacher_id,
             'subject_id' => $request->subject_id

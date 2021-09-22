@@ -98,9 +98,13 @@
                                                     data-gallery="portfolioGallery"
                                                     class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i
                                                         class="bi bi-zoom-in"></i></a>
-                                                <a target="_blank" href="{{ $dt->source }}"
-                                                    class="btn btn-sm btn-outline-secondary" title="More Details"><i
-                                                        class="bi bi-instagram"></i></a>
+                                                @if ($dt->source)
+                                                    <a target="_blank" href="{{ $dt->source }}"
+                                                        class="btn btn-sm btn-outline-secondary" title="More Details"><i
+                                                            class="bi bi-instagram"></i></a>
+                                                @else
+                                                    <a target="_blank" href="#">{{ $dt->source }}</a>
+                                                @endif
                                             </div>
                                         </div>
                                     </div>

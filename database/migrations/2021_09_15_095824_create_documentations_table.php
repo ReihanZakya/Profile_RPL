@@ -17,7 +17,7 @@ class CreateDocumentationsTable extends Migration
             $table->id();
             $table->string('name',191);
             $table->text('photo')->nullable();
-            $table->string('source',191);
+            $table->string('source',191)->nullable();
             $table->timestamps();
             $table->softDeletes('deleted_at')->nullable();
         });

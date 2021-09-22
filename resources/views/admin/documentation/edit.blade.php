@@ -9,22 +9,30 @@
             {{ method_field('put') }}
             <div class="card-body">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Judul Portofolio</label>
-                    <input type="text" name="name" class="form-control" id="exampleInputEmail1" value="{{ $dt->name }}">
+                    <label for="exampleInputEmail1">Nama Dokumentasi</label>
+                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="exampleInputEmail1"
+                    value="{{ old('name',$dt->name) }}">
+                    @error('name')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Sumber</label>
-                    <input type="text" name="source" class="form-control" id="exampleInputEmail1" value="{{ $dt->source }}">
+                    <label for="exampleInputEmail1">Sumber</label>
+                    <input type="text" name="source" class="form-control @error('source') is-invalid @enderror" id="exampleInputEmail1"
+                    value="{{ old('source',$dt->source) }}" value="{{ old('source') }}">
+                    @error('source')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
                 </div>
-                   <!--Foto-->
-                   <label for="exampleFormControlFile1">Foto</label>
-                   <div class="input-group mb-3">
-                       <div class="custom-file">
-                           <input type="file" name="photo" class="custom-file-input" id="inputGroupFile03"
-                               aria-describedby="inputGroupFileAddon03">
-                           <label class="custom-file-label" for="inputGroupFile03">{{ $dt->photo }}</label>
-                       </div>
-                   </div>
+                  <!--Foto-->
+                  <label for="exampleFormControlFile1">Foto</label>
+                  <div class="input-group mb-3">
+                      <div class="custom-file">
+                          <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="inputGroupFile03"
+                              aria-describedby="inputGroupFileAddon03">
+                          <label class="custom-file-label" for="inputGroupFile03">{{ $dt->photo }}</label>
+                      </div>
+                  </div>
             </div>
             <!-- /.card-body -->
 

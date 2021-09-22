@@ -18,7 +18,6 @@ class CreatePortfoliosTable extends Migration
             $table->string('name',191);
             $table->text('photo')->nullable();
             $table->string('source',191);
-            $table->string('group',191);
             $table->timestamps();
             $table->softDeletes('deleted_at')->nullable();
         });

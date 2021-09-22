@@ -25,6 +25,18 @@ class DocumentationController extends Controller
 
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:documentations,name',
+            'source' => 'min:5',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama wajib diisi',
+            'name.min' => 'Inputan nama minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'source.min' => 'Inputan sumber minimal 5 karakter'
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\documentation';
 
@@ -55,6 +67,18 @@ class DocumentationController extends Controller
 
     public function update(Request $request,$id)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:documentations,name,' .$id,
+            'source' => 'min:5',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama wajib diisi',
+            'name.min' => 'Inputan nama minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'source.min' => 'Inputan sumber minimal 5 karakter'
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\documentation';
 
