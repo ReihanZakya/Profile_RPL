@@ -37417,3 +37417,7 @@ module.exports = __webpack_require__(/*! C:\xampp\htdocs\coba\Profile_RPL\resour
 /***/ })
 
 /******/ });
+
+// Easy way to wait for all videos to load before start playing
+
+
