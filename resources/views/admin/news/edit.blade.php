@@ -17,18 +17,14 @@
                 @enderror
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Konten</label>
-                    <textarea name="content" rows="3" class="form-control @error('content') is-invalid @enderror">
-                        {{ old('content',$dt->content) }}</textarea>
-                    @error('content')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                    <label for="exampleInputEmail1">Isi</label>
+                    <textarea name="content" rows="3" id="summernote" class="form-control">{{ $dt->content }}</textarea>
                 </div>
                   <!--Foto-->
                   <label for="exampleFormControlFile1">Foto</label>
                   <div class="input-group mb-3">
                       <div class="custom-file">
-                          <input type="file" name="photo" class="custom-file-input" id="inputGroupFile03"
+                          <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="inputGroupFile03"
                               aria-describedby="inputGroupFileAddon03">
                           <label class="custom-file-label" for="inputGroupFile03">{{ $dt->photo }}</label>
                       </div>

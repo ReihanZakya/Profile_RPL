@@ -16,10 +16,10 @@
                 @enderror
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Konten</label>
-                    <textarea name="content" rows="3" class="form-control @error('content') is-invalid @enderror">
-                        {{ old('content') }}</textarea>
-                    @error('content')
+                    <label for="exampleInputEmail1">Isi</label>
+                    <textarea name="content" rows="3" class="form-control @error('description') is-invalid @enderror"
+                    id="summernote"></textarea>
+                    @error('description')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
                 </div>
@@ -27,7 +27,7 @@
                    <label for="exampleFormControlFile1">Foto</label>
                    <div class="input-group mb-3">
                        <div class="custom-file">
-                           <input type="file" name="photo" class="custom-file-input" id="inputGroupFile03"
+                           <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="inputGroupFile03"
                                aria-describedby="inputGroupFileAddon03">
                            <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
                        </div>
