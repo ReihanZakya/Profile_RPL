@@ -8,11 +8,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class TeacherSubject extends Model
 {
     protected $guarded = [];
+
     use SoftDeletes;
 
     public function teacher()
     {
-        return $this->belongsTo(Teacher::class);
+        return $this->BelongsTo(Teacher::class);
     }
 
     public function subject()
