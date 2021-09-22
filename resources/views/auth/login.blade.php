@@ -26,55 +26,34 @@
     <meta name="robots" content="noindex, follow">
 </head>
 
-<body>
-    <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100">
-                <div class="login100-pic js-tilt" data-tilt>
-                    <img src="{{ asset('assets/login/images/logo_smk.png') }}" alt="IMG">
-                </div>
-                <form class="login100-form validate-form" action="{{ route('login') }}" method="POST">
-                    @csrf
-                    <span class="login100-form-title">
-                        Admin Login
-                    </span>
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Email">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-                        <input class="input100" type="password" name="password" placeholder=" Password">
-                        <span class="focus-input100"></span>
-                        <span class="symbol-input100">
-                            <i class="fa fa-lock" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <div class="container-login100-form-btn">
-                        <button type="submit" class="login100-form-btn">
-                            Login
-                        </button>
-                    </div>
-                    <div class="text-center p-t-12">
-                        <span class="txt1">
-                            Forgot
-                        </span>
-                        <a class="txt2" href="#">
-                            Username / Password?
-                        </a>
-                    </div>
-                    <div class="text-center p-t-136">
-                        <a class="txt2" href="#">
-                            Create your Account
-                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </form>
-            </div>
-        </div>
+<div id="login-button">
+  <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+  </img>
+</div>
+<div id="container">
+  <h1>Log In</h1>
+  <span class="close-btn">
+    <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
+  </span>
+
+  <form class="login100-form validate-form" action="{{ route('login') }}" method="POST">
+  @csrf
+
+    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+    <input type="email" name="email" placeholder="E-mail">
     </div>
+    <div class="wrap-input100 validate-input" data-validate="Password is required">
+    <input type="password" name="password" placeholder="Password">
+    </div>
+    <!-- <a href="#">Log in</a> -->
+    <div id="remember-container">
+      <input type="checkbox" id="checkbox-2-1" class="checkbox" checked="checked"/>
+      <span id="remember">Remember me</span>
+      <span id="forgotten">Forgotten password</span>
+    </div>
+    <button type="submit" class="btn btn-light btn-lg" style="margin-left: 85px;">Login</button>
+</form>
+</div>
 
     <script src="{{ asset('assets/login/vendor/jquery/jquery-3.2.1.min.js') }}"></script>
 
