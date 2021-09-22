@@ -13,7 +13,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Isi</label>
-                    <textarea name="content" rows="3" class="form-control"></textarea>
+                    <textarea name="content" rows="3" class="form-control" id="summernote"></textarea>
                 </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>

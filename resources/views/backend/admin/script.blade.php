@@ -5,6 +5,22 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/AdminLTE/dist/js/adminlte.min.js') }}"></script>
 <script src="{{ asset('sweetalert@2.1.2/dist/sweetalert.min.js') }}"></script>
+<!-- Summernote -->
+<script src="{{ asset('AdminLTE/plugins/summernote/summernote-bs4.min.js') }}"></script>
+<!-- Page specific script -->
+<script>
+    $(function () {
+      // Summernote
+      $('#summernote').summernote()
+
+      // CodeMirror
+      CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+        mode: "htmlmixed",
+        theme: "monokai"
+      });
+    })
+  </script>
+
 <script>
     //DataTables
     $(document).ready(function() {

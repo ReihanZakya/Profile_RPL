@@ -14,7 +14,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Isi</label>
-                    <textarea name="content" rows="3" class="form-control">{{ $dt->content }}</textarea>
+                    <textarea name="content" rows="3" id="summernote" class="form-control">{{ $dt->content }}</textarea>
                 </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>
