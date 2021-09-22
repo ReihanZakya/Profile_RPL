@@ -47,7 +47,8 @@
                         </h5>
                     </div>
                     <div class="image col-lg-6 komputer col-sm-6" data-aos="fade-left">
-                        <img src="{{ asset('assets/img/logo_smk.JPG') }}" style="width: 350px; size: 20px; margin-left: 200px;" class="img-fluid">
+
+                        <img src="{{ asset('assets/img/logo_smk.JPG') }}" style="width: 350px; size: 20px;" class="img-fluid">
                     </div>
                 </div>
 </div>
