@@ -19,13 +19,13 @@
                             manajemen
                             organisasi pengembangan perangkat lunak dan manajemen kualitas.
                         </h5>
+                        </br>
                     </div>
                 </div>
 
-                <div class="container mt-5">
+                <div class="container mt-5" data-aos="fade-up">
                     <div class="row">
-                    
-                    <div class="col-6" data-aos="fade-left" data-aos-delay="100">   
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">   
                     <h4><strong>Sejarah Singkat</strong></h4>
                         <p style="text-align: right">
                             <span class="mb-3"> Tanggal Didirikan : <i class="fas fa-calendar-alt"
@@ -46,14 +46,14 @@
                             Utama sudah memiliki 3 angkatan dengan jumlah keseluruhannya adalah 221 siswa.
                         </h5>
                     </div>
-                    <div class="image col-6 komputer" data-aos="fade-right">
-                        <img src="{{ asset('assets/img/logo_smk.JPG') }}" style="width: 350px; size: 20px; margin: 150px; margin-bottom: 10px; margin-top: 10px" class="img-fluid">
+                    <div class="image col-lg-6 komputer col-sm-6" data-aos="fade-left">
+                        <img src="{{ asset('assets/img/logo_smk.JPG') }}" style="width: 350px; size: 20px; margin-left: 200px;" class="img-fluid">
                     </div>
                 </div>
 </div>
 
 
-                <div class="container mt-5">
+                <!-- <div class="container mt-5"> -->
                     <h4 class="mb-3"><strong>Visi Misi</strong></h4>
                     <div class="row">
                     <!-- <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150"> -->
