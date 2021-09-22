@@ -38,12 +38,12 @@
             </div>
 
             <div class="container mt-5">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="row g-3">
 
                     <div class="col-md-4 col-sm-12 mb-3">
                             <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/sunburst.png') }}" class="card-img"  alt=""
-                                    class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    class="bd-placeholder-img card-img-top" width="100%" height="232"
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
@@ -110,10 +110,8 @@
                                 </div>
                             </div>
                         </div>
-                        
-                         
-
-                            <div class="col">
+                                                 
+                        <div class="col-md-4 col-sm-12 mb-3">
                             <div class="card shadow-sm garis">
                                 <img src="{{ asset('assets/img/hacker3.png') }}" alt=""
                                     class="bd-placeholder-img card-img-top" width="100%" height="225"
