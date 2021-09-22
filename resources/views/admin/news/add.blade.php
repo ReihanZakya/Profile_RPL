@@ -9,11 +9,19 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Judul</label>
-                    <input type="text" name="title" class="form-control" id="exampleInputEmail1">
+                    <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" id="exampleInputEmail1"
+                    value="{{ old('title') }}">
+                    @error('title')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Isi</label>
-                    <textarea name="content" rows="3" class="form-control"></textarea>
+                    <label for="exampleInputPassword1">Konten</label>
+                    <textarea name="content" rows="3" class="form-control @error('content') is-invalid @enderror">
+                        {{ old('content') }}</textarea>
+                    @error('content')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
                 </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>

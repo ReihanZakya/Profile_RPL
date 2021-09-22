@@ -13,7 +13,6 @@
                         <th>Nama</th>
                         <th>Photo</th>
                         <th>Sumber</th>
-                        <th>Kelompok</th>
                         <th>Action</th>
 
                     </tr>
@@ -27,7 +26,6 @@
                                 <img src="{{ asset('AdminLTE/portfolio/' . $dt->photo) }}" style="width: 65px;">
                             </td>
                             <td>{{ $dt->source }}</td>
-                            <td>{{ $dt->group }}</td>
                             <td>
                                 <a href="{{ url('portfolio/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>

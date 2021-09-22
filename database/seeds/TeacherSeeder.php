@@ -27,10 +27,10 @@ class TeacherSeeder extends Seeder
         ]);
 
         Teacher::create([
-            'name' => 'Munir',
-            'gender' => '1',
+            'name' => 'Shyffa',
+            'gender' => '2',
             'position_types' => '2',
-            'photo' => 'pa munir.jpg'
+            'photo' => 'bu syifa.jpg'
         ]);
 
 

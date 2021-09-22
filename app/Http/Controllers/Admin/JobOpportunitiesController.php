@@ -24,6 +24,17 @@ class JobOpportunitiesController extends Controller
     }
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:job_opportunities,name',
+            'description' => 'required|min:10',
+        ],
+        [
+            'name.required' => 'Inputan nama tidak boleh kosong',
+            'name.min' => 'Inputan Minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'description.required' => 'Inputan deskripsi wajib diisi',
+            'description.min' => 'Inputan minimal 10 karakter',
+        ]);
 
         job_opportunities::create([
             'name' => $request->name,
@@ -43,6 +54,18 @@ class JobOpportunitiesController extends Controller
 
     public function update(Request $request,$id)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:job_opportunities,name,' .$id,
+            'description' => 'required|min:10',
+        ],
+        [
+            'name.required' => 'Inputan nama tidak boleh kosong',
+            'name.min' => 'Inputan Minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'description.required' => 'Inputan deskripsi wajib diisi',
+            'description.min' => 'Inputan minimal 10 karakter',
+        ]);
+
         job_opportunities::findOrFail($id)->update([
             'name' => $request->name,
             'description' => $request->description

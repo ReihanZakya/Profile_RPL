@@ -30,7 +30,7 @@
                             @else
                                 <td>Perempuan</td>
                             @endif
-                            @if ($dt->postion_types == 1)
+                            @if ($dt->position_types == 1)
                                 <td>Kepala Prodi</td>
                             @else
                                 <td>Guru RPL</td>

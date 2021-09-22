@@ -5,6 +5,7 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/AdminLTE/dist/js/adminlte.min.js') }}"></script>
 <script src="{{ asset('sweetalert@2.1.2/dist/sweetalert.min.js') }}"></script>
+@stack('datatables')
 <script>
     //DataTables
     $(document).ready(function() {
@@ -21,5 +22,4 @@
         });
     });
 </script>
-@stack('datatables')
 @stack('form')

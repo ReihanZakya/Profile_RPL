@@ -25,6 +25,21 @@ class TeacherController extends Controller
 
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:teachers,name',
+            'gender' => 'required',
+            'position_types' => 'required',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama tidak boleh kosong',
+            'name.min' => 'Inputan nama minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'gender.required' => 'Inputan jenis kelamin wajib diisi',
+            'position_types.required' => 'Inputan jenis posisi wajib diisi',
+            'photo.image' => 'Format foto salah'
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\teacher';
 
@@ -58,6 +73,20 @@ class TeacherController extends Controller
 
     public function update(Request $request,$id)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:teachers,name,' .$id,
+            'gender' => 'required',
+            'position_types' => 'required',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama tidak boleh kosong',
+            'name.min' => 'Inputan Minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'gender.required' => 'Inputan jenis kelamin wajib diisi',
+            'position_types.required' => 'Inputan jenis posisi wajib diisi',
+            'photo.image' => 'Format foto salah'
+        ]);
 
         $file = $request->file('photo');
         $path = 'AdminLTE\teacher';

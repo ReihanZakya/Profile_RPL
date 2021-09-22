@@ -13,7 +13,7 @@ class SubjectSeeder extends Seeder
     public function run()
     {
         Subject::create([
-            'name' => 'Pemograman Dasar',
+            'name' => 'Pemrograman Dasar',
             'class' => '1'
         ]);
 

@@ -25,6 +25,18 @@ class PortfolioController extends Controller
 
     public function store(Request $request)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:portfolios,name',
+            'source' => 'required',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama wajib diisi',
+            'name.min' => 'Inputan Nama Minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'source.required' => 'Inputan sumber wajib diisi'
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\portfolio';
 
@@ -55,6 +67,18 @@ class PortfolioController extends Controller
 
     public function update(Request $request,$id)
     {
+        $validate = $request->validate([
+            'name' => 'required|min:3|unique:portfolios,name,' .$id,
+            'source' => 'required',
+            'photo' => 'image'
+        ],
+        [
+            'name.required' => 'Inputan nama wajib diisi',
+            'name.min' => 'Inputan Nama Minimal 3 karakter',
+            'name.unique' => 'Inputan nama sudah tersedia',
+            'source.required' => 'Inputan sumber wajib diisi'
+        ]);
+
         $file = $request->file('photo');
         $path = 'AdminLTE\portfolio';
 
