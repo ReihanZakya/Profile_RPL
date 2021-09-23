@@ -25,9 +25,10 @@
                 </div>
                    <!--Foto-->
                    <label for="exampleFormControlFile1">Foto</label>
+                   <img  class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
                    <div class="input-group mb-3">
                        <div class="custom-file">
-                           <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="inputGroupFile03"
+                           <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="image" onchange="previewImage()"
                                aria-describedby="inputGroupFileAddon03">
                            <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
                        </div>
@@ -53,5 +54,22 @@
                 getURL(this);
             });
         });
+    </script>
+
+       {{-- preview img --}}
+       <script>
+        function previewImage(){
+            const image = document.querySelector('#image');
+            const imgPreview = document.querySelector('.img-preview');
+
+            imgPreview.style.display = 'block';
+
+            const oFReader = new FileReader();
+            oFReader.readAsDataURL(image.files[0]);
+
+            oFReader.onload = function(oFREvent){
+                imgPreview.src = oFREvent.target.result;
+            }
+        };
     </script>
 @endpush
