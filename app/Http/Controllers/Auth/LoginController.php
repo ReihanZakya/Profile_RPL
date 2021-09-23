@@ -44,7 +44,13 @@ class LoginController extends Controller
         if($user->hasRole('admin')){
             return redirect('dashboard');
         }
+        else {
+            Session::flash('peringatan','Email anda belum terdaftar!');
+            redirect('login');
+        }
 
         return redirect('dashboard');
     }
+    
 }
+

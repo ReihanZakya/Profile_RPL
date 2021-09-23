@@ -1,5 +1,5 @@
 html { 
-  background: url("../img/gagan2.png") no-repeat center center fixed; 
+  background: url("../img/blue.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,8 +23,8 @@ img{
   bottom: 0;
   padding: 30px;
   margin: auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: rgba(3,3,3,.8);
   overflow: hidden;
@@ -39,11 +39,11 @@ img{
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 260px;
-  height: 260px;
+  width: 350px;
+  height: 350px;
   border-radius: 5px;
   background: rgba(3,3,3,0.25);
-  box-shadow: 1px 1px 50px #000;
+  box-shadow: 5px 5px 70px #0d6efd;
   display: none;
 }
 
@@ -57,8 +57,8 @@ img{
   width: 20px;
   height: 20px;
   text-align: center;
-  border-radius: 10px;
-  opacity: .2;
+  border-radius: 100px;
+  opacity: .200;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
@@ -75,7 +75,7 @@ h1{
   position: relative;
   margin-top: 0px;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   color: #ddd;
   text-shadow: 3px 3px 10px #000;
 }
@@ -176,9 +176,9 @@ a:hover{
 
 #forgotten{
   position: absolute;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Hind', sans-serif;
-  color: rgba(255,255,255,.2);
+  color: #f8f9fa;
   right: 0px;
   top: 8px;
   cursor: pointer;
@@ -189,7 +189,7 @@ a:hover{
 }
 
 #forgotten:hover{
-  color: rgba(255,255,255,.6);
+  color:#0dcaf0;
 }
 
 #forgotten-container{
@@ -202,8 +202,8 @@ a:hover{
   width: 260px;
   height: 180px;
   border-radius: 10px;
-  background: rgba(3,3,3,0.25);
-  box-shadow: 1px 1px 50px #000;
+  background:  #f8f9fa;
+  box-shadow: #f8f9fa;
   display: none;
 }
 

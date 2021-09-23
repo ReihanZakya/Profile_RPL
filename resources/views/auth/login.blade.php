@@ -40,10 +40,11 @@
   @csrf
 
     <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-    <input type="email" name="email" placeholder="E-mail">
+    <input type="email" name="email" required placeholder="Enter a valid email address">
     </div>
     <div class="wrap-input100 validate-input" data-validate="Password is required">
-    <input type="password" name="password" placeholder="Password">
+    <input type="password" name="password" required placeholder="Enter a valid password">
+    
     </div>
     <!-- <a href="#">Log in</a> -->
     <div id="remember-container">
@@ -51,9 +52,17 @@
       <span id="remember">Remember me</span>
       <span id="forgotten">Forgotten password</span>
     </div>
-    <button type="submit" class="btn btn-light btn-lg" style="margin-left: 85px;">Login</button>
+    <button type="submit" class="btn btn-light btn-lg" style="margin-left: 130px; margin-top: 50px;">Login</button>
 </form>
+@if ($message = Session::get('peringatan'))
+	<div class="alert alert-warning alert-block">
+	<button type="button" class="close" data-dismiss="alert">×</button> 
+	<strong>{{ $message }}</strong>
+	</div>
+    @endif
 </div>
+
+ 
 
     <script src="{{ asset('assets/login/vendor/jquery/jquery-3.2.1.min.js') }}"></script>
 
