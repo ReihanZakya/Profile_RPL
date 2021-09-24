@@ -7,6 +7,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <head>
     @include('backend.admin.head')
+
+    @yield('baseStyles')
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -36,6 +38,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- REQUIRED SCRIPTS -->
     @include('backend.admin.script')
+
+    @yield('baseScripts')
 </body>
 
 </html>

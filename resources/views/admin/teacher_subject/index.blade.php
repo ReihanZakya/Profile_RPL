@@ -13,7 +13,6 @@
                         <th>No</th>
                         <th>Nama Guru</th>
                         <th>Mata Pelajaran</th>
-                        <th>Kelas</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -22,14 +21,16 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->teacher->name }}</td>
-                            <td>{{ $dt->subject->name }}</td>
-                            @if ($dt->subject->class == 1)
-                                <td>Kelas X</td>
-                            @elseif ($dt->subject->class == 2)
-                                <td>Kelas XI</td>
-                            @elseif ($dt->subject->class == 3)
-                                <td>Kelas XII</td>
-                            @endif
+                            <td>
+                                    {{ $dt->subject->name }} (@if ($dt->subject->class == 1)
+                                        Kelas X
+                                    @elseif ($dt->subject->class == 2)
+                                        Kelas XI
+                                    @elseif ($dt->subject->class == 3)
+                                        Kelas XII
+                                    @endif)
+
+                            </td>
                             <td>
                                 <a href="{{ url('teacher_subject/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>

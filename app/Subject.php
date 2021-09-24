@@ -11,8 +11,13 @@ class Subject extends Model
     protected $guarded = [];
 
 
-    public function teacher_subject()
+    public function teachers()
     {
-        return $this->hasMany(TeacherSubject::class);
+        return $this->belongoMany('App\Teacher')->withPivot('id');
+    }
+
+    public function ts()
+    {
+        return $this->hasMany('App\TeacherSubject','is_unique');
     }
 }

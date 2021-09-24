@@ -11,9 +11,9 @@ class Teacher extends Model
     protected $guarded = [];
 
 
-    public function teacher_subject()
+    public function subjects()
     {
-        return $this->hasMany(TeacherSubject::class);
+        return $this->belongsToMany('App\Subject')->withPivot('id');
     }
 
 }

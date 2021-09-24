@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\portfolios;
+use App\Portfolio;
 
 class PortfolioController extends Controller
 {
     public function index()
     {
         $title = 'Portofolio';
-        $data = portfolios::get();
+        $data = Portfolio::get();
 
         return view('admin.portfolio.index',compact('title','data'));
     }
@@ -42,13 +42,13 @@ class PortfolioController extends Controller
 
        if ($file) {
         $file->move($path,$file->getClientOriginalName());
-        portfolios::create([
+        Portfolio::create([
             'name' => $request->name,
             'source' => $request->source,
             'photo' => $file->getClientOriginalName()
         ]);
        }else{
-        portfolios::create([
+        Portfolio::create([
             'name' => $request->name,
             'source' => $request->source,
         ]);
@@ -60,7 +60,7 @@ class PortfolioController extends Controller
     public function edit($id)
     {
         $title = 'Edit Portofolio';
-        $dt = portfolios::findOrFail($id);
+        $dt = Portfolio::findOrFail($id);
 
         return view('admin.portfolio.edit',compact('title','dt'));
     }
@@ -84,13 +84,13 @@ class PortfolioController extends Controller
 
         if ($file) {
             $file->move($path,$file->getClientOriginalName());
-            portfolios::findOrFail($id)->update([
+            Portfolio::findOrFail($id)->update([
                 'name' => $request->name,
                 'source' => $request->source,
                 'photo' => $file->getClientOriginalName()
             ]);
            }else{
-            portfolios::findOrFail($id)->update([
+            Portfolio::findOrFail($id)->update([
                 'name' => $request->name,
                 'source' => $request->source,
             ]);
@@ -101,7 +101,7 @@ class PortfolioController extends Controller
     }
     public function delete($id)
     {
-        portfolios::findOrFail($id)->delete();
+        Portfolio::findOrFail($id)->delete();
 
         return redirect('portfolio')->with('success', 'Data Berhasil Didelete');
     }

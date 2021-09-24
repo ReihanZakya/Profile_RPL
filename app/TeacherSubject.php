@@ -9,15 +9,21 @@ class TeacherSubject extends Model
 {
     protected $guarded = [];
 
-    use SoftDeletes;
+
 
     public function teacher()
     {
-        return $this->BelongsTo(Teacher::class,'teacher_id');
+        return $this->belongsTo(Teacher::class);
     }
 
     public function subject()
     {
         return $this->belongsTo(Subject::class);
+    }
+
+
+    public function unique()
+    {
+        return $this->hasMany('App\Subject','is_unique');
     }
 }

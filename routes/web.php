@@ -58,7 +58,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('teacher_subject/add_teacher_subject','Admin\TeacherSubjectController@add');
     Route::post('teacher_subject/store','Admin\TeacherSubjectController@store');
     Route::get('teacher_subject/{id}/edit','Admin\TeacherSubjectController@edit');
-    Route::put('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
+    Route::post('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
     Route::get('teacher_subject/{id}/delete','Admin\TeacherSubjectController@delete');
 
 
