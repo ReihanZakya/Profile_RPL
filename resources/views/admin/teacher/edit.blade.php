@@ -89,7 +89,7 @@
     </script>
 
       {{-- preview img --}}
-      <script>
+
      <script>
         function previewImage(){
             const image = document.querySelector('#image');
