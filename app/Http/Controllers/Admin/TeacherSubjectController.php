@@ -23,7 +23,7 @@ class TeacherSubjectController extends Controller
     {
         $title = 'Tambah Mata Pelajaran';
         $teacher = Teacher::get();
-        $subject = Subject::orderBy('class','asc')->get();
+        $subject = Subject::where('unique',null)->get();
 
 
         return view('admin.teacher_subject.add',compact('title','teacher','subject'));
@@ -32,7 +32,7 @@ class TeacherSubjectController extends Controller
     public function store(Request $request)
     {
         $validate = $request->validate([
-            'teacher_id' => 'required|unique:teacher_subjects,teacher_id',
+            'teacher_id' => 'required',
             'subject_id' => 'required|unique:teacher_subjects,subject_id',
         ],
         [
@@ -54,6 +54,10 @@ class TeacherSubjectController extends Controller
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
+
+            Subject::where('id',$subject[$key])->update([
+                'unique' => 1
+            ]);
         }
 
         return redirect('teacher_subject')->with('success', 'Data Berhasil Ditambahkan');
@@ -63,18 +67,20 @@ class TeacherSubjectController extends Controller
     {
         $title = 'Edit Guru Mapel';
         $dt = TeacherSubject::findOrFail($id);
+        $hidden = TeacherSubject::join('subjects','subjects.id','=','teacher_subjects.id')
+        ->select('teacher_subjects.subject_id')
+        ->find($id);
         $teacher = Teacher::get();
         $subject = Subject::get();
-        $count = TeacherSubject::where('subject_id')->count();
 
-        return view('admin.teacher_subject.edit',compact('title','dt','teacher','subject','count'));
+        return view('admin.teacher_subject.edit',compact('title','dt','teacher','subject','hidden'));
     }
 
     public function update(Request $request,$id)
     {
         $validate = $request->validate([
             'teacher_id' => 'required',
-            'subject_id' => 'required',
+            'subject_id' => 'required|unique:teacher_subjects,subject_id,' .$id
         ],
         [
             'teacher_id.required' => 'Inputan guru wajib diisi',
@@ -85,6 +91,7 @@ class TeacherSubjectController extends Controller
 
         $teacher = $request->teacher_id;
         $subject = $request->subject_id;
+        $old = $request->old_subject_id;
 
             TeacherSubject::findOrFail($id)->update([
                 'teacher_id' => $teacher,
@@ -93,15 +100,30 @@ class TeacherSubjectController extends Controller
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
 
+            if ($request->subject_id) {
+                if ($request->old_subject_id) {
+                   Subject::where('id',$old)->update([
+                       'unique' => null
+                   ]);
+                }
+                Subject::where('id',$subject)->update([
+                    'unique' => 1
+                ]);
+            }
 
         return redirect('teacher_subject')->with('success', 'Data Berhasil Diupdate');
     }
 
     public function delete($id)
     {
-        $tc = TeacherSubject::findOrFail($id);
-        $tc->delete();
 
+        $teacher_subject = TeacherSubject::with('subject')->find($id);
+        // dd($teacher_subject);
+        $teacher_subject->subject()->update([
+            'unique' => null
+        ]);
+
+        TeacherSubject::findOrFail($id)->delete();
         return redirect('teacher_subject')->with('success', 'Data Berhasil Didelete');
     }
 }

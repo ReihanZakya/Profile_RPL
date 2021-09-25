@@ -18,6 +18,12 @@ class Subject extends Model
 
     public function ts()
     {
-        return $this->hasMany('App\TeacherSubject','is_unique');
+        return $this->hasMany('App\TeacherSubject','subject_id');
     }
+
+    public function subject()
+    {
+        return $this->hasMany('App\TeacherSubject','subject_id');
+    }
+
 }
