@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Subject;
 use App\Teacher;
 use Illuminate\Http\Request;
 
@@ -110,10 +111,14 @@ class TeacherController extends Controller
 
     public function delete($id)
     {
-        $data = Teacher::findOrFail($id);
-        $data->teacher_subject()->delete();
-        $data->delete();
-        return redirect('teacher')->with('success', 'Data Berhasil Didelete');
+        try {
+            Teacher::findOrFail($id)->delete();
+            return redirect('teacher')->with('success', 'Data Berhasil hapus');
+            }
+            catch(\Exception $e) {
+            echo 'Message: ' .$e->getMessage();
+            return redirect('teacher')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar di guru mapel');
+            }
     }
 }
 

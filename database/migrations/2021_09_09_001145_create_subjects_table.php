@@ -19,7 +19,6 @@ class CreateSubjectsTable extends Migration
             $table->string('class',191);
             $table->timestamps();
             $table->integer('unique')->nullable();
-            $table->softDeletes('deleted_at')->nullable();
         });
     }
 

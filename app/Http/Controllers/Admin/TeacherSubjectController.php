@@ -124,6 +124,6 @@ class TeacherSubjectController extends Controller
         ]);
 
         TeacherSubject::findOrFail($id)->delete();
-        return redirect('teacher_subject')->with('success', 'Data Berhasil Didelete');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Dihapus');
     }
 }

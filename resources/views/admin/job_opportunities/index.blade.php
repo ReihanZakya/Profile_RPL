@@ -46,6 +46,22 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 
+    <!-- Datatables -->
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "pageLength": 5,
+                "lengthMenu": [5, 10, 15, 20]
+            });
+        });
+    </script>
     {{-- Delete confirmation --}}
     <script>
         // Delete confirmation

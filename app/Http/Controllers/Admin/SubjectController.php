@@ -76,10 +76,13 @@ class SubjectController extends Controller
 
     public function delete($id)
     {
-        $data = Subject::findOrFail($id);
-        $data->teacher_subject()->delete();
-        $data->delete();
-
-        return redirect('subject')->with('success', 'Data Berhasil Dihapus');
+        try {
+            Subject::findOrFail($id)->delete();
+            return redirect('subject')->with('success', 'Data Berhasil hapus');
+            }
+            catch(\Exception $e) {
+            echo 'Message: ' .$e->getMessage();
+            return redirect('subject')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar di guru mapel');
+            }
     }
 }

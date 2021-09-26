@@ -3,27 +3,14 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Subject extends Model
 {
-    use SoftDeletes;
     protected $guarded = [];
 
 
     public function teachers()
     {
-        return $this->belongoMany('App\Teacher')->withPivot('id');
+        return $this->belongoMany('App\Teacher');
     }
-
-    public function ts()
-    {
-        return $this->hasMany('App\TeacherSubject','subject_id');
-    }
-
-    public function subject()
-    {
-        return $this->hasMany('App\TeacherSubject','subject_id');
-    }
-
 }

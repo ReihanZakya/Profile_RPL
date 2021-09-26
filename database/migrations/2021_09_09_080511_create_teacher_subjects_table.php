@@ -16,11 +16,10 @@ class CreateTeacherSubjectsTable extends Migration
         Schema::create('teacher_subjects', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('teacher_id');
-            $table->foreign('teacher_id')->references('id')->on('teachers')->onDelete('cascade');
+            $table->foreign('teacher_id')->references('id')->on('teachers')->onDelete('restrict');
             $table->unsignedBigInteger('subject_id');
-            $table->foreign('subject_id')->references('id')->on('subjects')->onDelete('cascade');
+            $table->foreign('subject_id')->references('id')->on('subjects')->onDelete('restrict');
             $table->timestamps();
-            $table->softDeletes('deleted_at')->nullable();
         });
     }
 

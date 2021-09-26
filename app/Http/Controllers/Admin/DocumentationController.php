@@ -27,7 +27,6 @@ class DocumentationController extends Controller
     {
         $validate = $request->validate([
             'name' => 'required|min:3|unique:documentations,name',
-            'source' => 'min:5',
             'photo' => 'image'
         ],
         [
@@ -69,7 +68,6 @@ class DocumentationController extends Controller
     {
         $validate = $request->validate([
             'name' => 'required|min:3|unique:documentations,name,' .$id,
-            'source' => 'min:5',
             'photo' => 'image'
         ],
         [

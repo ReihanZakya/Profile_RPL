@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\job_opportunities;
+use App\JobOpportunities;
 
 class JobOpportunitiesController extends Controller
 {
     public function index()
     {
         $title = 'Peluang Kerja';
-        $data = job_opportunities::get();
+        $data = JobOpportunities::get();
 
         return view('admin.job_opportunities.index',compact('title','data'));
     }
@@ -36,7 +36,7 @@ class JobOpportunitiesController extends Controller
             'description.min' => 'Inputan minimal 10 karakter',
         ]);
 
-        job_opportunities::create([
+        JobOpportunities::create([
             'name' => $request->name,
             'description' => $request->description
         ]);
@@ -47,7 +47,7 @@ class JobOpportunitiesController extends Controller
     public function edit($id)
     {
         $title = 'Edit Peluang kerja';
-        $dt = job_opportunities::findOrFail($id);
+        $dt = JobOpportunities::findOrFail($id);
 
         return view('admin.job_opportunities.edit',compact('title','dt'));
     }
@@ -66,7 +66,7 @@ class JobOpportunitiesController extends Controller
             'description.min' => 'Inputan minimal 10 karakter',
         ]);
 
-        job_opportunities::findOrFail($id)->update([
+        JobOpportunities::findOrFail($id)->update([
             'name' => $request->name,
             'description' => $request->description
         ]);
@@ -76,7 +76,7 @@ class JobOpportunitiesController extends Controller
 
     public function delete($id)
     {
-        job_opportunities::findOrFail($id)->delete();
+        JobOpportunities::findOrFail($id)->delete();
 
         return redirect('job_opportunities')->with('success', 'Data Berhasil Dihapus');
     }

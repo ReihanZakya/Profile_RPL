@@ -25,7 +25,11 @@
                             <td>
                                 <img src="{{ asset('AdminLTE/documentation/' . $dt->photo) }}" style="width: 100px;">
                             </td>
-                            <td>{{ $dt->source }}</td>
+                            @if ($dt->source)
+                                <td>{{ $dt->source }}</td>
+                            @else
+                                <td>Sumber tidak ada</td>
+                            @endif
                             <td>
                                 <a href="{{ url('documentation/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
@@ -48,8 +52,25 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 
+    <!--DataTables-->
     <script>
-        // Delete confirmation
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "pageLength": 5,
+                "lengthMenu": [5, 10, 15, 20]
+            });
+        });
+    </script>
+
+    <!--Delete Confirmation -->
+    <script>
         $('.delete').click(function() {
             var namaid = $(this).attr('data-id');
             var nama = $(this).attr('data-nama');

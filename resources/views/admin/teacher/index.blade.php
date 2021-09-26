@@ -56,6 +56,24 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+
+     <!--DataTables-->
+     <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                "paging": true,
+                "lengthChange": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+                "pageLength": 5,
+                "lengthMenu": [5, 10, 15, 20]
+            });
+        });
+    </script>
+
     {{-- Delete confirmation --}}
     <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
@@ -73,8 +91,8 @@
                 .then((willDelete) => {
                     if (willDelete) {
                         window.location = "teacher/" + namaid + "/delete"
-                        swal("Data berhasi di hapus", {
-                            icon: "success",
+                        swal("Data sedang di proses", {
+                            icon: "info",
                         });
                     } else {
                         swal("Data tidak jadi dihapus");
@@ -91,6 +109,9 @@
     <script>
         @if (Session::has('success'))
         toastr.success("{{Session::get('success')}}")
+        @endif
+        @if (Session::has('error'))
+        toastr.error("{{Session::get('error')}}")
         @endif
 
     </script>

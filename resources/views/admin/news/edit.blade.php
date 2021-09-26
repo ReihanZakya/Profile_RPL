@@ -45,7 +45,22 @@
     </div>
 @endsection
 
+@push('summernote')
+<script src="{{ asset('AdminLTE/plugins/summernote/summernote-bs4.min.js') }}"></script>
+<!-- Summernote -->
+<script>
+    $(function () {
+      // Summernote
+      $('#summernote').summernote()
 
+      // CodeMirror
+      CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+        mode: "htmlmixed",
+        theme: "monokai"
+      });
+    })
+  </script>
+@endpush
 
 @push('form')
     <script src="{{ asset('AdminLTE/photojs/bs-custom-file-input.js') }}"></script>
