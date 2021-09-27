@@ -18,10 +18,9 @@ class CreatePortfoliosTable extends Migration
             $table->string('name',191);
             $table->text('photo');
             $table->string('source',191)->nullable();
-            // $table->unsignedBigInteger('members_id');
-            // $table->foreign('members_id')->references('id')->on('members')->onDelete('cascade');
+            $table->unsignedBigInteger('member_id');
+            $table->foreign('member_id')->references('id')->on('members')->onDelete('restrict');
             $table->timestamps();
-            $table->softDeletes('deleted_at')->nullable();
         });
     }
 

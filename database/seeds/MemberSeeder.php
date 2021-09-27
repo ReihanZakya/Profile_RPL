@@ -13,18 +13,28 @@ class MemberSeeder extends Seeder
     public function run()
     {
         Member::create([
-            'name' => 'Deden',
-            'group' => '1'
+            'member_name' => 'Rendy Josua Hutagaol',
+            'unique' => null
         ]);
 
         Member::create([
-            'name' => 'Reihan',
-            'group' => '2'
+            'member_name' => 'Ahmad Suherman',
+            'unique' => null
         ]);
 
         Member::create([
-            'name' => 'Luqman',
-            'group' => '3'
+            'member_name' => 'Dede Suminar',
+            'unique' => null
+        ]);
+
+        Member::create([
+            'member_name' => 'Elsa Susilawati',
+            'unique' => null
+        ]);
+
+        Member::create([
+            'member_name' => 'Sumiartini Sri Rahayu',
+            'unique' => null
         ]);
     }
 }

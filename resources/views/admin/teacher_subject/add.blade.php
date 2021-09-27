@@ -7,6 +7,7 @@
         <form action="{{ url('teacher_subject/store') }}" method="POST">
             @csrf
             <div class="card-body">
+                <!-- GURU -->
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Guru</label>
                     <select class="form-control custom-select @error('teacher_id') is-invalid @enderror" name="teacher_id" id="exampleFormControlSelect1">

@@ -9,30 +9,43 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama</label>
-                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="exampleInputEmail1"
-                    value="{{ old('name') }}" value="{{ old('name') }}">
+                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
+                        id="exampleInputEmail1" value="{{ old('name') }}" value="{{ old('name') }}">
                     @error('name')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                        <div class="invalid-feedback">{{ $message }}</div>
+                    @enderror
                 </div>
+                <!-- Anggota -->
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Anggota</label>
+                    <select multiple class="form-control custom-select @error('member_id') is-invalid @enderror" name="member_id[]" id="exampleFormControlSelect2">
+                        @foreach ($member as $mb)
+                            <option value="{{ $mb->id }}" {{ (collect(old('member_id'))->contains($mb->id)) ? 'selected' : '' }}>
+                                {{ $mb->member_name }}</option>
+                        @endforeach
+                      </select>
+                      @error('member_id')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                    @enderror
+                    </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Sumber</label>
-                    <input type="text" name="source" class="form-control @error('source') is-invalid @enderror" id="exampleInputEmail1"
-                    value="{{ old('source') }}" value="{{ old('source') }}">
+                    <input type="text" name="source" class="form-control @error('source') is-invalid @enderror"
+                        id="exampleInputEmail1" value="{{ old('source') }}" value="{{ old('source') }}">
                     @error('source')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                        <div class="invalid-feedback">{{ $message }}</div>
+                    @enderror
                 </div>
-                   <!--Foto-->
-                   <label for="exampleFormControlFile1">Foto</label>
-                   <img  class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
-                   <div class="input-group mb-3">
-                       <div class="custom-file">
-                           <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="image" onchange="previewImage()"
-                               aria-describedby="inputGroupFileAddon03">
-                           <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
-                       </div>
-                   </div>
+                <!--Foto-->
+                <label for="exampleFormControlFile1">Foto</label>
+                <img class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror"
+                            id="image" onchange="previewImage()" aria-describedby="inputGroupFileAddon03">
+                        <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
+                    </div>
+                </div>
             </div>
             <!-- /.card-body -->
 
@@ -56,9 +69,9 @@
         });
     </script>
 
-       {{-- preview img --}}
-       <script>
-        function previewImage(){
+    {{-- preview img --}}
+    <script>
+        function previewImage() {
             const image = document.querySelector('#image');
             const imgPreview = document.querySelector('.img-preview');
 
@@ -67,7 +80,7 @@
             const oFReader = new FileReader();
             oFReader.readAsDataURL(image.files[0]);
 
-            oFReader.onload = function(oFREvent){
+            oFReader.onload = function(oFREvent) {
                 imgPreview.src = oFREvent.target.result;
             }
         };

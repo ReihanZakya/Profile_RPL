@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\job_opportunities;
+use App\JobOpportunities;
 use Illuminate\Http\Request;
 
 class PeluangKerjaController extends Controller
 {
     public function index()
     {
-        $data = job_opportunities::get();
+        $data = JobOpportunities::get();
 
         return view('fitur.peluang_kerja',compact('data'));
     }
