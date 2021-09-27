@@ -39,7 +39,8 @@ class SubjectController extends Controller
 
         Subject::create([
             'name' => $request->name,
-            'class' => $request->class
+            'class' => $request->class,
+            'unik' => ''
         ]);
 
         return redirect('subject')->with('success', 'Data Berhasil Ditambahkan');
