@@ -66,11 +66,17 @@
                 </li>
                 <!--Portofolio-->
                 <li class="nav-item">
-                    <a href="{{ url('portfolio') }}"
-                        class="nav-link {{ Request::path() === 'portfolio' ? 'active' : '' }}">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Portofolio</p>
+                    <a href="{{ url('portfolio') }}" class="nav-link {{ Request::path() === 'portfolio' ? 'active' : '' }}">
+                          <i class="far fa-circle nav-icon"></i>
+                        <p>Portfolio</p>
                     </a>
+                    </li>
+                     <li class="nav-item">
+                    <a href="{{ url('member') }}" class="nav-link {{ Request::path() === 'member' ? 'active' : '' }}">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Anggota</p>
+                    </a>
+                </li>
                 </li>
                 <!-- Dokuementasi -->
                 <li class="nav-item">

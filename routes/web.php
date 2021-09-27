@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
+use Spatie\Permission\Contracts\Role;
 
 Route::get('/','HomeController@home');
 
@@ -79,6 +79,15 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('portfolio/{id}/edit','Admin\PortfolioController@edit');
     Route::put('portfolio/{id}/update','Admin\PortfolioController@update');
     Route::get('portfolio/{id}/delete','Admin\PortfolioController@delete');
+
+
+    //Anggota
+    Route::get('member','Admin\MemberController@index');
+    Route::get('member/add_member','Admin\MemberController@add');
+    Route::post('member/store','Admin\MemberController@store');
+    Route::get('member/{id}/edit','Admin\MemberController@edit');
+    Route::put('member/{id}/update','Admin\MemberController@update');
+    Route::get('member/{id}/delete','Admin\MemberController@delete');
 
 
     //Dokumentasi
