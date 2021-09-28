@@ -38,7 +38,7 @@
             </div>
             </div>
 
-            <div class="container" data-aos="fade-up">
+            <div class="container mb-5" data-aos="fade-up">
             <div>
             <p style="font-size: 25px; "><b>Data eHAC bocor.</b></p>
             <h5 style="text-align: justify;">Tim peneliti siber dari vpnMentor menemukan kebocoran data dari aplikasi tes dan telusur Covid-19 atau Kartu Waspada Elektronik yang dibuat Kementerian Kesehatan Republik Indonesia (Kemenkes) yaitu Electronic Health Alert Card atau eHAC pada akhir Agustus lalu.
