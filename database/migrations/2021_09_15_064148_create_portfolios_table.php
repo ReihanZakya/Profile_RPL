@@ -18,8 +18,6 @@ class CreatePortfoliosTable extends Migration
             $table->string('name',191);
             $table->text('photo');
             $table->string('source',191)->nullable();
-            $table->unsignedBigInteger('member_id');
-            $table->foreign('member_id')->references('id')->on('members')->onDelete('restrict');
             $table->timestamps();
         });
     }

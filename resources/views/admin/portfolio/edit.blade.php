@@ -16,23 +16,6 @@
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
-                <!-- Anggota -->
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Anggota</label>
-                    <input type="hidden" name="old_member_id" value="{{ $hidden->member_id }}">
-                    <select class="form-control custom-select @error('member_id') is-invalid @enderror" name="member_id"
-                        id="exampleFormControlSelect1">
-                        <option selected="" disabled="">Pilih Anggota</option>
-                        @foreach ($member as $mb)
-                            <option value="{{ $mb->id }}"
-                                {{ collect(old('member_id', $dt->member_id))->contains($mb->id) ? 'selected' : '' }}>
-                                {{ $mb->member_name }}</option>
-                        @endforeach
-                    </select>
-                    @error('member_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
-                    @enderror
-                </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Sumber</label>
                     <input type="text" name="source" class="form-control @error('source') is-invalid @enderror"
@@ -43,6 +26,7 @@
                 </div>
                 <!--Foto-->
                 <label for="exampleFormControlFile1">Foto</label>
+                <input type="hidden" name="old_photo" value="{{ $dt->photo }}">
                 @if ($dt->photo)
                     <img src="{{ asset('AdminLTE/portfolio/' . $dt->photo) }}"
                         class="img-preview card-img-top col-sm-5 mb-3 d-block" style="width: 20%; heigt: 2 0%;">

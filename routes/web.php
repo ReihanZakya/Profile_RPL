@@ -30,8 +30,6 @@ Route::get('RPL/berita3','Berita3Controller@index');
 
 
 
-
-
 // admin
 Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     //Dashboard Admin
@@ -88,6 +86,15 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
     Route::get('member/{id}/edit','Admin\MemberController@edit');
     Route::put('member/{id}/update','Admin\MemberController@update');
     Route::get('member/{id}/delete','Admin\MemberController@delete');
+
+
+    //Portofolio Anggota
+    Route::get('portfolio_member','Admin\PortfolioMemberController@index');
+    Route::get('portfolio_member/add_portfolio_member','Admin\PortfolioMemberController@add');
+    Route::post('portfolio_member/store','Admin\PortfolioMemberController@store');
+    Route::get('portfolio_member/{id}/edit','Admin\PortfolioMemberController@edit');
+    Route::put('portfolio_member/{id}/update','Admin\PortfolioMemberController@update');
+    Route::get('portfolio_member/{id}/delete','Admin\PortfolioMemberController@delete');
 
 
     //Dokumentasi

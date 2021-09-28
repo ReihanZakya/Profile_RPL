@@ -71,10 +71,18 @@
                         <p>Portfolio</p>
                     </a>
                     </li>
-                     <li class="nav-item">
+                <!-- Anggota -->
+                    <li class="nav-item">
                     <a href="{{ url('member') }}" class="nav-link {{ Request::path() === 'member' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Anggota</p>
+                    </a>
+                </li>
+                <!-- Portofolio Anggota -->
+                    <li class="nav-item">
+                    <a href="{{ url('portfolio_member') }}" class="nav-link {{ Request::path() === 'portfolio_member' ? 'active' : '' }}">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Anggota Portfolio</p>
                     </a>
                 </li>
                 </li>

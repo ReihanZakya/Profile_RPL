@@ -59,8 +59,8 @@ class TeacherSubjectController extends Controller
         //         'unik' => 1
         //     ]);
         // }
-        
-        
+
+
         TeacherSubject::create([
             'teacher_id' => $request->teacher_id,
             'subject_id' => $request->subject_id,

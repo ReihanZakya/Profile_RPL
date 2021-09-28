@@ -1,19 +1,17 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-
-use App\Group;
 use App\Http\Controllers\Controller;
-use App\Member;
 use Illuminate\Http\Request;
 use App\Portfolio;
+use Illuminate\Support\Facades\File;
 
 class PortfolioController extends Controller
 {
     public function index()
     {
         $title = 'Portofolio';
-        $data = Portfolio::get();
+        $data = Portfolio::orderBy('name','asc')->get();
 
         return view('admin.portfolio.index',compact('title','data'));
     }
@@ -21,63 +19,30 @@ class PortfolioController extends Controller
     public function add()
     {
         $title = 'Tambah Portofolio';
-        $member = Member::where('unique',null)->get();
 
-        return view('admin.portfolio.add',compact('title','member'));
+        return view('admin.portfolio.add',compact('title'));
     }
 
     public function store(Request $request)
     {
         $validate = $request->validate([
-            'name' => 'required',
-            'photo' => 'image',
-            'member_id' => 'required',
+            'name' => 'required|unique:portfolios,name',
+            'photo' => 'required|image',
         ],
         [
             'name.required' => 'Inputan nama wajib diisi',
-            'member_id.required' => 'Inputan anggota wajib diisi'
+            'name.unique' => 'Inputan nama sudah ada',
         ]);
 
-        $name = $request->name;
-        $source = $request->source;
-        $member = $request->member_id;
         $file = $request->file('photo');
         $path = 'AdminLTE\portfolio';
-        if ($file) {
             $file->move($path,$file->getClientOriginalName());
-        foreach ($member as $key => $value) {
-            $dt_member = Member::where('id',$member[$key])->first();
-
-            Portfolio::insert([
-                'name' => $name,
-                'member_id' => $member[$key],
+            Portfolio::create([
+                'name' => $request->name,
                 'photo' => $file->getClientOriginalName(),
-                'source' => $source,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
+                'source' => $request->source
             ]);
 
-            Member::where('id',$member[$key])->update([
-                'unique' => 1
-            ]);
-        }
-    }else{
-        foreach ($member as $key => $value) {
-            $dt_member = Member::where('id',$member[$key])->first();
-
-            Portfolio::insert([
-                'name' => $name,
-                'member_id' => $member[$key],
-                'source' => $source,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
-            ]);
-
-            Member::where('id',$member[$key])->update([
-                'unique' => 1
-            ]);
-        }
-    }
         return redirect('portfolio')->with('success', 'Data Berhasil Ditambahkan');
     }
 
@@ -85,19 +50,14 @@ class PortfolioController extends Controller
     {
         $title = 'Edit Portofolio';
         $dt = Portfolio::findOrFail($id);
-        $member = Member::get();
-        $hidden = Portfolio::join('members','members.id','=','portfolios.member_id')
-        ->select('portfolios.member_id')
-        ->find($id);
 
-        return view('admin.portfolio.edit',compact('title','dt','hidden','member'));
+        return view('admin.portfolio.edit',compact('title','dt'));
     }
 
     public function update(Request $request,$id)
     {
         $validate = $request->validate([
             'name' => 'required',
-            'member_id' => 'required|unique:portfolios,member_id,' .$id,
             'photo' => 'image'
         ],
         [
@@ -105,67 +65,33 @@ class PortfolioController extends Controller
             'member_id.unique' => 'Inputan nama sudah tersedia',
         ]);
 
-        $name = $request->name;
-        $source = $request->source;
-        $member = $request->member_id;
         $file = $request->file('photo');
         $path = 'AdminLTE\portfolio';
-        $old = $request->old_member_id;
+        $dt = Portfolio::findOrFail($id);
 
-        if ($file) {
+        if ($request->file('photo')) {
+            if ($request->old_photo) {
+               File::delete('AdminLTE/portfolio/'.$request->old_photo);
+            }
             $file->move($path,$file->getClientOriginalName());
-            Portfolio::findOrFail($id)->update([
-                'name' => $name,
-                'member_id' => $member,
-                'photo' => $file->getClientOriginalName(),
-                'source' => $source,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
-            ]);
-
-            if ($request->member_id) {
-                if ($request->old_member_id) {
-                   Member::where('id',$old)->update([
-                       'unique' => null
-                   ]);
-                }
-                    Member::where('id',$member)->update([
-                        'unique' => 1
-                    ]);
-            }
-
-            }else{
-                Portfolio::findOrFail($id)->update([
-                    'name' => $name,
-                    'member_id' => $member,
-                    'source' => $source,
-                    'created_at' => date('Y-m-d H:i:s'),
-                    'updated_at' => date('Y-m-d H:i:s')
-                ]);
-
-                if ($request->member_id) {
-                    if ($request->old_member_id) {
-                    Member::where('id',$old)->update([
-                        'unique' => null
-                    ]);
-                    }
-                        Member::where('id',$member)->update([
-                            'unique' => 1
-                        ]);
-            }
+            $photo = $file->getClientOriginalName();
+        }else{
+            $photo = $dt->photo;
         }
-            return redirect('portfolio')->with('success', 'Data Berhasi Diupdate');
+
+        $dt->name = $request->name;
+        $dt->photo = $photo;
+        $dt->source = $request->source;
+        $dt->save();
+
+        return redirect('portfolio')->with('success', 'Data Berhasi Diupdate');
     }
 
     public function delete($id)
     {
-        $portfolio = Portfolio::with('member')->find($id);
-        // dd($teacher_subject);
-        $portfolio->member()->update([
-            'unique' => null
-        ]);
-
-        Portfolio::findOrFail($id)->delete();
+        $dt = Portfolio::findOrFail($id);
+        File::delete('AdminLTE/portfolio/'.$dt->photo);
+        $dt->delete();
         return redirect('portfolio')->with('success', 'Data Berhasil Dihapus');
     }
 }

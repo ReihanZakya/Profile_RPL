@@ -13,36 +13,21 @@ class PortfolioSeeder extends Seeder
     public function run()
     {
         Portfolio::create([
-            'name'  =>'Tabungan wali kelas',
-            'source'=> 'https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7',
-            'photo' => 'kelompok_7_ujikom.png',
-            'member_id' => '1'
-        ]);
-        Portfolio::create([
-            'name'  =>'Tabungan wali kelas',
-            'source'=> 'https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7',
-            'photo' => 'kelompok_7_ujikom.png',
-            'member_id' => '2'
-        ]);
-        Portfolio::create([
-            'name'  =>'Tabungan wali kelas',
-            'source'=> 'https://github.com/yuliawatinurzanah1/Tabungan-Kelompok-7',
-            'photo' => 'kelompok_7_ujikom.png',
-            'member_id' => '3'
+            'name'  =>'Penerimaan Peserta Didik Baru',
+            'source'=> 'https://github.com/Susilawatielsa/2020_XII_RPL_KELOMPOK_1',
+            'photo' => 'penerimaan.png',
         ]);
 
         Portfolio::create([
-            'name'  =>'Perpustakaan',
-            'source'=>'https://github.com/diancitra21/2020_XII_RPL_KELOMPOK_6.git',
-            'photo' => 'kelompok_6_ujikom.png',
-            'member_id' => '4'
+            'name'  =>'Inventaris Asset SMK MAHAPUTRA',
+            'source'=>'https://github.com/SantiSintia/2020_XII_RPL_KELOMPOK_2',
+            'photo' => 'inventaris.png',
         ]);
 
         Portfolio::create([
-            'name'  =>'Pemilihan Osis',
-            'source'=>'https://github.com/astrinur09/2020_XII_RPL_2_KELOMPOK_8.git',
-            'photo' => 'kelompok_8_ujikom.png',
-            'member_id' => '5'
+            'name'  =>'Pembuatan Jadwal SMK Mahaputra',
+            'source'=>'https://github.com/RayhanSalman123/2020_XII_RPL_KELOMPOK_3',
+            'photo' => 'jadwal.png',
         ]);
     }
 }

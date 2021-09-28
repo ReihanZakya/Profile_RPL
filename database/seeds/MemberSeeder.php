@@ -14,27 +14,42 @@ class MemberSeeder extends Seeder
     {
         Member::create([
             'member_name' => 'Rendy Josua Hutagaol',
-            'unique' => null
         ]);
 
         Member::create([
             'member_name' => 'Ahmad Suherman',
-            'unique' => null
         ]);
 
         Member::create([
             'member_name' => 'Dede Suminar',
-            'unique' => null
         ]);
 
         Member::create([
             'member_name' => 'Elsa Susilawati',
-            'unique' => null
         ]);
 
         Member::create([
             'member_name' => 'Sumiartini Sri Rahayu',
-            'unique' => null
+        ]);
+
+        Member::create([
+            'member_name' => 'Taupik P',
+        ]);
+
+        Member::create([
+            'member_name' => 'Santi Sintia Wati',
+        ]);
+
+        Member::create([
+            'member_name' => 'Candra',
+        ]);
+
+        Member::create([
+            'member_name' => 'Nadira Nurul D',
+        ]);
+
+        Member::create([
+            'member_name' => 'Rinaldi Anugrah P',
         ]);
     }
 }

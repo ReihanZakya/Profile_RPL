@@ -9,8 +9,8 @@ class Member extends Model
     protected $guarded = [];
 
 
-    public function portfolio()
+    public function member()
     {
-        return $this->belongsTo('App\Portfolio','portfolio_id');
+        return $this->hasMany('App\PortfolioMember','member_id')->select(array('id','member_id'));
     }
 }

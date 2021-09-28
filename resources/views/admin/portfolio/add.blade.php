@@ -7,6 +7,7 @@
         <form action="{{ url('portfolio/store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="card-body">
+                <!-- Nama -->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama</label>
                     <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
@@ -15,19 +16,7 @@
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
                 </div>
-                <!-- Anggota -->
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">Anggota</label>
-                    <select multiple class="form-control custom-select @error('member_id') is-invalid @enderror" name="member_id[]" id="exampleFormControlSelect2">
-                        @foreach ($member as $mb)
-                            <option value="{{ $mb->id }}" {{ (collect(old('member_id'))->contains($mb->id)) ? 'selected' : '' }}>
-                                {{ $mb->member_name }}</option>
-                        @endforeach
-                      </select>
-                      @error('member_id')
-                        <div class="invalid-feedback">{{ $message }}</div>
-                    @enderror
-                    </div>
+                <!-- Sumber -->
                 <div class="form-group">
                     <label for="exampleInputEmail1">Sumber</label>
                     <input type="text" name="source" class="form-control @error('source') is-invalid @enderror"

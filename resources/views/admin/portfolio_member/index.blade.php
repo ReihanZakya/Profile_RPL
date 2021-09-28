@@ -3,16 +3,15 @@
     <div class="card">
         <div class="card-header">
             {{ $title }}
-            <a href="{{ url('portfolio/add_portfolio') }}" class="btn btn-primary btn-sm float-right">Tambah Portofolio</a>
+            <a href="{{ url('portfolio_member/add_portfolio_member') }}" class="btn btn-primary btn-sm float-right">Tambah Portofolio</a>
         </div>
         <div class="card-body">
             <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Nama</th>
-                        <th>Photo</th>
-                        <th>Sumber</th>
+                        <th>Portfolio</th>
+                        <th>Anggota</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -21,19 +20,12 @@
                         <tr>
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
+                            <td>{{ $dt->member_name }}</td>
                             <td>
-                                <img class="img-fluid" src="{{ asset('AdminLTE/portfolio/' . $dt->photo) }}" style="width: 65px;">
-                            </td>
-                            @if ($dt->source)
-                                <td>{{ $dt->source }}</td>
-                            @else
-                                <td>Sumber tidak ada</td>
-                            @endif
-                            <td>
-                                <a href="{{ url('portfolio/' . $dt->id . '/edit') }}"
+                                <a href="{{ url('portfolio_member/' . $dt->pm . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
                                     <a href="#" class="btn btn-danger btn-sm btn-outline-light delete"
-                                    data-id="{{ $dt->id }}" data-nama="{{ $dt->name }}">Delete</a>
+                                    data-id="{{ $dt->pm }}" data-nama="{{ $dt->member_name }}">Delete</a>
                                 </td>
                         </tr>
                     @endforeach
@@ -83,7 +75,7 @@
                 })
                 .then((willDelete) => {
                     if (willDelete) {
-                        window.location = "portfolio/" + namaid + "/delete"
+                        window.location = "portfolio_member/" + namaid + "/delete"
                         swal("Data berhasi di hapus", {
                             icon: "success",
                         });

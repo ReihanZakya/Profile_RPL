@@ -11,7 +11,7 @@ class MemberController extends Controller
     public function index()
     {
         $title = 'Anggota';
-        $data = Member::get();
+        $data = Member::orderBy('member_name','asc')->get();
 
         return view('admin.member.index',compact('title','data'));
     }
@@ -75,7 +75,7 @@ class MemberController extends Controller
             }
             catch(\Exception $e) {
             echo 'Message: ' .$e->getMessage();
-            return redirect('member')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar portofolio');
+            return redirect('member')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar Anggota Portofolio');
             }
     }
 }
