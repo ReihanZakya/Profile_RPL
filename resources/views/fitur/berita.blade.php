@@ -7,24 +7,36 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
     <a href="{{ url('RPL/berita1') }}"class="link {{ url()->current() == url('RPL/berita1') ? 'active' : '' }}">
-      <img src="{{ asset('assets/img/sunburst.png') }}" class="d-block w-100 cover" alt="..." >
+    <img src="{{ asset('assets/img/sunburst.png') }}" class="d-block w-100 cover" alt="">
     </a>
+    <div class="carousel-caption d-none d-md-block">
+        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 220px;">Apa itu SUNBURST?</p>
+    </div>
     </div>
     <div class="carousel-item">
     <a href="{{ url('RPL/berita2') }}"class="link {{ url()->current() == url('RPL/berita2') ? 'active' : '' }}">
       <img src="{{ asset('assets/img/hacker4.png') }}" class="d-block w-100 cover" alt="..." >
+    </a>  
+    <div class="carousel-caption d-none d-md-block">
+        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 220px;">Bulan-bulanan RI ditangan Peretas</p>
+    </div>
     </div>
     <div class="carousel-item">
     <a href="{{ url('RPL/berita3') }}"class="link {{ url()->current() == url('RPL/berita3') ? 'active' : '' }}">
       <img src="{{ asset('assets/img/hacker3.png') }}" class="d-block w-100 cover" alt="..." >
+    </a>  
+    <div class="carousel-caption d-none d-md-block">
+        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 250px;">Hacker China Membobol BNI</p>
+    </div>
     </div>
   </div>
+  </div> 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon" aria-hidden-="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
@@ -47,13 +59,12 @@
                                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                     preserveAspectRatio="xMidYMid slice" focusable="false">
 
-                            <div class="card-body" >
+                            <div class="card-body">
                                     <h5 class="card-text  warna">Apa Itu "Sunburst"?</h5>
                                     <p class="card-text">
                                     </p>
                                     <!-- <button type="button" class="btn btn-primary">SELENGKAPNYA -->
                                     <button type="button" class="btn btn-dark"><a href="{{ url('RPL/berita1') }}"class="link {{ url()->current() == url('RPL/berita1') ? 'active' : '' }}" style="font-size: 14px; color: orange;">SELENGKAPNYA</button>
-                                    <!-- </button> -->
                                     <a></a>
                                                       </div>
                                     <div class="modal fade" id="webdeveloper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

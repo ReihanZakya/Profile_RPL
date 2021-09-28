@@ -58,6 +58,9 @@
             Hal tersebut disampaikan Koalisi Advokasi Perlindungan Data Pribadi (KA-PDP), sebagai respon dari maraknya kasus-kasus kebocoran data pribadi pada sektor publik, seperti kasus kebocoran databases e-HAC dan BPJS Kesehatan.
             </h5>
             </div>
+            <button  type="button" class="btn btn-warning" style="margin-bottom: 20px;">
+            <a href="{{url('RPL/berita')}}" style="color: black;">Kembali</a>
+            </button>
             </div>
 
 

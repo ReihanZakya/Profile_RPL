@@ -22,7 +22,7 @@
                   <span class="mb-4">Kepala Prodi</span>
                 </div>
                 <center>
-	              <button type="button" class="btn btn-danger" style= "margin-bottom: 50px;" data-bs-toggle="modal" data-bs-target="#pakrey">
+	              <button type="button" class="btn btn-danger" style= "margin-top: 5px;" data-bs-toggle="modal" data-bs-target="#pakrey">
                   Mata Pelajaran
                 </button>
                 
@@ -110,7 +110,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <table class="table">
@@ -148,7 +147,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <table class="table">
@@ -194,7 +192,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <table class="table">
@@ -232,7 +229,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <table class="table">
@@ -267,7 +263,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         

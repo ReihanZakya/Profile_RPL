@@ -55,6 +55,9 @@
             Para peretas mungkin tidak punya waktu atau sumber daya untuk melakukan pengawasan besar-besaran terhadap lebih dari sejumlah kecil kemungkinan korban mereka, di mana kementerian-kementerian menjadi target yang paling memungkinkan.
             </h5>
             </div>
+            <button  type="button" class="btn btn-warning" style="margin-bottom: 20px;">
+            <a href="{{url('RPL/berita')}}" style="color: black;">Kembali</a>
+            </button>
             </div>
 
 @endsection

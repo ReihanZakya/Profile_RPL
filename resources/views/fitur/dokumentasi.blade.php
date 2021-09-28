@@ -87,7 +87,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/gerbang.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+        
                     </div>
                   </div>
                 </div>
@@ -104,7 +104,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/lapangan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                       
                     </div>
                   </div>
                 </div>
@@ -121,7 +121,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/jabon.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/balema.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
                 </div>
@@ -155,7 +155,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/hanggar.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
                 </div>
@@ -171,7 +171,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/masjid.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+      
                     </div>
                   </div>
                 </div>
@@ -188,7 +188,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/lab.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                       
                     </div>
                   </div>
                 </div>
@@ -205,7 +205,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/perpustakaan.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
                 </div>
@@ -222,7 +222,7 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/fasilitas/ruangguru.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
                 </div>
@@ -239,10 +239,10 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="portfolio-links">
                         <a href="{{asset('assets/img/kegiatan/kegiatan1.jpeg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox btn btn-sm btn-outline-secondary"><i class="bi bi-zoom-in"></i></a>
-                        <a href="https://www.instagram.com/smkmahaputracerdasutama/" class="btn btn-sm btn-outline-secondary" title="More Details"><i class="bi bi-instagram"></i></a>
+                        
                     </div>
                   </div>
-            }
+            
 
         </style>
 
