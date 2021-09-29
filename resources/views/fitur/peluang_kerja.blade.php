@@ -65,7 +65,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-text  warna">Front End Developer</h5>
-                                    <h5 class="card-text  warna">PT Bintoro Sinergi Korpora</h5>
+                                    <h5 class="card-text  warna">PT Deden Alif</h5>
                                     <p class="card-text">
                                     </p>
                                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#webdeveloper" style="font-size: 14px; color: orange;">Syarat-syarat
@@ -148,7 +148,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-text warna">Flutter Developer</h5>
-                                    <h5 class="card-text warna">PT Bintoro Sinergi Korpora</h5>
+                                    <h5 class="card-text warna">PT Luqman Muhammad S</h5>
                                     <p class="card-text">
                                     
                                     </p>
@@ -242,7 +242,7 @@
 
                                 <div class="card-body">
                                     <h5 class="card-text warna">IT Network & Hardware Engginer</h5>
-                                    <h5 class="card-text warna">PT Multi Star Rukun Abadi</h5>
+                                    <h5 class="card-text warna">PT Rayhan Zakya Alawi</h5>
                                     <p class="card-text">
                                    
                                     </p>
