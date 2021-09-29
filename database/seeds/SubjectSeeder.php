@@ -16,19 +16,16 @@ class SubjectSeeder extends Seeder
         Subject::create([
             'name' => 'Pemrograman Dasar',
             'class' => '1',
-            'unique' => '1'
         ]);
 
         Subject::create([
             'name' => 'Simulasi Digital',
             'class' => '1',
-            'unique' => '1'
         ]);
 
         Subject::create([
             'name' => 'Sistem Kompter',
             'class' => '1',
-            'unique' => '1'
         ]);
 
         Subject::create([

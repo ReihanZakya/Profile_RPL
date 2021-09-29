@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Subject;
 use App\Teacher;
+use Egulias\EmailValidator\Warning\TLD;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class TeacherController extends Controller
 {
@@ -13,15 +15,22 @@ class TeacherController extends Controller
     {
         $title = 'Guru';
         $data = Teacher::get();
-
+        $bg = DB::table('teachers')
+                   ->select('teachers.position_types')
+                   ->get();
+        // dd($bg);
         return view('admin.teacher.index',compact('title','data'));
     }
 
     public function add()
     {
         $title = 'Tambah Guru';
-
-        return view('admin.teacher.add',compact('title'));
+        $unique = DB::table('teachers')
+                   ->select('teachers.is_unique')
+                   ->where('teachers.is_unique',1)
+                   ->first();
+// dd($unique);
+        return view('admin.teacher.add',compact('title','unique'));
     }
 
     public function store(Request $request)
@@ -44,24 +53,41 @@ class TeacherController extends Controller
         $file = $request->file('photo');
         $path = 'AdminLTE\teacher';
 
-        if ($file) {
-            $file->move($path,$file->getClientOriginalName());
-            Teacher::create([
-                'name' => $request->name,
-                'gender' => $request->gender,
-                'position_types' => $request->position_types,
-                'photo' => $file->getClientOriginalName()
-            ]);
-        }else{
-            Teacher::create([
-                'name' => $request->name,
-                'gender' => $request->gender,
-                'position_types' => $request->position_types,
-            ]);
+        $k_prodi = $request->position_types;
+        $teacher = new Teacher;
 
+
+        if ($k_prodi == 1) {
+            if ($file) {
+                $teacher->name = $request->name;
+                $teacher->gender = $request->gender;
+                $teacher->position_types = $request->position_types;
+                $teacher->is_unique = '1';
+                $teacher->photo = $file->getClientOriginalName();
+            }else{
+                $teacher->name = $request->name;
+                $teacher->gender = $request->gender;
+                $teacher->position_types = $request->position_types;
+                $teacher->is_unique = null;
+            }
         }
 
-            return redirect('teacher')->with('success', 'Data Berhasil Ditambahkan');
+
+        if ($k_prodi == 2) {
+            if ($file) {
+                $teacher->name = $request->name;
+                $teacher->gender = $request->gender;
+                $teacher->position_types = $request->position_types;
+                $teacher->photo = $file->getClientOriginalName();
+            }else{
+                $teacher->name = $request->name;
+                $teacher->gender = $request->gender;
+                $teacher->position_types = $request->position_types;
+            }
+        }
+        $teacher->save();
+
+        return redirect('teacher')->with('success', 'Data Berhasil Ditambahkan');
     }
 
     public function edit($id)
@@ -77,7 +103,7 @@ class TeacherController extends Controller
         $validate = $request->validate([
             'name' => 'required|min:3|unique:teachers,name,' .$id,
             'gender' => 'required',
-            'position_types' => 'required',
+            'position_types' => 'required|unique:teachers,position_types,' .$id,
             'photo' => 'image'
         ],
         [
@@ -111,14 +137,8 @@ class TeacherController extends Controller
 
     public function delete($id)
     {
-        try {
-            Teacher::findOrFail($id)->delete();
-            return redirect('teacher')->with('success', 'Data Berhasil hapus');
-            }
-            catch(\Exception $e) {
-            echo 'Message: ' .$e->getMessage();
-            return redirect('teacher')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar di guru mapel');
-            }
+        Teacher::findOrFail($id)->delete();
+        return redirect('teacher')->with('success', 'Data Berhasil hapus');
     }
 }
 

@@ -23,7 +23,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
                             <td>
-                                <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}" style="width:65px;">
+                                <img src="{{ $dt->photo() }}" style="width: 65px;">
                             </td>
                             @if ($dt->gender == 1)
                                 <td>Laki-laki</td>

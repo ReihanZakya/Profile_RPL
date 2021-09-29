@@ -14,7 +14,11 @@ class TeacherSubjectController extends Controller
     public function index()
     {
         $title = 'Guru Mapel';
-        $data = TeacherSubject::orderBy('teacher_id','asc')->get();
+        $data = TeacherSubject::join('teachers','teachers.id','=','teacher_subjects.teacher_id')
+                                ->join('subjects','subjects.id','=','teacher_subjects.subject_id')
+                                ->select('teachers.name as tnm','teachers.*','subjects.*','teacher_subjects.*')
+                                ->orderBy('tnm','asc')
+                                ->get();
 
         return view('admin.teacher_subject.index',compact('title','data'));
     }
@@ -23,8 +27,10 @@ class TeacherSubjectController extends Controller
     {
         $title = 'Tambah Mata Pelajaran';
         $teacher = Teacher::get();
-        $subject = Subject::where('unik','')->get();
-        // $subject = Subject::get();
+        $subject = Subject::leftjoin('teacher_subjects','teacher_subjects.subject_id','=','subjects.id')
+                        ->select('teacher_subjects.*','subjects.*')
+                        ->where('teacher_subjects.subject_id',NULL)
+                        ->get();
 
         return view('admin.teacher_subject.add',compact('title','teacher','subject'));
     }
@@ -42,37 +48,19 @@ class TeacherSubjectController extends Controller
             'subject_id.unique' => 'Inputan mata pelajaran sudah ada'
         ]);
 
-        // $teacher = $request->teacher_id;
-        // $subject = $request->subject_id;
+        $teacher = $request->teacher_id;
+        $subject = $request->subject_id;
 
-        // foreach ($subject as $key => $value) {
-        //     $dt_subject = Subject::where('id',$subject[$key])->first();
+        foreach ($subject as $key => $value) {
+            $dt_subject = Subject::where('id',$subject[$key])->first();
 
-        //     TeacherSubject::insert([
-        //         'teacher_id' => $teacher,
-        //         'subject_id' => $dt_subject[$key],
-        //         'created_at' => date('Y-m-d H:i:s'),
-        //         'updated_at' => date('Y-m-d H:i:s')
-        //     ]);
-
-        //     Subject::where('id',$subject[$key])->update([
-        //         'unik' => 1
-        //     ]);
-        // }
-
-
-        TeacherSubject::create([
-            'teacher_id' => $request->teacher_id,
-            'subject_id' => $request->subject_id,
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s')
-        ]);
-
-        Subject::where('id',$request->subject_id)->update([
-            'unik' => 1
-        ]);
-        $dt_subject = Subject::where('id',$request->subject_id);
-
+            TeacherSubject::insert([
+                'teacher_id' => $teacher,
+                'subject_id' => $subject[$key],
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
+            ]);
+        }
 
         return redirect('teacher_subject')->with('success', 'Data Berhasil Ditambahkan');
     }
@@ -81,13 +69,10 @@ class TeacherSubjectController extends Controller
     {
         $title = 'Edit Guru Mapel';
         $dt = TeacherSubject::findOrFail($id);
-        $hidden = TeacherSubject::join('subjects','subjects.id','=','teacher_subjects.id')
-        ->select('teacher_subjects.subject_id')
-        ->find($id);
         $teacher = Teacher::get();
         $subject = Subject::get();
 
-        return view('admin.teacher_subject.edit',compact('title','dt','teacher','subject','hidden'));
+        return view('admin.teacher_subject.edit',compact('title','dt','teacher','subject'));
     }
 
     public function update(Request $request,$id)
@@ -105,7 +90,6 @@ class TeacherSubjectController extends Controller
 
         $teacher = $request->teacher_id;
         $subject = $request->subject_id;
-        $old = $request->old_subject_id;
 
             TeacherSubject::findOrFail($id)->update([
                 'teacher_id' => $teacher,
@@ -114,29 +98,11 @@ class TeacherSubjectController extends Controller
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
 
-            if ($request->subject_id) {
-                if ($request->old_subject_id) {
-                   Subject::where('id',$old)->update([
-                       'unik' => ''
-                   ]);
-                }
-                Subject::where('id',$subject)->update([
-                    'unik' => 1
-                ]);
-            }
-
         return redirect('teacher_subject')->with('success', 'Data Berhasil Diupdate');
     }
 
     public function delete($id)
     {
-
-        $teacher_subject = TeacherSubject::with('subject')->find($id);
-        // dd($teacher_subject);
-        $teacher_subject->subject()->update([
-            'unik' => ''
-        ]);
-
         TeacherSubject::findOrFail($id)->delete();
         return redirect('teacher_subject')->with('success', 'Data Berhasil Dihapus');
     }

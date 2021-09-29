@@ -24,7 +24,7 @@
                 <!-- Mata Pelajaran -->
                 <div class="form-group">
                 <label for="exampleFormControlSelect2">Mata Pelajaran</label>
-                <!-- <select multiple class="form-control custom-select @error('subject_id') is-invalid @enderror" name="subject_id[]" id="exampleFormControlSelect2">
+                 <select multiple class="form-control custom-select @error('subject_id') is-invalid @enderror" name="subject_id[]" id="exampleFormControlSelect2">
                     @foreach ($subject as $sc)
                         <option value="{{ $sc->id }}" {{ (collect(old('subject_id'))->contains($sc->id)) ? 'selected' : '' }}>{{ $sc->name }} (@if ($sc->class == 1)
                             Kelas X
@@ -34,18 +34,7 @@
                             Kelas XII
                         @endif)</option>
                     @endforeach
-                  </select> -->
-                  <select class="form-control custom-select @error('subject_id') is-invalid @enderror" name="subject_id" id="exampleFormControlSelect1">
-                      <option selected="" disabled="">Pilih Mata Pelajaran</option>
-                        <!-- @foreach ($subject as $sc)
-                        <option value="{{ $sc->id }}" {{ (collect(old('subject_id'))->contains($sc->id)) ? 'selected' : '' }}>{{ $sc->name }} </option>
-                            <option value="{{ $sc->id }}" {{ old('subject_id') == $sc->id ? 'selected' : '' }}>{{ $sc->name }}</option>
-                        @endforeach -->
-
-                        @foreach ($subject as $sc)
-                          <option value="{{ $sc->id }}">{{ $sc->name }}</option>
-                        @endforeach
-                    </select>
+                  </select>
                   @error('subject_id')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror

@@ -20,9 +20,8 @@ class PortfolioMemberController extends Controller
                                 ->select('portfolio_members.id as pm','portfolios.*','members.*')
                                 ->orderBy('name','asc')
                                 ->get();
-        $jb = PortfolioMember::get();
 
-        return view('admin.portfolio_member.index',compact('title','data','jb'));
+        return view('admin.portfolio_member.index',compact('title','data'));
     }
 
     public function add()

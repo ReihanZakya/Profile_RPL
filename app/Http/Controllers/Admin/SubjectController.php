@@ -40,7 +40,6 @@ class SubjectController extends Controller
         Subject::create([
             'name' => $request->name,
             'class' => $request->class,
-            'unik' => ''
         ]);
 
         return redirect('subject')->with('success', 'Data Berhasil Ditambahkan');
@@ -77,13 +76,7 @@ class SubjectController extends Controller
 
     public function delete($id)
     {
-        try {
-            Subject::findOrFail($id)->delete();
-            return redirect('subject')->with('success', 'Data Berhasil hapus');
-            }
-            catch(\Exception $e) {
-            echo 'Message: ' .$e->getMessage();
-            return redirect('subject')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar di guru mapel');
-            }
+        Subject::findOrFail($id)->delete();
+        return redirect('subject')->with('success', 'Data Berhasil hapus');
     }
 }

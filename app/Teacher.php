@@ -18,4 +18,13 @@ class Teacher extends Model
     {
         return $this->hasMany('App\TeacherSubject','teacher_id')->select(array('teacher_id','subject_id'));
     }
+
+    public function photo()
+    {
+        if (!$this->photo) {
+            return asset('AdminLTE/default.png');
+        }
+
+        return asset('AdminLTE/teacher/'.$this->photo);
+    }
 }

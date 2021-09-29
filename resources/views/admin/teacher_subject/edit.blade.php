@@ -23,7 +23,6 @@
                 <!-- Mata Pelajaran -->
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Mata Pelajaran</label>
-                <input type="hidden" name="old_subject_id" value="{{ $hidden->subject_id }}">
                     <select class="form-control custom-select @error('subject_id') is-invalid @enderror" name="subject_id" id="exampleFormControlSelect1">
                       <option selected="" disabled="">Pilih Mata Pelajaran</option>
                         @foreach ($subject as $sc)

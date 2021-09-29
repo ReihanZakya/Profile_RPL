@@ -34,31 +34,44 @@
                 </div>
                 <!-- Jenis Posisi-->
                 <label for="exampleInputEmail1" class="mt-3">Jenis Posisi</label><br>
-                <div class="custom-control custom-radio">
-                    <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
-                        id="customControlValidation3" name="position_types" value="1" @if (old('position_types',$dt->position_types)  == 1) checked @endif>
-                    <label class="custom-control-label" for="customControlValidation3">Kepala Prodi</label>
-                </div>
+                @if (isset($unique->is_unique))
                 <div class="custom-control custom-radio mb-3">
                     <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
-                        id="customControlValidation4" name="position_types" value="2" @if (old('position_types',$dt->position_types)  == 2) checked @endif>
+                        id="customControlValidation4" name="position_types" value="2" @if (old('position_types',$dt->position_types) == 2) checked @endif>
                     <label class="custom-control-label" for="customControlValidation4">Guru RPL</label>
                     @error('position_types')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
                 </div>
+                @else
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
+                    id="customControlValidation3" name="position_types" value="1" @if (old('position_types',$dt->position_types) == 1) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation3">Kepala Prodi</label>
+                </div>
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" class="custom-control-input @error('position_types') is-invalid @enderror"
+                        id="customControlValidation4" name="position_types" value="2" @if (old('position_types',$dt->position_types) == 2) checked @endif>
+                    <label class="custom-control-label" for="customControlValidation4">Guru RPL</label>
+                    @error('position_types')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
+                </div>
+                @endif
                 <!--Foto-->
                 <label for="exampleFormControlFile1">Foto</label>
                 @if ($dt->photo)
-                <img src="{{asset('AdminLTE/teacher/'. $dt->photo)}}" class="img-preview card-img-top col-sm-5 mb-3 d-block " style="width: 20%; heigt: 2 0%;">
+                <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}"
+                    class="img-preview card-img-top col-sm-5 mb-3 d-block" style="width: 20%; heigt: 2 0%;">
                 @else
-                <img  class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
+                    <img class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
                 @endif
+                <img  class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
                 <div class="input-group mb-3">
                     <div class="custom-file">
                         <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="image" onchange="previewImage()"
                             aria-describedby="inputGroupFileAddon03">
-                        <label class="custom-file-label" for="inputGroupFile03">{{ $dt->photo }}</label>
+                        <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
                     </div>
                 </div>
                 @error('photo')
@@ -88,9 +101,8 @@
         });
     </script>
 
-      {{-- preview img --}}
-
-     <script>
+    {{-- preview img --}}
+    <script>
         function previewImage(){
             const image = document.querySelector('#image');
             const imgPreview = document.querySelector('.img-preview');

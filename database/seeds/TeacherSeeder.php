@@ -16,7 +16,8 @@ class TeacherSeeder extends Seeder
             'name' => 'Raynaldi',
             'gender' => '1',
             'position_types' => '1',
-            'photo' => 'pa rey.jpg'
+            'photo' => 'pa rey.jpg',
+            'is_unique' => '1'
         ]);
 
         Teacher::create([
