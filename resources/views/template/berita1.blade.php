@@ -4,11 +4,13 @@
 
 <div class="container" data-aos="fade-up">
                 <div class="section-title">
+                <button  type="button" class="btn btn-warning" style="margin-bottom: 20px;">
+            <a href="{{url('RPL/berita')}}" style="color: black;">Kembali</a>
+            </button>
                     <h6 style="color: orange;">Berita Global</h6>
                     <p style="font-size: 25px;">Apa itu 'Sunburst', salah satu peretasan terbesar dalam sejarah yang membobol kementerian penting di Amerika Serikat</p>
                 </div>
             </div>
-
             <div class="container" data-aos="fade-up">
             <div>
             <p style="font-size: 25px; "><b>AS Sebagai salah satu target utamanya.</b></p>

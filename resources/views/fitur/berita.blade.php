@@ -8,32 +8,33 @@
     <div class="carousel-item active">
     <a href="{{ url('RPL/berita1') }}"class="link {{ url()->current() == url('RPL/berita1') ? 'active' : '' }}">
     <img src="{{ asset('assets/img/sunburst.png') }}" class="d-block w-100 cover" alt="">
+    <div class="carousel-caption borderr">
+        <h3>Apa itu SUNBURST?</h3>
+      </div>
     </a>
-    <div class="carousel-caption d-none d-md-block">
-        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 220px;">Apa itu SUNBURST?</p>
-    </div>
     </div>
     <div class="carousel-item">
     <a href="{{ url('RPL/berita2') }}"class="link {{ url()->current() == url('RPL/berita2') ? 'active' : '' }}">
       <img src="{{ asset('assets/img/hacker4.png') }}" class="d-block w-100 cover" alt="..." >
+      <div class="carousel-caption borderr">
+        <h3>Bulan-bulanan RI ditangan Peretas</h3>
+      </div>
     </a>  
-    <div class="carousel-caption d-none d-md-block">
-        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 220px;">Bulan-bulanan RI ditangan Peretas</p>
-    </div>
     </div>
     <div class="carousel-item">
     <a href="{{ url('RPL/berita3') }}"class="link {{ url()->current() == url('RPL/berita3') ? 'active' : '' }}">
       <img src="{{ asset('assets/img/hacker3.png') }}" class="d-block w-100 cover" alt="..." >
+      <div class="carousel-caption borderr">
+        <h3>Hacker China Membobol BNI</h3>
+      </div>
     </a>  
-    <div class="carousel-caption d-none d-md-block">
-        <p class="hiasan" style="color: white; margin-bottom: 260px; font-size: 60px; margin-left: 250px;">Hacker China Membobol BNI</p>
-    </div>
     </div>
   </div>
   </div> 
+  
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span class="visually-hidden ">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden-="true"></span>

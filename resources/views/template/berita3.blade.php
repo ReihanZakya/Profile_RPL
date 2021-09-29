@@ -3,6 +3,9 @@
 @section('content')
 <div class="container" data-aos="fade-up">
                 <div class="section-title">
+                <button  type="button" class="btn btn-warning" style="margin-bottom: 20px;">
+            <a href="{{url('RPL/berita')}}" style="color: black;">Kembali</a>
+            </button>
                     <h6 style="color: orange;">Berita Global</h6>
                     <p style="font-size: 25px;">Hacker China Membobol BIN.</p>
                 </div>
