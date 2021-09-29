@@ -8,7 +8,7 @@
       <div class="row">
         <h4 class="text-center mb-5"><strong>Peluang kerja lulusan jurusan RPL</strong></h4>
         <div class="image col-lg-6" data-aos="fade-right">
-        <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" class="img-fluid" alt="" style="width: 550px;" height="400px;" class="mb-4">
+        <img src="{{ asset('assets/img/LowonganKerja.jpg') }}" class="img-fluid rounded border-start-0" alt="" style="width: 550px;" height="400px;" class="mb-4">
         <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
             <i class="bx bx-shield"></i>
             <h4>Developer Android</h4>
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="container mt-5">
+            <div class="container mb-5 mt-5">
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
                     <div class="col-md-4 col-sm-12 mb-3">
@@ -69,7 +69,7 @@
                                     <p class="card-text">
                                     </p>
                                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#webdeveloper" style="font-size: 14px; color: orange;">Syarat-syarat
-                                    </button>  
+                                    </button>
 
                                     <div class="modal fade" id="webdeveloper" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -78,7 +78,7 @@
                                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
                                                       </div>
                                                       <div class="modal-body">
-                                                        
+
                                                       <table class="table">
                                                               <thead>
                                                                 <tr>
@@ -135,7 +135,7 @@
                                                     </div>
                                                   </div>
                                                 </div>
-                                                
+
                                 </div>
                             </div>
                           </div>
@@ -150,11 +150,11 @@
                                     <h5 class="card-text warna">Flutter Developer</h5>
                                     <h5 class="card-text warna">PT Luqman Muhammad S</h5>
                                     <p class="card-text">
-                                    
+
                                     </p>
                                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#webdesign"style="font-size: 14px; color: orange;">
                                                 Syarat-syarat
-                                    </button> 
+                                    </button>
 
                                     <div class="modal fade" id="webdesign" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -163,7 +163,7 @@
                                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
                                                       </div>
                                                       <div class="modal-body">
-                                                        
+
                                                       <table class="table">
                                                               <thead>
                                                                 <tr>
@@ -218,7 +218,7 @@
                                                                 </tr>
                                                               </tbody>
                                                             </table>
-                                                     
+
                                                       </div>
                                                       <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
@@ -227,7 +227,7 @@
                                                   </div>
                                                 </div>
                                     <div class="d-flex justify-content-between align-items-center">
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -244,11 +244,11 @@
                                     <h5 class="card-text warna">IT Network & Hardware Engginer</h5>
                                     <h5 class="card-text warna">PT Rayhan Zakya Alawi</h5>
                                     <p class="card-text">
-                                   
+
                                     </p>
                                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#hacker"style="font-size: 14px; color: orange;">
                                                 Syarat-syarat
-                                    </button> 
+                                    </button>
 
                                     <div class="modal fade" id="hacker" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                   <div class="modal-dialog">
@@ -257,7 +257,7 @@
                                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
                                                       </div>
                                                       <div class="modal-body">
-                                                        
+
                                                       <table class="table">
                                                               <thead>
                                                                 <tr>
@@ -300,7 +300,7 @@
                                                                 </tr>
                                                               </tbody>
                                                             </table>
-                                                      
+
                                                       </div>
                                                       <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
@@ -309,7 +309,7 @@
                                                   </div>
                                                 </div>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +319,7 @@
 
 
 
-              
-        
+
+
 
 @endsection

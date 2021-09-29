@@ -42,7 +42,7 @@
   </button>
 </div>
 
-<div class="container" data-aos="fade-up">
+<div class="container mb-5" data-aos="fade-up">
 
                 <div class="section-title">
                     <h2 style="color: orange;">Berita Global</h2>

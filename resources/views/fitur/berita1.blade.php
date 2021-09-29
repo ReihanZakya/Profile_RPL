@@ -37,7 +37,7 @@
             </div>
             </div>
 
-            <div class="container" data-aos="fade-up">
+            <div class="container mb-5" data-aos="fade-up">
             <div>
             <p style="font-size: 25px; "><b>Rahasia negara dibobol</b></p>
             <h5 style="text-align: justify;">Namun, Brian Lord, mantan wakil direktur badan keamanan dan intelijen Inggris, GCHQ, setuju bahwa "taktik untuk memperoleh akses tersebut adalah hal yang sangat mengkhawatirkan".

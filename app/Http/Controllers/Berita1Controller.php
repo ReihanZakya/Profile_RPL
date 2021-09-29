@@ -8,6 +8,6 @@ class Berita1Controller extends Controller
 {
     public function index()
     {
-        return view('template.berita1');
+        return view('fitur.berita1');
     }
 }
