@@ -123,7 +123,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <th scope="row"></th>
-                                                                    <td>9. Dabat bergabung secepatnya.
+                                                                    <td>9. Dapat bergabung secepatnya.
                                                                     </td>
                                                                 </tr>
                                                               </tbody>
@@ -213,7 +213,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <th scope="row"></th>
-                                                                    <td>10. Dabat bergabung secepatnya.
+                                                                    <td>10. Dapat bergabung secepatnya.
                                                                     </td>
                                                                 </tr>
                                                               </tbody>

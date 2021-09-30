@@ -51,7 +51,7 @@
             Sementara itu, Deputi VIII Badan Intelijen Negara (BIN) Wawan Purwanto enggan memberi tanggapan saat diminta konfirmasi oleh CNNIndonesia.com.
             </h5>
             </div>
-            <button  type="button" class="btn btn-warning" style="margin-bottom: 20px;">
+            <button  type="button" class="btn btn-warning mt-3" style="margin-bottom: 20px;">
             <a href="{{url('RPL/berita')}}" style="color: black;">Kembali</a>
             </button>
             </div>

@@ -71,7 +71,7 @@
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
                         <h1 class="fw-light">Portofolio</h1>
-                        <p class="lead text-muted text-center">Tampilan hasil project dari beberapa siswa Rekayasa Perangkat
+                        <p class="lead text-muted text-center">Tampilan hasil project angkatan ke-3 Rekayasa Perangkat
                             Lunak</p>
                         <p class="text-center container">
                             <a href="{{ url('RPL/portfolio') }}" class="btn btn-outline-warning my-2 ">Portofolio</a>
@@ -649,7 +649,7 @@
                                             aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
                                             focusable="false">
 
-                                        <div class="card-body" style="margin-bottom: 40px;">
+                                        <div class="card-body" style="margin-bottom: 20px;">
                                             <h5 class="card-text warna">Pendaftaran Ekstrakurikuler</h5>
                                             <p class="card-text">
                                             <ul>
@@ -661,7 +661,7 @@
 
                                             </p>
                                             <div class="d-flex justify-content-between align-items-center">
-                                                <div class="portfolio-links">
+                                                <div class="portfolio-links mt-4">
                                                     <a target="_blank"
                                                         href="{{ asset('assets/img/project/kelompok_11_pkl.PNG') }}"
                                                         data-gallery="portfolioGallery"

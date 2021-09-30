@@ -1618,7 +1618,7 @@ span {
 
 .warna {
     color: darkblue;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .guru {
@@ -1643,7 +1643,8 @@ span {
 #hero2 {
   width: 100%;
   height: 100vh;
-  background: url("../img/landingpage.jpeg") top center;
+  background: url("../img/guruu.png.jpeg") top center;
+
   /* background-size: cover; */
   background-size: 100% 100%;
   position: relative;
@@ -1745,7 +1746,7 @@ span {
 #hero4 {
   width: 100%;
   height: 100vh;
-  background: url("../img/guruu.png.jpeg") top center;
+  background: url("../img/landingpage.jpeg") top center;
   /* background-size: cover; */
   background-size: 100% 100%;
   position: relative;
@@ -2573,7 +2574,7 @@ span {
   border: 20px;
   background-color:white;
   color: #151515;
-  
+
 
 }
 
