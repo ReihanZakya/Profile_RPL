@@ -30,8 +30,9 @@ class PortfolioMemberController extends Controller
         $member = Member::leftjoin('portfolio_members','portfolio_members.member_id','=','members.id')
                         ->select('portfolio_members.member_id','members.*')
                         ->where('portfolio_members.member_id',NULL)
+                        ->orderBy('member_name','asc')
                         ->get();
-        $portfolio = Portfolio::get();
+        $portfolio = Portfolio::orderBy('name','asc')->get();
 
         return view('admin.portfolio_member.add',compact('title','member','portfolio'));
     }

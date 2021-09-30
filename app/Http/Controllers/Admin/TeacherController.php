@@ -59,6 +59,7 @@ class TeacherController extends Controller
 
         if ($k_prodi == 1) {
             if ($file) {
+                $file->move($path,$file->getClientOriginalName());
                 $teacher->name = $request->name;
                 $teacher->gender = $request->gender;
                 $teacher->position_types = $request->position_types;
@@ -75,6 +76,7 @@ class TeacherController extends Controller
 
         if ($k_prodi == 2) {
             if ($file) {
+                $file->move($path,$file->getClientOriginalName());
                 $teacher->name = $request->name;
                 $teacher->gender = $request->gender;
                 $teacher->position_types = $request->position_types;
@@ -101,9 +103,9 @@ class TeacherController extends Controller
     public function update(Request $request,$id)
     {
         $validate = $request->validate([
-            'name' => 'required|min:3|unique:teachers,name,' .$id,
+            'name' => 'required|min:3',
             'gender' => 'required',
-            'position_types' => 'required|unique:teachers,position_types,' .$id,
+            'position_types' => 'required',
             'photo' => 'image'
         ],
         [
