@@ -10,8 +10,7 @@
         <p>Guru Rekayasa Perangkat Lunak</p>
       </div>
 
-      <div class="row justify-content-center">
-
+<div class="row justify-content-center">
       <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
                 <div class="member-img">
@@ -25,7 +24,7 @@
 	              <button type="button" class="btn btn-danger" style= "margin-top: 5px;" data-bs-toggle="modal" data-bs-target="#pakrey">
                   Mata Pelajaran
                 </button>
-                
+
               </center>
               </div>
             </div>
@@ -41,9 +40,9 @@
             </div>
              <center>
              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pakdede">
-                  Mata Pelajaran                 
+                  Mata Pelajaran
               </button>
-               
+
               </center>
         </div>
     </div>
@@ -79,7 +78,7 @@
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pakmunir">
                   Mata Pelajaran
                 </button>
-                   
+
               </center>
           </div>
         </div>
@@ -97,202 +96,204 @@
             <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#bushyffa">
                   Mata Pelajaran
                 </button>
-                
-              </center>
-     
-  </section>
 
-@endsection
+              </center>
+</div>
+  </section>
 
 <!-- Modal Pak Rey-->
 <div class="modal fade" id="pakrey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-      </div>
-      <div class="modal-body">
-      <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Mata Pelajaran</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Pemrograman Dasar (KELAS X)</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Pemrograman Berorientasi Objek (KELAS XI & XII)</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal Pak dede-->
-<div class="modal fade" id="pakdede" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-      </div>
-      <div class="modal-body">
-      <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Mata Pelajaran</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Teknik Komputer Jaringan (kelas X)</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Pemodelan Perangkat Lunak (Kelas XI)</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Produk Kreatif dan Kewira usahaan (Kelas XI) </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Basis Data (Kelas XI)</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
+        </div>
+        <div class="modal-body">
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pemrograman Dasar (KELAS X)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Pemrograman Berorientasi Objek (KELAS XI & XII)</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- Modal Pak Hanif-->
-<div class="modal fade" id="pakhanif" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-      </div>
-      <div class="modal-body">
-      <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Mata Pelajaran</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Produk Kreatif dan Kewira Usahaan (Kelas XII)</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Basis Data (Kelas XII)</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+  <!-- Modal Pak dede-->
+  <div class="modal fade" id="pakdede" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
+        </div>
+        <div class="modal-body">
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Teknik Komputer Jaringan (kelas X)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Pemodelan Perangkat Lunak (Kelas XI)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Produk Kreatif dan Kewira usahaan (Kelas XI) </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Basis Data (Kelas XI)</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- Modal Pak munir-->
-<div class="modal fade" id="pakmunir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-      </div>
-      <div class="modal-body">
-      <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Mata Pelajaran</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Pemograman Web dan Perangkat Bergerak</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+  <!-- Modal Pak Hanif-->
+  <div class="modal fade" id="pakhanif" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
+        </div>
+        <div class="modal-body">
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Produk Kreatif dan Kewira Usahaan (Kelas XII)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Basis Data (Kelas XII)</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-
-<!-- Modal buk shyffa-->
-<div class="modal fade" id="bushyffa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
-      </div>
-      <div class="modal-body">
-        
-      <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th scope="col">Mata Pelajaran</th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Sistem Komputer (Kelas X)</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Simulasi Digital (Kelas X)</td>
-                </tr>
-              </tbody>
-            </table>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+  <!-- Modal Pak munir-->
+  <div class="modal fade" id="pakmunir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
+        </div>
+        <div class="modal-body">
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pemograman Web dan Perangkat Bergerak</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+
+
+  <!-- Modal buk shyffa-->
+  <div class="modal fade" id="bushyffa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mengajar</h5>
+        </div>
+        <div class="modal-body">
+
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Mata Pelajaran</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Sistem Komputer (Kelas X)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Simulasi Digital (Kelas X)</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+@endsection
+
+
 
 
 
