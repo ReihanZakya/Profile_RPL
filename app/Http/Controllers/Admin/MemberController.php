@@ -38,7 +38,7 @@ class MemberController extends Controller
             'member_name' => $request->member_name
         ]);
 
-        return redirect('member')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('member')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -69,13 +69,7 @@ class MemberController extends Controller
 
     public function delete($id)
     {
-        try {
-            Member::findOrFail($id)->delete();
-            return redirect('member')->with('success', 'Data Berhasil hapus');
-            }
-            catch(\Exception $e) {
-            echo 'Message: ' .$e->getMessage();
-            return redirect('member')->with('error', 'Data tidak bisa dihapus karena sudah terdaftar Anggota Portofolio');
-            }
+        Member::findOrFail($id)->delete();
+        return redirect('member')->with('success', 'Data Berhasil Dihapus');
     }
 }

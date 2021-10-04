@@ -58,7 +58,7 @@ class PortfolioMemberController extends Controller
             $pm->save();
         }
 
-        return redirect('portfolio_member')->with('success','Data berhasil ditambahkan');
+        return redirect('portfolio_member')->with('success','Data berhasil Ditambah');
 
     }
 
@@ -88,13 +88,13 @@ class PortfolioMemberController extends Controller
             'member_id' => $request->member_id,
         ]);
 
-        return redirect('portfolio_member')->with('success','Data berhasil diubah');
+        return redirect('portfolio_member')->with('success','Data berhasil Diubah');
     }
 
     public function delete($id)
     {
         PortfolioMember::findOrFail($id)->delete();
-        return redirect('portfolio_member')->with('success','Data berhasil dihapus');
+        return redirect('portfolio_member')->with('success','Data berhasil Dihapus');
     }
 }
 

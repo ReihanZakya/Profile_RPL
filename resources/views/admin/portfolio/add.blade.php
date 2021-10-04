@@ -11,7 +11,7 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama</label>
                     <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
-                        id="exampleInputEmail1" value="{{ old('name') }}" value="{{ old('name') }}">
+                        id="exampleInputEmail1" value="{{ old('name') }}" value="{{ old('name') }}" autocomplete="off">
                     @error('name')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
@@ -20,7 +20,8 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Sumber</label>
                     <input type="text" name="source" class="form-control @error('source') is-invalid @enderror"
-                        id="exampleInputEmail1" value="{{ old('source') }}" value="{{ old('source') }}">
+                        id="exampleInputEmail1" value="{{ old('source') }}" value="{{ old('source') }}"
+                        autocomplete="off">
                     @error('source')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror

@@ -62,7 +62,7 @@ class TeacherSubjectController extends Controller
             ]);
         }
 
-        return redirect('teacher_subject')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -98,7 +98,7 @@ class TeacherSubjectController extends Controller
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
 
-        return redirect('teacher_subject')->with('success', 'Data Berhasil Diupdate');
+        return redirect('teacher_subject')->with('success', 'Data Berhasil Diubah');
     }
 
     public function delete($id)

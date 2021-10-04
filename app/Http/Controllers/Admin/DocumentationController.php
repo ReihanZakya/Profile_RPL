@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Documentation;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class DocumentationController extends Controller
 {
@@ -27,7 +28,7 @@ class DocumentationController extends Controller
     {
         $validate = $request->validate([
             'name' => 'required|min:3|unique:documentations,name',
-            'photo' => 'image'
+            'photo' => 'required|image'
         ],
         [
             'name.required' => 'Inputan nama wajib diisi',
@@ -39,21 +40,16 @@ class DocumentationController extends Controller
         $file = $request->file('photo');
         $path = 'AdminLTE\documentation';
 
-       if ($file) {
-        $file->move($path,$file->getClientOriginalName());
-        Documentation::create([
-            'name' => $request->name,
-            'source' => $request->source,
-            'photo' => $file->getClientOriginalName()
-        ]);
-       }else{
-        Documentation::create([
-            'name' => $request->name,
-            'source' => $request->source,
-        ]);
+        $file = $request->file('photo');
+        $path = 'AdminLTE\documentation';
+            $file->move($path,$file->getClientOriginalName());
+            Documentation::create([
+                'name' => $request->name,
+                'photo' => $file->getClientOriginalName(),
+                'source' => $request->source
+            ]);
 
-       }
-        return redirect('documentation')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('documentation')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -79,27 +75,29 @@ class DocumentationController extends Controller
 
         $file = $request->file('photo');
         $path = 'AdminLTE\documentation';
+        $dt = Documentation::findOrFail($id);
 
-       if ($file) {
-        $file->move($path,$file->getClientOriginalName());
-        Documentation::findOrFail($id)->update([
-            'name' => $request->name,
-            'source' => $request->source,
-            'photo' => $file->getClientOriginalName()
-        ]);
-       }else{
-        Documentation::findOrFail($id)->update([
-            'name' => $request->name,
-            'source' => $request->source,
-        ]);
+        if ($request->file('photo')) {
+            if ($request->old_photo) {
+               File::delete('AdminLTE/documentation/'.$request->old_photo);
+            }
+            $file->move($path,$file->getClientOriginalName());
+            $photo = $file->getClientOriginalName();
+        }else{
+            $photo = $dt->photo;
+        }
 
-       }
-        return redirect('documentation')->with('success', 'Data Berhasil Diedit');
+        $dt->name = $request->name;
+        $dt->photo = $photo;
+        $dt->source = $request->source;
+        $dt->save();
+
+        return redirect('documentation')->with('success', 'Data Berhasi Diubah');
     }
     public function delete($id)
     {
         Documentation::findOrFail($id)->delete();
 
-        return redirect('documentation')->with('success', 'Data Berhasil Didelete');
+        return redirect('documentation')->with('success', 'Data Berhasil Dihapus');
     }
 }

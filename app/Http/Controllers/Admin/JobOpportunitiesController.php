@@ -41,7 +41,7 @@ class JobOpportunitiesController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('job_opportunities')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('job_opportunities')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -71,7 +71,7 @@ class JobOpportunitiesController extends Controller
             'description' => $request->description
         ]);
 
-        return redirect('job_opportunities')->with('success', 'Data Berhasil Diedit');
+        return redirect('job_opportunities')->with('success', 'Data Berhasil Diubah');
     }
 
     public function delete($id)

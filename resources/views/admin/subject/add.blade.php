@@ -10,7 +10,7 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Mata Pelajaran</label>
                     <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
-                        id="exampleInputEmail1" value="{{ old('name') }}">
+                        id="exampleInputEmail1" value="{{ old('name') }}" autocomplete="off">
                     @error('name')
                         <div class="invalid-feedback">{{ $message }}</div>
                     @enderror
@@ -39,8 +39,7 @@
             <!-- /.card-body -->
 
             <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-danger">Batal</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
         </form>
     </div>

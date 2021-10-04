@@ -43,7 +43,7 @@ class PortfolioController extends Controller
                 'source' => $request->source
             ]);
 
-        return redirect('portfolio')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('portfolio')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -70,9 +70,6 @@ class PortfolioController extends Controller
         $dt = Portfolio::findOrFail($id);
 
         if ($request->file('photo')) {
-            if ($request->old_photo) {
-               File::delete('AdminLTE/portfolio/'.$request->old_photo);
-            }
             $file->move($path,$file->getClientOriginalName());
             $photo = $file->getClientOriginalName();
         }else{
@@ -84,13 +81,12 @@ class PortfolioController extends Controller
         $dt->source = $request->source;
         $dt->save();
 
-        return redirect('portfolio')->with('success', 'Data Berhasi Diupdate');
+        return redirect('portfolio')->with('success', 'Data Berhasi Diubah');
     }
 
     public function delete($id)
     {
         $dt = Portfolio::findOrFail($id);
-        File::delete('AdminLTE/portfolio/'.$dt->photo);
         $dt->delete();
         return redirect('portfolio')->with('success', 'Data Berhasil Dihapus');
     }

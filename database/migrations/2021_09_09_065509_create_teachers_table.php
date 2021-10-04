@@ -16,10 +16,10 @@ class CreateTeachersTable extends Migration
         Schema::create('teachers', function (Blueprint $table) {
             $table->id();
             $table->string('name',191);
-            $table->boolean('gender');
-            $table->boolean('position_types');
-            $table->boolean('is_unique')->nullable();
+            $table->tinyInteger('gender');
             $table->text('photo')->nullable();
+            $table->unsignedBigInteger('position_types_id');
+            $table->foreign('position_types_id')->references('id')->on('position_types')->onDelete('cascade');
             $table->timestamps();
         });
     }

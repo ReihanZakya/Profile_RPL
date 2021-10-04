@@ -16,7 +16,7 @@ class CreateDocumentationsTable extends Migration
         Schema::create('documentations', function (Blueprint $table) {
             $table->id();
             $table->string('name',191);
-            $table->text('photo')->nullable();
+            $table->text('photo');
             $table->string('source',191)->nullable();
             $table->timestamps();
             $table->softDeletes('deleted_at')->nullable();

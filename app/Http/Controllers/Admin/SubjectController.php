@@ -31,9 +31,9 @@ class SubjectController extends Controller
             'class' => 'required'
         ],
         [
-            'name.required' => 'Inputan nama wajib diisi',
-            'name.min' => 'Inputan Nama Minimal 3 karakter',
-            'name.unique' => 'Inputan nama sudah tersedia',
+            'name.required' => 'Inputan mata pelajaran wajib diisi',
+            'name.min' => 'Inputan mata pelajaran Minimal 3 karakter',
+            'name.unique' => 'Inputan mata pelajaran sudah tersedia',
             'class.required' => 'Inputan Kelas Wajib Diisi'
         ]);
 
@@ -42,7 +42,7 @@ class SubjectController extends Controller
             'class' => $request->class,
         ]);
 
-        return redirect('subject')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('subject')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -60,9 +60,9 @@ class SubjectController extends Controller
             'class' => 'required'
         ],
         [
-            'name.required' => 'Inputan nama wajib diisi',
-            'name.min' => 'Inputan Nama Minimal 3 karakter',
-            'name.unique' => 'Inputan nama sudah tersedia',
+            'name.required' => 'Inputan mata pelajaran wajib diisi',
+            'name.min' => 'Inputan mata pelajaran Minimal 3 karakter',
+            'name.unique' => 'Inputan mata pelajaran sudah tersedia',
             'class.required' => 'Inputan Kelas Wajib Diisi'
         ]);
 
@@ -71,12 +71,12 @@ class SubjectController extends Controller
             'class' => $request->class
         ]);
 
-        return redirect('subject')->with('success', 'Data Berhasil Diedit');
+        return redirect('subject')->with('success', 'Data Berhasil Diubah');
     }
 
     public function delete($id)
     {
         Subject::findOrFail($id)->delete();
-        return redirect('subject')->with('success', 'Data Berhasil hapus');
+        return redirect('subject')->with('success', 'Data Berhasil Dihapus');
     }
 }

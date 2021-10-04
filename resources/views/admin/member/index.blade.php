@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-header">
             {{ $title }}
-            <a href="{{ url('member/add_member') }}" class="btn btn-primary btn-sm float-right">Tambah Anggota</a>
+            <a href="{{ url('member/add') }}" class="btn btn-primary btn-sm float-right">Tambah Anggota</a>
         </div>
         <div class="card-body">
             <table class="table table-bordered">
@@ -16,23 +16,22 @@
                 </thead>
                 <tbody>
                     @foreach ($data as $dt)
-                    <tr>
-                        <td>{{ $loop->iteration }}</td>
-                        <td>{{ $dt->member_name }}</td>
-                        <td>
-                            <a href="{{ url('member/' . $dt->id . '/edit') }}"
-                                class="btn btn-warning btn-sm btn-outline-light">Edit</a>
-                            <a href="#" class="btn btn-danger btn-sm btn-outline-light delete"
-                                data-id="{{ $dt->id }}" data-nama="{{ $dt->member_name }}">Delete</a>
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>{{ $loop->iteration }}</td>
+                            <td>{{ $dt->member_name }}</td>
+                            <td>
+                                <a href="{{ url('member/' . $dt->id . '/edit') }}"
+                                    class="btn btn-warning btn-sm btn-outline-light">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm btn-outline-light delete"
+                                    data-id="{{ $dt->id }}" data-nama="{{ $dt->member_name }}">Delete</a>
+                            </td>
+                        </tr>
                     @endforeach
                 </tbody>
             </table>
         </div>
     </div>
 @endsection
-
 
 @push('datatables')
     <!-- DataTables  & Plugins -->
@@ -41,8 +40,8 @@
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
     <script src="{{ asset('AdminLTE/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 
-     <!-- Datatables -->
-     <script>
+    <script>
+        //DataTables
         $(document).ready(function() {
             $('.table').DataTable({
                 "paging": true,
@@ -53,12 +52,32 @@
                 "autoWidth": false,
                 "responsive": true,
                 "pageLength": 5,
-                "lengthMenu": [5, 10, 15, 20]
+                "lengthMenu": [5, 10, 15, 20],
+                "language": {
+                    "emptyTable": "Tidak ada data yang tersedia pada tabel ini",
+                    "info": "Menampilkan _START_ sampai _END_ dari _TOTAL_ data",
+                    "infoEmpty": "Menampilkan 0 sampai 0 dari 0 data",
+                    "infoFiltered": "(diambil dari _MAX_ data keseluruhan)",
+                    "lengthMenu": "Tampilkan _MENU_ data",
+                    "loadingRecords": "Sedang memuat...",
+                    "processing": "Sedang memproses...",
+                    "search": "Cari:",
+                    "zeroRecords": "Tidak ditemukan data yang sesuai",
+                    "thousands": "'",
+                    "paginate": {
+                        "first": "Pertama",
+                        "last": "Terakhir",
+                        "next": "Selanjutnya",
+                        "previous": "Sebelumnya"
+                    }
+                }
             });
         });
     </script>
-
+@endpush
+@push('confirmation')
     {{-- Delete confirmation --}}
+    <script src="{{ asset('sweetalert@2.1.2/dist/sweetalert.min.js') }}"></script>
     <script>
         // Delete confirmation
         $('.delete').click(function() {
@@ -74,8 +93,8 @@
                 .then((willDelete) => {
                     if (willDelete) {
                         window.location = "member/" + namaid + "/delete"
-                        swal("Data sedang di proses", {
-                            icon: "info",
+                        swal("Data berhasi di hapus", {
+                            icon: "success",
                         });
                     } else {
                         swal("Data tidak jadi dihapus");
@@ -83,20 +102,16 @@
                 });
         });
     </script>
-
+@endpush
+@push('alert')
     {{-- toastr --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ asset('AdminLTE/ajax/libs/toastr.js/toastr.css') }}">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ asset('AdminLTE/ajax/libs/toastr.js/toastr.min.js') }}"></script>
 
     <script>
         @if (Session::has('success'))
-        toastr.success("{{Session::get('success')}}")
+            toastr.success("{{ Session::get('success') }}")
         @endif
-        @if (Session::has('error'))
-        toastr.error("{{Session::get('error')}}")
-        @endif
-
     </script>
-
 @endpush

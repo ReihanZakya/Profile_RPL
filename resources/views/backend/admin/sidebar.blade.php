@@ -11,7 +11,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="{{ asset('AdminLTE/gambar/reski.png') }}" class="img-circle elevation-2" alt="User Image">
+                <img src="{{ asset('AdminLTE/images.png') }}" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
                 <a href="#" class="d-block">{{ auth()->user()->name }}</a>
@@ -48,6 +48,14 @@
                         <p>Guru</p>
                     </a>
                 </li>
+                <!--Jenis Posisi-->
+                <li class="nav-item">
+                    <a href="{{ url('position_types') }}"
+                        class="nav-link {{ Request::path() === 'position_types' ? 'active' : '' }}">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Jenis Posisi</p>
+                    </a>
+                </li>
                 <!-- Guru Mapel -->
                 <li class="nav-item">
                     <a href="{{ url('teacher_subject') }}"
@@ -66,21 +74,24 @@
                 </li>
                 <!--Portofolio-->
                 <li class="nav-item">
-                    <a href="{{ url('portfolio') }}" class="nav-link {{ Request::path() === 'portfolio' ? 'active' : '' }}">
-                          <i class="far fa-circle nav-icon"></i>
+                    <a href="{{ url('portfolio') }}"
+                        class="nav-link {{ Request::path() === 'portfolio' ? 'active' : '' }}">
+                        <i class="far fa-circle nav-icon"></i>
                         <p>Portfolio</p>
                     </a>
-                    </li>
+                </li>
                 <!-- Anggota -->
-                    <li class="nav-item">
-                    <a href="{{ url('member') }}" class="nav-link {{ Request::path() === 'member' ? 'active' : '' }}">
+                <li class="nav-item">
+                    <a href="{{ url('member') }}"
+                        class="nav-link {{ Request::path() === 'member' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Anggota</p>
                     </a>
                 </li>
                 <!-- Portofolio Anggota -->
-                    <li class="nav-item">
-                    <a href="{{ url('portfolio_member') }}" class="nav-link {{ Request::path() === 'portfolio_member' ? 'active' : '' }}">
+                <li class="nav-item">
+                    <a href="{{ url('portfolio_member') }}"
+                        class="nav-link {{ Request::path() === 'portfolio_member' ? 'active' : '' }}">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Anggota Portfolio</p>
                     </a>

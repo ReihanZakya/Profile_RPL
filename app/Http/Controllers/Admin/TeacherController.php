@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Subject;
 use App\Teacher;
-use Egulias\EmailValidator\Warning\TLD;
+use App\PositionTypes;
+use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -14,23 +15,28 @@ class TeacherController extends Controller
     public function index()
     {
         $title = 'Guru';
-        $data = Teacher::get();
-        $bg = DB::table('teachers')
-                   ->select('teachers.position_types')
-                   ->get();
-        // dd($bg);
+        $data = Teacher::join('position_types','position_types.id','=','position_types_id')
+                        ->select('position_types.name as p_name','teachers.*')
+                        ->get();
+
         return view('admin.teacher.index',compact('title','data'));
     }
 
     public function add()
     {
         $title = 'Tambah Guru';
-        $unique = DB::table('teachers')
-                   ->select('teachers.is_unique')
-                   ->where('teachers.is_unique',1)
-                   ->first();
-// dd($unique);
-        return view('admin.teacher.add',compact('title','unique'));
+        $join = DB::table('teachers')
+                        ->join('position_types','position_types.id','=','position_types_id')
+                        ->where('is_unique',1)
+                        ->first();
+                        // dd($join);
+        $null = DB::table('position_types')
+                    ->where('is_unique',0)
+                    ->get();
+                    // dd($null);
+        $position = PositionTypes::get();
+
+        return view('admin.teacher.add',compact('title','position','join','null'));
     }
 
     public function store(Request $request)
@@ -38,7 +44,7 @@ class TeacherController extends Controller
         $validate = $request->validate([
             'name' => 'required|min:3|unique:teachers,name',
             'gender' => 'required',
-            'position_types' => 'required',
+            'position_types_id' => 'required',
             'photo' => 'image'
         ],
         [
@@ -46,58 +52,37 @@ class TeacherController extends Controller
             'name.min' => 'Inputan nama minimal 3 karakter',
             'name.unique' => 'Inputan nama sudah tersedia',
             'gender.required' => 'Inputan jenis kelamin wajib diisi',
-            'position_types.required' => 'Inputan jenis posisi wajib diisi',
-            'photo.image' => 'Format foto salah'
+            'position_types_id.required' => 'Inputan jenis posisi wajib diisi',
         ]);
 
         $file = $request->file('photo');
         $path = 'AdminLTE\teacher';
 
-        $k_prodi = $request->position_types;
         $teacher = new Teacher;
-
-
-        if ($k_prodi == 1) {
-            if ($file) {
-                $file->move($path,$file->getClientOriginalName());
-                $teacher->name = $request->name;
-                $teacher->gender = $request->gender;
-                $teacher->position_types = $request->position_types;
-                $teacher->is_unique = '1';
-                $teacher->photo = $file->getClientOriginalName();
-            }else{
-                $teacher->name = $request->name;
-                $teacher->gender = $request->gender;
-                $teacher->position_types = $request->position_types;
-                $teacher->is_unique = null;
-            }
+        if ($file) {
+            $file->move($path,$file->getClientOriginalName());
+            $teacher->name = $request->name;
+            $teacher->gender = $request->gender;
+            $teacher->photo = $file->getClientOriginalName();
+            $teacher->position_types_id = $request->position_types_id;
+        }else{
+            $teacher->name = $request->name;
+            $teacher->gender = $request->gender;
+            $teacher->position_types_id = $request->position_types_id;
         }
 
-
-        if ($k_prodi == 2) {
-            if ($file) {
-                $file->move($path,$file->getClientOriginalName());
-                $teacher->name = $request->name;
-                $teacher->gender = $request->gender;
-                $teacher->position_types = $request->position_types;
-                $teacher->photo = $file->getClientOriginalName();
-            }else{
-                $teacher->name = $request->name;
-                $teacher->gender = $request->gender;
-                $teacher->position_types = $request->position_types;
-            }
-        }
         $teacher->save();
-
-        return redirect('teacher')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('teacher')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
     {
         $title = 'Edit Guru';
         $dt = Teacher::findOrFail($id);
+        $position = DB::table('position_types')
+                    ->get();
 
-        return view('admin.teacher.edit',compact('title','dt'));
+        return view('admin.teacher.edit',compact('title','dt','position'));
     }
 
     public function update(Request $request,$id)
@@ -105,42 +90,43 @@ class TeacherController extends Controller
         $validate = $request->validate([
             'name' => 'required|min:3',
             'gender' => 'required',
-            'position_types' => 'required',
+            'position_types_id' => 'required',
             'photo' => 'image'
         ],
         [
             'name.required' => 'Inputan nama tidak boleh kosong',
-            'name.min' => 'Inputan Minimal 3 karakter',
+            'name.min' => 'Inputan nama minimal 3 karakter',
             'name.unique' => 'Inputan nama sudah tersedia',
             'gender.required' => 'Inputan jenis kelamin wajib diisi',
-            'position_types.required' => 'Inputan jenis posisi wajib diisi',
+            'position_types_id.required' => 'Inputan jenis posisi wajib diisi',
             'photo.image' => 'Format foto salah'
         ]);
 
         $file = $request->file('photo');
         $path = 'AdminLTE\teacher';
 
-        if($file){
+        $teacher = Teacher::findOrFail($id);
+        if ($file) {
             $file->move($path,$file->getClientOriginalName());
-            Teacher::findOrFail($id)->update([
-                'photo' => $file->getClientOriginalName()
-            ]);
-           }else{
-            Teacher::findOrFail($id)->update([
-                'name' => $request->name,
-                'gender' => $request->gender,
-                'position_types' => $request->position_types
-            ]);
-           }
+            $teacher->name = $request->name;
+            $teacher->gender = $request->gender;
+            $teacher->photo = $file->getClientOriginalName();
+            $teacher->position_types_id = $request->position_types_id;
+        }else{
+            $teacher->name = $request->name;
+            $teacher->gender = $request->gender;
+            $teacher->position_types_id = $request->position_types_id;
+        }
 
+        $teacher->save();
 
-        return redirect('teacher')->with('success', 'Data Berhasil Diedit');
+        return redirect('teacher')->with('success', 'Data Berhasil Diubah');
     }
 
     public function delete($id)
     {
         Teacher::findOrFail($id)->delete();
-        return redirect('teacher')->with('success', 'Data Berhasil hapus');
+        return redirect('teacher')->with('success', 'Data Berhasil Dihapus');
     }
 }
 

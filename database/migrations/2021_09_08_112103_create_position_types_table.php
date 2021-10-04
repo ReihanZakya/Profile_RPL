@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSubjectsTable extends Migration
+class CreatePositionTypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateSubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('subjects', function (Blueprint $table) {
+        Schema::create('position_types', function (Blueprint $table) {
             $table->id();
-            $table->string('name',191);
-            $table->tinyInteger('class');
+            $table->string('name');
+            $table->tinyInteger('is_unique')->nullable();
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateSubjectsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('subjects');
+        Schema::dropIfExists('position_types');
     }
 }

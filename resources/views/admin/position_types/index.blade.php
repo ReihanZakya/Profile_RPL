@@ -3,18 +3,16 @@
     <div class="card">
         <div class="card-header">
             {{ $title }}
-            <a href="{{ url('teacher/add') }}" class="btn btn-primary btn-sm float-right">Tambah Guru</a>
+            <a href="{{ url('position_types/add') }}" class="btn btn-primary btn-sm float-right">Tambah
+                Jenis Posisi</a>
         </div>
         <div class="card-body">
             <table class="table table-bordered">
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Nama Guru</th>
-                        <th>Photo</th>
-                        <th>Jenis Kelamin</th>
                         <th>Jenis Posisi</th>
-                        <th>Action</th>
+                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -23,16 +21,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $dt->name }}</td>
                             <td>
-                                <img src="{{ $dt->photo() }}" style="width: 65px;">
-                            </td>
-                            @if ($dt->gender == 1)
-                                <td>Laki-laki</td>
-                            @else
-                                <td>Perempuan</td>
-                            @endif
-                            <td>{{ $dt->p_name }}</td>
-                            <td>
-                                <a href="{{ url('teacher/' . $dt->id . '/edit') }}"
+                                <a href="{{ url('position_types/' . $dt->id . '/edit') }}"
                                     class="btn btn-warning btn-sm btn-outline-light">Edit</a>
                                 <a href="#" class="btn btn-danger btn-sm btn-outline-light delete"
                                     data-id="{{ $dt->id }}" data-nama="{{ $dt->name }}">Hapus</a>
@@ -44,6 +33,7 @@
         </div>
     </div>
 @endsection
+
 
 @push('datatables')
     <!-- DataTables  & Plugins -->
@@ -97,14 +87,14 @@
             var nama = $(this).attr('data-nama');
             swal({
                     title: "Yakin?",
-                    text: "Apakah anda akan menghapus data dengan nama " + nama + " ?",
+                    text: "Kamu akan menghapus data dengan nama " + nama + " ?",
                     icon: "warning",
                     buttons: true,
                     dangerMode: true,
                 })
                 .then((willDelete) => {
                     if (willDelete) {
-                        window.location = "teacher/" + namaid + "/delete"
+                        window.location = "position_types/" + namaid + "/delete"
                         swal("Data berhasi di hapus", {
                             icon: "success",
                         });

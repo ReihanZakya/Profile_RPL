@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\News;
+use Illuminate\Support\Facades\File;
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
@@ -28,7 +29,7 @@ class NewsController extends Controller
         $validate = $request->validate([
             'title' => 'required|min:3|unique:news,title',
             'content' => 'required|min:10',
-            'photo' => 'image'
+            'photo' => 'required|image'
         ],
         [
             'title.required' => 'Inputan nama tidak boleh kosong',
@@ -41,21 +42,16 @@ class NewsController extends Controller
         $file = $request->file('photo');
         $path = 'AdminLTE\news';
 
-       if ($file) {
-        $file->move($path,$file->getClientOriginalName());
-        News::create([
-            'title' => $request->title,
-            'content' => $request->content,
-            'photo' => $file->getClientOriginalName()
-        ]);
-       }else{
-        News::create([
-            'title' => $request->title,
-            'content' => $request->content,
-        ]);
+        $file = $request->file('photo');
+        $path = 'AdminLTE\news';
+            $file->move($path,$file->getClientOriginalName());
+            News::create([
+                'title' => $request->title,
+                'photo' => $file->getClientOriginalName(),
+                'content' => $request->content
+            ]);
 
-       }
-        return redirect('news')->with('success', 'Data Berhasil Ditambahkan');
+        return redirect('news')->with('success', 'Data Berhasil Ditambah');
     }
 
     public function edit($id)
@@ -83,28 +79,27 @@ class NewsController extends Controller
 
         $file = $request->file('photo');
         $path = 'AdminLTE\news';
+        $dt = News::findOrFail($id);
 
-       if ($file) {
-        $file->move($path,$file->getClientOriginalName());
-        News::findOrFail($id)->update([
-            'title' => $request->title,
-            'content' => $request->content,
-            'photo' => $file->getClientOriginalName()
-        ]);
-       }else{
-        News::findOrFail($id)->update([
-            'title' => $request->title,
-            'content' => $request->content,
-        ]);
+        if ($request->file('photo')) {
+            $file->move($path,$file->getClientOriginalName());
+            $photo = $file->getClientOriginalName();
+        }else{
+            $photo = $dt->photo;
+        }
 
-       }
-        return redirect('news')->with('success', 'Data Berhasil Diedit');
+        $dt->title = $request->title;
+        $dt->photo = $photo;
+        $dt->content = $request->content;
+        $dt->save();
+
+        return redirect('news')->with('success', 'Data Berhasi Diubah');
     }
 
     public function delete($id)
     {
         News::findOrFail($id)->delete();
 
-        return redirect('news')->with('success', 'Data Berhasil Didelete');
+        return redirect('news')->with('success', 'Data Berhasil Dihapus');
     }
 }

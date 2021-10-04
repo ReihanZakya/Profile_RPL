@@ -31,13 +31,13 @@ Route::get('RPL/berita3','Berita3Controller@index');
 
 
 // admin
-Route::group(['middleware' => ['auth','verified','role:admin']],function(){
+Route::group(['middleware' => ['auth','role:admin']],function(){
     //Dashboard Admin
-    Route::get('/dashboard','Admin\AdminController@index');
+    Route::get('dashboard','Admin\AdminController@index');
 
     //Manage Mata Pelajaran
     Route::get('subject','Admin\SubjectController@index');
-    Route::get('subject/add_subject','Admin\SubjectController@add');
+    Route::get('subject/add','Admin\SubjectController@add');
     Route::post('subject/store','Admin\SubjectController@store');
     Route::get('subject/{id}/edit','Admin\SubjectController@edit');
     Route::put('subject/{id}/update','Admin\SubjectController@update');
@@ -45,24 +45,33 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Manage Guru
     Route::get('teacher','Admin\TeacherController@index');
-    Route::get('teacher/add_teacher','Admin\TeacherController@add');
+    Route::get('teacher/add','Admin\TeacherController@add');
     Route::post('teacher/store','Admin\TeacherController@store');
     Route::get('teacher/{id}/edit','Admin\TeacherController@edit');
     Route::put('teacher/{id}/update','Admin\TeacherController@update');
     Route::get('teacher/{id}/delete','Admin\TeacherController@delete');
 
+    //Jenis Posisi
+    Route::get('position_types','Admin\PositionTypesController@index');
+    Route::get('position_types/add','Admin\PositionTypesController@add');
+    Route::post('position_types/store','Admin\PositionTypesController@store');
+    Route::get('position_types/{id}/edit','Admin\PositionTypesController@edit');
+    Route::put('position_types/{id}/update','Admin\PositionTypesController@update');
+    Route::get('position_types/{id}/delete','Admin\PositionTypesController@delete');
+
+
     //Manage Guru Mapel
     Route::get('teacher_subject','Admin\TeacherSubjectController@index');
-    Route::get('teacher_subject/add_teacher_subject','Admin\TeacherSubjectController@add');
+    Route::get('teacher_subject/add','Admin\TeacherSubjectController@add');
     Route::post('teacher_subject/store','Admin\TeacherSubjectController@store');
     Route::get('teacher_subject/{id}/edit','Admin\TeacherSubjectController@edit');
-    Route::post('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
+    Route::put('teacher_subject/{id}/update','Admin\TeacherSubjectController@update');
     Route::get('teacher_subject/{id}/delete','Admin\TeacherSubjectController@delete');
 
 
     //Peluang Kerja
     Route::get('job_opportunities','Admin\JobOpportunitiesController@index');
-    Route::get('job_opportunities/add_job','Admin\JobOpportunitiesController@add');
+    Route::get('job_opportunities/add','Admin\JobOpportunitiesController@add');
     Route::post('job_opportunities/store','Admin\JobOpportunitiesController@store');
     Route::get('job_opportunities/{id}/edit','Admin\JobOpportunitiesController@edit');
     Route::put('job_opportunities/{id}/update','Admin\JobOpportunitiesController@update');
@@ -72,7 +81,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Portofolio
     Route::get('portfolio','Admin\PortfolioController@index');
-    Route::get('portfolio/add_portfolio','Admin\PortfolioController@add');
+    Route::get('portfolio/add','Admin\PortfolioController@add');
     Route::post('portfolio/store','Admin\PortfolioController@store');
     Route::get('portfolio/{id}/edit','Admin\PortfolioController@edit');
     Route::put('portfolio/{id}/update','Admin\PortfolioController@update');
@@ -81,7 +90,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Anggota
     Route::get('member','Admin\MemberController@index');
-    Route::get('member/add_member','Admin\MemberController@add');
+    Route::get('member/add','Admin\MemberController@add');
     Route::post('member/store','Admin\MemberController@store');
     Route::get('member/{id}/edit','Admin\MemberController@edit');
     Route::put('member/{id}/update','Admin\MemberController@update');
@@ -90,7 +99,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Portofolio Anggota
     Route::get('portfolio_member','Admin\PortfolioMemberController@index');
-    Route::get('portfolio_member/add_portfolio_member','Admin\PortfolioMemberController@add');
+    Route::get('portfolio_member/add','Admin\PortfolioMemberController@add');
     Route::post('portfolio_member/store','Admin\PortfolioMemberController@store');
     Route::get('portfolio_member/{id}/edit','Admin\PortfolioMemberController@edit');
     Route::put('portfolio_member/{id}/update','Admin\PortfolioMemberController@update');
@@ -99,7 +108,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Dokumentasi
     Route::get('documentation','Admin\DocumentationController@index');
-    Route::get('documentation/add_documentation','Admin\DocumentationController@add');
+    Route::get('documentation/add','Admin\DocumentationController@add');
     Route::post('documentation/store','Admin\DocumentationController@store');
     Route::get('documentation/{id}/edit','Admin\DocumentationController@edit');
     Route::put('documentation/{id}/update','Admin\DocumentationController@update');
@@ -108,7 +117,7 @@ Route::group(['middleware' => ['auth','verified','role:admin']],function(){
 
     //Berita
     Route::get('news','Admin\NewsController@index');
-    Route::get('news/add_news','Admin\NewsController@add');
+    Route::get('news/add','Admin\NewsController@add');
     Route::post('news/store','Admin\NewsController@store');
     Route::get('news/{id}/edit','Admin\NewsController@edit');
     Route::put('news/{id}/update','Admin\NewsController@update');

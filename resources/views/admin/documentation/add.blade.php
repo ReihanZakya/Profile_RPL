@@ -9,36 +9,36 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nama Dokumentasi</label>
-                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="exampleInputEmail1"
-                    value="{{ old('name') }}">
+                    <input type="text" name="name" class="form-control @error('name') is-invalid @enderror"
+                        id="exampleInputEmail1" value="{{ old('name') }}" autocomplete="off">
                     @error('name')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                        <div class="invalid-feedback">{{ $message }}</div>
+                    @enderror
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Sumber</label>
-                    <input type="text" name="source" class="form-control @error('source') is-invalid @enderror" id="exampleInputEmail1"
-                    value="{{ old('source') }}" value="{{ old('source') }}">
+                    <input type="url" name="source" class="form-control @error('source') is-invalid @enderror"
+                        id="exampleInputEmail1" value="{{ old('source') }}" value="{{ old('source') }}"
+                        autocomplete="off">
                     @error('source')
-                    <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                        <div class="invalid-feedback">{{ $message }}</div>
+                    @enderror
                 </div>
-                   <!--Foto-->
-                   <label for="exampleFormControlFile1">Foto</label>
-                   <img  class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
-                   <div class="input-group mb-3">
-                       <div class="custom-file">
-                           <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror" id="image" onchange="previewImage()"
-                               aria-describedby="inputGroupFileAddon03">
-                           <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
-                       </div>
-                   </div>
+                <!--Foto-->
+                <label for="exampleFormControlFile1">Foto</label>
+                <img class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" name="photo" class="custom-file-input @error('photo') is-invalid @enderror"
+                            id="image" onchange="previewImage()" aria-describedby="inputGroupFileAddon03">
+                        <label class="custom-file-label" for="inputGroupFile03">Choose File</label>
+                    </div>
+                </div>
             </div>
             <!-- /.card-body -->
 
             <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-danger">Batal</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
         </form>
     </div>
@@ -56,9 +56,9 @@
         });
     </script>
 
-       {{-- preview img --}}
-       <script>
-        function previewImage(){
+    {{-- preview img --}}
+    <script>
+        function previewImage() {
             const image = document.querySelector('#image');
             const imgPreview = document.querySelector('.img-preview');
 
@@ -67,7 +67,7 @@
             const oFReader = new FileReader();
             oFReader.readAsDataURL(image.files[0]);
 
-            oFReader.onload = function(oFREvent){
+            oFReader.onload = function(oFREvent) {
                 imgPreview.src = oFREvent.target.result;
             }
         };
