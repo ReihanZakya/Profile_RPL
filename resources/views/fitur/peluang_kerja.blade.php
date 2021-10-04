@@ -8,7 +8,7 @@
             <div class="row">
                 <h4 class="text-center mb-5"><strong>Peluang kerja lulusan jurusan RPL</strong></h4>
                 <div class="image col-lg-6" data-aos="fade-right">
-                    <img src="{{ asset('assets/img/home/peluangkerja.jpg') }}" class="img-fluid" alt=""
+                    <img src="{{ asset('assets/img/LowonganKerja.jpg') }}" class="img-fluid rounded border-start-0" alt=""
                         style="width: 550px;" height="400px;" class="mb-4">
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
@@ -16,11 +16,9 @@
                         <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
                             <i class="bx bx-receipt"></i>
                             <h4>{{ $dt->name }}</h4>
-                            <p>{{ $dt->description }}</p>
+                            <p>{!! $dt->description !!}</p>
                         </div>
-
                     @endforeach
-
                 </div>
             </div>
 
@@ -34,7 +32,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mb-5 mt-5">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
             <div class="col-md-4 col-sm-12 mb-3">
@@ -45,11 +43,12 @@
                         focusable="false">
 
                     <div class="card-body">
-                        <h5 class="card-text  warna">Web Developer</h5>
+                        <h5 class="card-text  warna">Front End Developer</h5>
+                        <h5 class="card-text  warna">PT Deden Alif</h5>
                         <p class="card-text">
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webdeveloper">
-                            Syarat-syarat
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#webdeveloper"
+                            style="font-size: 14px; color: orange;">Syarat-syarat
                         </button>
 
                         <div class="modal fade" id="webdeveloper" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -58,8 +57,6 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
 
@@ -67,18 +64,48 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col"></th>
-                                                    <th scope="col">Yang harus dikuasai</th>
+                                                    <th scope="col">Kualifikasi</th>
                                                     <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>1. Menguasai CSS</td>
+                                                    <td>1. Pendidikan minimal SMK Rekayasa Perangkat Lunak.
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>2. Menguasai Javascript</td>
+                                                    <td>2. Memiliki Laptop pribadi untuk bekerja.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>3. Pengalaman minimal 2 tahun.
+                                                    </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>4. Menguasai HTML,CSS,Javascript.
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>5. Menguasai Vue.js(nilai plus).
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>6. Terbiasa menggunakan version control(git,github).
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>7. Jujur,Miliki loyalitas dan integritas yang tinggi.
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>8. Mampu bekerja dibawah tekanan.
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>9. Dapat bergabung secepatnya.
+                                                </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -101,11 +128,13 @@
                         preserveAspectRatio="xMidYMid slice" focusable="false">
 
                     <div class="card-body">
-                        <h5 class="card-text warna">Web Design</h5>
+                        <h5 class="card-text warna">Flutter Developer</h5>
+                        <h5 class="card-text warna">PT Luqman Muhammad S</h5>
                         <p class="card-text">
 
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webdesign">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#webdesign"
+                            style="font-size: 14px; color: orange;">
                             Syarat-syarat
                         </button>
 
@@ -115,8 +144,6 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
 
@@ -124,21 +151,59 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col"></th>
-                                                    <th scope="col">Yang harus dikuasai</th>
+                                                    <th scope="col">Kualifikasi</th>
                                                     <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>1. Menguasai CSS</td>
+                                                    <td>1. Pendidikan minimal SMK Rekayasa Perangkat Lunak.
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>2. Menguasai Javascript</td>
+                                                    <td>2. Memiliki Laptop pribadi untuk bekerja.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>3. Pengalaman membuat aplikasi iOS.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>4. Pengalaman menggunakan Flutter minimal 1 tahun.
+                                                </tr>
+                                                <tr>
+                                                    </th>
+                                                    <th scope="row"></th>
+                                                    <td>5. Menguasai konsep API.
+                                                    </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>6. Familiar dengan git
+                                                </td>
+                                                </tr>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>7. Diutamakan pernah membuat aplikasi yang terhubung dengan API
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>8. Jujur,Miliki loyalitas dan integritas yang tinggi.
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>9. Mampu bekerja dibawah tekanan.
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>10. Dapat bergabung secepatnya.
+                                                </td>
                                                 </tr>
                                             </tbody>
                                         </table>
+
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -161,11 +226,13 @@
                         aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
 
                     <div class="card-body">
-                        <h5 class="card-text warna">Hacker</h5>
+                        <h5 class="card-text warna">IT Network & Hardware Engginer</h5>
+                        <h5 class="card-text warna">PT Rayhan Zakya Alawi</h5>
                         <p class="card-text">
 
                         </p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hacker">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#hacker"
+                            style="font-size: 14px; color: orange;">
                             Syarat-syarat
                         </button>
 
@@ -175,8 +242,6 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">PERSYARATAN</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
 
@@ -184,21 +249,46 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col"></th>
-                                                    <th scope="col">Yang harus dikuasai</th>
+                                                    <th scope="col">Kualifikasi</th>
                                                     <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>1. Menguasai CSS</td>
+                                                    <td>1. SMK Rekayasa Perangkat Lunak/TKJ.
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row"></th>
-                                                    <td>2. Menguasai Javascript</td>
+                                                    <td>2. Pengalaman 1 tahun.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>3. Mengerti Jaringan LAN & WAN.
+                                                    </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>4. Memiliki pengetahuan dasar PBX
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>5. Bisa konfigurasi, pemeliharaan dan troubleshoot router dan perangkat
+                                                    jaringan terkait seperti server, switch dan modem
+                                                </td>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>6. Mengerti konfigurasi cctv
+                                                </td>
+                                                </tr>
+                                                </tr>
+                                                <th scope="row"></th>
+                                                <td>7. Mengerti windows & linux /ios
+                                                </td>
                                                 </tr>
                                             </tbody>
                                         </table>
+
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"

@@ -81,6 +81,7 @@
 
             <div class="album py-5 bg-light">
                 <div class="container">
+
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         @foreach ($data as $dt)
                             <div class="col">
@@ -89,6 +90,7 @@
                                         class="bd-placeholder-img card-img-top" width="100%" height="225"
                                         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
                                         preserveAspectRatio="xMidYMid slice" focusable="false">
+
                                     <div class="card-body">
                                         <h5 class="card-text warna">{{ $dt->name }}</h5>
                                         <p class="card-text"></p>
@@ -100,11 +102,12 @@
                                                         class="bi bi-zoom-in"></i></a>
                                                 @if ($dt->source)
                                                     <a target="_blank" href="{{ $dt->source }}"
-                                                        class="btn btn-sm btn-outline-secondary" title="More Details"><i
+                                                        class="btn btn-sm btn-outline-secondary"><i
                                                             class="bi bi-instagram"></i></a>
                                                 @else
-                                                    <a target="_blank" href="#">{{ $dt->source }}</a>
+
                                                 @endif
+
                                             </div>
                                         </div>
                                     </div>
@@ -115,8 +118,10 @@
                     </div>
                 </div>
             </div>
-        </main>
-    </body>
 
-    </html>
-@endsection
+
+            <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+            </script>
+
+        @endsection

@@ -245,11 +245,11 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Pemrograman Web dan Perangkat Bergerak (Kelas XI)</td>
+                                <td>Pemrograman Web dan Perangkat Bergerak <br> (Kelas XI)</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Pemrograman Web dan Perangkat Bergerak (Kelas XII)</td>
+                                <td>Pemrograman Web dan Perangkat Bergerak <br> (Kelas XII)</td>
                             </tr>
                         </tbody>
                     </table>
