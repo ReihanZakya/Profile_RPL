@@ -10,7 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/logo_versikecil.jpg') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo_versikecil.jpg') }}" rel="icon">    <link href="{{ asset('assets/img/logo kecil.png') }}" rel="icon">
+
     <link href="{{ asset('assets/img/logo_smk.jpg') }}" rel="apple-touch-icon">
     <!-- Google Fonts -->
     <link

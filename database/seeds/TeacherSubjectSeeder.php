@@ -64,7 +64,7 @@ class TeacherSubjectSeeder extends Seeder
 
         TeacherSubject::create([
             'teacher_id' => '4',
-            'subject_id' => '11'
+            'subject_id' => '12'
         ]);
 
         TeacherSubject::create([

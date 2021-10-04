@@ -52,7 +52,7 @@
                 <label for="exampleFormControlFile1" class="mt-2">Foto</label>
                 <input type="hidden" name="old_photo" value="{{ $dt->photo }}">
                 @if ($dt->photo)
-                    <img src="{{ asset('AdminLTE/portfolio/' . $dt->photo) }}"
+                    <img src="{{ asset('AdminLTE/teacher/' . $dt->photo) }}"
                         class="img-preview card-img-top col-sm-5 mb-3 d-block" style="width: 20%; heigt: 2 0%;">
                 @else
                     <img class="img-preview card-img-top col-sm-5 mb-3 " style="width: 20%; heigt: 20%;">
